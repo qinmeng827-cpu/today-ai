@@ -42,6 +42,10 @@ function getDataUrls() {
   return isLocal ? [REMOTE_DATA_URL, localDataUrl] : [localDataUrl, REMOTE_DATA_URL];
 }
 
+function getOriginalUrl(story) {
+  return story?.url || story?.sourceUrl || '#';
+}
+
 async function fetchLatestNewsData() {
   const urls = getDataUrls();
   let lastError;
