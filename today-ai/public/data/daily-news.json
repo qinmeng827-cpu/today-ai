@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T08:10:27.475Z",
+  "generatedAt": "2026-06-25T08:41:39.265Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
     "2026-06-25"
@@ -21,29 +21,9 @@
         "大事",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
       "size": "cover",
       "readMinutes": 3
-    },
-    {
-      "id": "2026-06-25-techcrunch-the-memory-chip-crunch-is-paying-off-for-this-us-company",
-      "date": "2026-06-25",
-      "category": "AI 大事",
-      "title": "TechCrunch：重要 AI 动态",
-      "sourceTitle": "The memory chip crunch is paying off for this US company",
-      "summary": "TechCrunch 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
-      "time": "05:30",
-      "importance": "高",
-      "tags": [
-        "大事",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
     },
     {
       "id": "2026-06-25-techcrunch-europe-is-pushing-back-on-washington-s-chip-war",
@@ -61,7 +41,27 @@
         "政策与安全",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=82",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-25-techcrunch-the-memory-chip-crunch-is-paying-off-for-this-us-company",
+      "date": "2026-06-25",
+      "category": "AI 大事",
+      "title": "TechCrunch：重要 AI 动态",
+      "sourceTitle": "The memory chip crunch is paying off for this US company",
+      "summary": "TechCrunch 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+      "time": "05:30",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "wide",
       "readMinutes": 5
     },
@@ -81,7 +81,7 @@
         "大事",
         "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2282522212.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "medium",
       "readMinutes": 3
     },
@@ -101,7 +101,7 @@
         "政策与安全",
         "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=82",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "small",
       "readMinutes": 4
     },
@@ -121,7 +121,7 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 5
     },
@@ -141,30 +141,9 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
       "size": "tall",
       "readMinutes": 3
-    },
-    {
-      "id": "2026-06-25-the-verge-openai-reveals-its-first-ai-processor-jalape-o",
-      "date": "2026-06-25",
-      "category": "AI 大事",
-      "title": "OpenAI：重要 AI 动态",
-      "sourceTitle": "OpenAI reveals its first AI processor: Jalapeño",
-      "summary": "The Verge 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-      "time": "22:36",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
     },
     {
       "id": "2026-06-25-techcrunch-ai-researchers-continue-to-leave-google-for-its-rivals",
@@ -183,7 +162,28 @@
         "论文与技术",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=900&q=82",
+      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-25-the-verge-openai-reveals-its-first-ai-processor-jalape-o",
+      "date": "2026-06-25",
+      "category": "AI 大事",
+      "title": "OpenAI：重要 AI 动态",
+      "sourceTitle": "OpenAI reveals its first AI processor: Jalapeño",
+      "summary": "The Verge 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+      "time": "22:36",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/openai-broadcom-jalapeno-inference-chip-image.webp?quality=90&strip=all&crop=0,0,100,100",
       "size": "medium",
       "readMinutes": 5
     },
@@ -204,7 +204,7 @@
         "大事",
         "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Google-Home-Speaker.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "small",
       "readMinutes": 3
     },
@@ -224,7 +224,7 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 4
     },
@@ -245,7 +245,7 @@
         "大事",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
       "size": "tall",
       "readMinutes": 5
     },
@@ -265,7 +265,7 @@
         "产品工具",
         "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=82",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Figma-config-2026.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "wide",
       "readMinutes": 3
     },
@@ -285,7 +285,7 @@
         "产品工具",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=82",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
       "size": "medium",
       "readMinutes": 4
     },
@@ -306,29 +306,9 @@
         "论文与技术",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=900&q=82",
+      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=1200&q=82",
       "size": "small",
       "readMinutes": 5
-    },
-    {
-      "id": "2026-06-25-techcrunch-figma-adds-code-layers-support-for-animations-more-ai-features-in-new",
-      "date": "2026-06-25",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "Figma adds code layers, support for animations, more AI features in new update",
-      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
-      "time": "00:15",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "cover",
-      "readMinutes": 3
     },
     {
       "id": "2026-06-25-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -347,9 +327,9 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-25-openai-news-helping-build-shared-standards-for-advanced-ai",
@@ -368,9 +348,9 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-openai-news-how-omio-is-building-the-future-of-conversational-travel",
@@ -390,8 +370,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "size": "wide",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-25-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
@@ -410,9 +390,9 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-25-openai-news-codex-maxxing-for-long-running-work",
@@ -431,9 +411,9 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-openai-news-new-usage-analytics-and-updated-spend-controls-for-enterprises",
@@ -452,7 +432,27 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-06-25-techcrunch-figma-adds-code-layers-support-for-animations-more-ai-features-in-new",
+      "date": "2026-06-25",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Figma adds code layers, support for animations, more AI features in new update",
+      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "time": "00:15",
+      "importance": "中",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
       "size": "tall",
       "readMinutes": 3
     },
@@ -515,7 +515,7 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
@@ -557,7 +557,7 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
       "size": "tall",
       "readMinutes": 5
     },
@@ -578,7 +578,7 @@
         "大事",
         "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23451196/acastro_220510_STK123_0002.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "wide",
       "readMinutes": 3
     }

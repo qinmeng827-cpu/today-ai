@@ -7,13 +7,44 @@ const ROOT = path.resolve(__dirname, '..');
 const SRC_DATA = path.join(ROOT, 'src', 'data', 'daily-news.json');
 const PUBLIC_DATA = path.join(ROOT, 'public', 'data', 'daily-news.json');
 
-const CATEGORY_IMAGES = {
-  'AI 大事': 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85',
-  '模型更新': 'https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=900&q=82',
-  'AI 产品工具': 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=82',
-  '论文与技术': 'https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=900&q=82',
-  '商业融资': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82',
-  '政策与安全': 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=82',
+const IMAGE_POOLS = {
+  'AI 大事': [
+    'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85',
+    'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85',
+    'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85',
+    'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85',
+    'https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85',
+  ],
+  '模型更新': [
+    'https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82',
+  ],
+  'AI 产品工具': [
+    'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82',
+  ],
+  '论文与技术': [
+    'https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1200&q=82',
+  ],
+  '商业融资': [
+    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82',
+  ],
+  '政策与安全': [
+    'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82',
+    'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82',
+  ],
 };
 
 const RSS_FEEDS = [
@@ -61,6 +92,41 @@ function decodeEntities(text = '') {
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
     .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCharCode(parseInt(code, 16)))
     .replace(/&apos;/g, "'");
+}
+
+function normalizeImageUrl(url = '') {
+  const clean = decodeEntities(url).trim();
+  if (!/^https?:\/\//i.test(clean)) return '';
+  if (/\.(svg)(\?|$)/i.test(clean)) return '';
+  return clean.replace(/&amp;/g, '&');
+}
+
+function pickImageFromItem(item) {
+  const patterns = [
+    /<media:content[^>]*url=["']([^"']+)["'][^>]*>/i,
+    /<media:thumbnail[^>]*url=["']([^"']+)["'][^>]*>/i,
+    /<enclosure[^>]*url=["']([^"']+)["'][^>]*type=["']image\/[^"']+["'][^>]*>/i,
+    /<img[^>]*src=["']([^"']+)["'][^>]*>/i,
+  ];
+  for (const pattern of patterns) {
+    const match = item.match(pattern);
+    const image = match ? normalizeImageUrl(match[1]) : '';
+    if (image) return image;
+  }
+  return '';
+}
+
+function stableHash(text = '') {
+  let hash = 0;
+  for (let index = 0; index < text.length; index += 1) {
+    hash = (hash * 31 + text.charCodeAt(index)) >>> 0;
+  }
+  return hash;
+}
+
+function pickFallbackImage(category, seed, index) {
+  const pool = IMAGE_POOLS[category] || IMAGE_POOLS['AI 大事'];
+  return pool[(stableHash(seed) + index) % pool.length];
 }
 
 function stripTags(text = '') {
@@ -192,6 +258,7 @@ async function fetchRssFeed(feed) {
       title: sourceTitle,
       source: feed.source,
       url: pickLink(item) || feed.url,
+      image: pickImageFromItem(item),
       published: Number.isNaN(published.getTime()) ? new Date() : published,
       category: classify(sourceTitle, feed.category),
     };
@@ -210,6 +277,7 @@ async function fetchArxiv() {
       title: sourceTitle,
       source: 'arXiv',
       url: pick(entry, 'id'),
+      image: '',
       published: Number.isNaN(published.getTime()) ? new Date() : published,
       category: '论文与技术',
     };
@@ -239,7 +307,7 @@ function toStory(raw, index, date) {
     time: timeInShanghai(raw.published),
     importance: index < 5 ? '高' : '中',
     tags: [],
-    image: CATEGORY_IMAGES[category] || CATEGORY_IMAGES['AI 大事'],
+    image: raw.image || pickFallbackImage(category, raw.sourceTitle, index),
     size: ['cover', 'tall', 'wide', 'medium', 'small'][index % 5],
     readMinutes: 3 + (index % 3),
   };
