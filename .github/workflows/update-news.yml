@@ -1,0 +1,59 @@
+﻿name: Update Today AI News
+
+on:
+  schedule:
+    - cron: '10 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: today-ai/package-lock.json
+
+      - name: Install dependencies
+        working-directory: today-ai
+        run: npm ci
+
+      - name: Generate latest daily news
+        working-directory: today-ai
+        run: node scripts/update-news.mjs
+
+      - name: Commit updated news data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update daily AI news'
+          file_pattern: 'today-ai/src/data/daily-news.json today-ai/public/data/daily-news.json'
+
+      - name: Build site
+        working-directory: today-ai
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: today-ai/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
