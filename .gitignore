@@ -1,0 +1,5 @@
+﻿today-ai/node_modules/
+today-ai/dist/
+.DS_Store
+Thumbs.db
+today-ai/.npm-cache/
