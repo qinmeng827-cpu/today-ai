@@ -90,11 +90,12 @@ function cleanTitle(title, sourceName) {
 
 function classify(title, fallbackCategory) {
   const text = title.toLowerCase();
-  if (/funding|raises|valuation|acquisition|ipo|startup|venture|revenue|deal|investor/.test(text)) return '商业融资';
-  if (/regulation|safety|policy|copyright|lawsuit|court|security|privacy|government|election|pentagon|risk/.test(text)) return '政策与安全';
+  if (/regulation|safety|policy|copyright|lawsuit|court|security|privacy|government|election|pentagon|risk|congress|congresswoman|defense|washington|chip war/.test(text)) return '政策与安全';
   if (/paper|research|arxiv|benchmark|training|dataset|robotics|simulation|agentic|eval|scientists/.test(text)) return '论文与技术';
   if (/model|claude|gpt|gemini|llama|mistral|qwen|deepseek|release|frontier|reasoning/.test(text)) return '模型更新';
   if (/tool|app|browser|assistant|agent|product|launch|workflow|coding|search/.test(text)) return 'AI 产品工具';
+  if (/funding|raises|valuation|acquisition|ipo|startup|venture|revenue|deal|investor|earnings|stock/.test(text)) return '商业融资';
+  if (/job|jobs|workforce|labor|employment|chip|compute|data center/.test(text)) return 'AI 大事';
   return fallbackCategory || 'AI 大事';
 }
 

@@ -1,10 +1,70 @@
 {
-  "generatedAt": "2026-06-25T08:03:52.763Z",
+  "generatedAt": "2026-06-25T08:10:27.475Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
     "2026-06-25"
   ],
   "stories": [
+    {
+      "id": "2026-06-25-techcrunch-ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-they-r",
+      "date": "2026-06-25",
+      "category": "AI 大事",
+      "title": "TechCrunch：重要 AI 动态",
+      "sourceTitle": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+      "summary": "TechCrunch 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "time": "05:56",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-25-techcrunch-the-memory-chip-crunch-is-paying-off-for-this-us-company",
+      "date": "2026-06-25",
+      "category": "AI 大事",
+      "title": "TechCrunch：重要 AI 动态",
+      "sourceTitle": "The memory chip crunch is paying off for this US company",
+      "summary": "TechCrunch 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+      "time": "05:30",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-25-techcrunch-europe-is-pushing-back-on-washington-s-chip-war",
+      "date": "2026-06-25",
+      "category": "政策与安全",
+      "title": "TechCrunch：AI 政策与安全动态",
+      "sourceTitle": "Europe is pushing back on Washington’s chip war",
+      "summary": "TechCrunch 发布/报道了一条「政策与安全」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
+      "time": "08:08",
+      "importance": "高",
+      "tags": [
+        "政策与安全",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
     {
       "id": "2026-06-25-the-verge-the-27-million-ai-proxy-war-over-alex-bores-ends-in-a-draw",
       "date": "2026-06-25",
@@ -22,27 +82,27 @@
         "The Verge"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-06-25-techcrunch-europe-is-pushing-back-on-washington-s-chip-war",
+      "id": "2026-06-25-the-verge-congresswoman-denies-staff-used-ai-to-write-defense-funding-amendment",
       "date": "2026-06-25",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "Europe is pushing back on Washington’s chip war",
-      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
-      "time": "08:08",
+      "category": "政策与安全",
+      "title": "The Verge：AI 政策与安全动态",
+      "sourceTitle": "Congresswoman denies staff used AI to write defense funding amendment",
+      "summary": "The Verge 发布/报道了一条「政策与安全」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+      "time": "03:36",
       "importance": "高",
       "tags": [
-        "商业融资",
-        "TechCrunch"
+        "政策与安全",
+        "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "tall",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=82",
+      "size": "small",
       "readMinutes": 4
     },
     {
@@ -56,13 +116,13 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
       "time": "07:26",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "商业融资",
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "wide",
+      "size": "cover",
       "readMinutes": 5
     },
     {
@@ -76,34 +136,14 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
       "time": "06:41",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "商业融资",
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "medium",
+      "size": "tall",
       "readMinutes": 3
-    },
-    {
-      "id": "2026-06-25-the-verge-congresswoman-denies-staff-used-ai-to-write-defense-funding-amendment",
-      "date": "2026-06-25",
-      "category": "商业融资",
-      "title": "The Verge：AI 商业与融资动态",
-      "sourceTitle": "Congresswoman denies staff used AI to write defense funding amendment",
-      "summary": "The Verge 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
-      "time": "03:36",
-      "importance": "高",
-      "tags": [
-        "商业融资",
-        "The Verge"
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "small",
-      "readMinutes": 4
     },
     {
       "id": "2026-06-25-the-verge-openai-reveals-its-first-ai-processor-jalape-o",
@@ -123,28 +163,8 @@
         "The Verge"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-25-techcrunch-ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-they-r",
-      "date": "2026-06-25",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
-      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
-      "time": "05:56",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "tall",
-      "readMinutes": 3
+      "size": "wide",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-techcrunch-ai-researchers-continue-to-leave-google-for-its-rivals",
@@ -164,48 +184,8 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=900&q=82",
-      "size": "wide",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-25-techcrunch-the-memory-chip-crunch-is-paying-off-for-this-us-company",
-      "date": "2026-06-25",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "The memory chip crunch is paying off for this US company",
-      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
-      "time": "05:30",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
       "size": "medium",
       "readMinutes": 5
-    },
-    {
-      "id": "2026-06-25-techcrunch-companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets",
-      "date": "2026-06-25",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
-      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
-      "time": "04:09",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "small",
-      "readMinutes": 3
     },
     {
       "id": "2026-06-25-the-verge-the-google-home-speaker-sounds-good-and-looks-great-but-it-s-finicky",
@@ -225,8 +205,49 @@
         "The Verge"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-25-techcrunch-companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets",
+      "date": "2026-06-25",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
+      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+      "time": "04:09",
+      "importance": "中",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
       "size": "cover",
       "readMinutes": 4
+    },
+    {
+      "id": "2026-06-25-techcrunch-openai-unveils-its-first-custom-chip-built-by-broadcom",
+      "date": "2026-06-25",
+      "category": "AI 大事",
+      "title": "OpenAI：重要 AI 动态",
+      "sourceTitle": "OpenAI unveils its first custom chip, built by Broadcom",
+      "summary": "TechCrunch 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "time": "22:54",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-25-the-verge-figma-now-has-ai-motion-graphics-and-shader-tools",
@@ -245,8 +266,8 @@
         "The Verge"
       ],
       "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=82",
-      "size": "tall",
-      "readMinutes": 5
+      "size": "wide",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-25-techcrunch-facebook-rolls-out-an-ai-companion-app-for-creators",
@@ -265,29 +286,29 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=82",
-      "size": "wide",
-      "readMinutes": 3
+      "size": "medium",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-techcrunch-agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal",
       "date": "2026-06-25",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
+      "category": "论文与技术",
+      "title": "TechCrunch：AI 技术研究动态",
       "sourceTitle": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
-      "summary": "TechCrunch 发布/报道了一条「商业融资」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "summary": "TechCrunch 发布/报道了一条「论文与技术」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
+      "analysis": "技术论文适合看趋势，不必只看单点指标，更要关注它能否迁移到真实产品。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
       "time": "00:48",
       "importance": "中",
       "tags": [
         "机器人",
-        "商业融资",
+        "论文与技术",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "medium",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=900&q=82",
+      "size": "small",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-25-techcrunch-figma-adds-code-layers-support-for-animations-more-ai-features-in-new",
@@ -306,8 +327,8 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
-      "size": "small",
-      "readMinutes": 5
+      "size": "cover",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-25-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -327,8 +348,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 3
+      "size": "tall",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-openai-news-helping-build-shared-standards-for-advanced-ai",
@@ -348,8 +369,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "size": "wide",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-25-openai-news-how-omio-is-building-the-future-of-conversational-travel",
@@ -369,8 +390,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "size": "medium",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-25-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
@@ -390,8 +411,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "size": "small",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-openai-news-codex-maxxing-for-long-running-work",
@@ -411,8 +432,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 4
+      "size": "cover",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-25-openai-news-new-usage-analytics-and-updated-spend-controls-for-enterprises",
@@ -432,8 +453,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
+      "size": "tall",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-25-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
@@ -453,8 +474,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
+      "size": "wide",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-openai-news-a-near-autonomous-ai-chemist-improves-a-challenging-reaction-in-medi",
@@ -474,8 +495,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
+      "size": "medium",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-25-openai-news-introducing-lifescibench",
@@ -495,8 +516,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 5
+      "size": "small",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-25-openai-news-introducing-the-openai-partner-network",
@@ -516,8 +537,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 3
+      "size": "cover",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-25-openai-news-new-openai-academy-courses-for-the-next-era-of-work",
@@ -537,8 +558,8 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 4
+      "size": "tall",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-25-the-verge-google-home-will-soon-get-better-at-recognizing-you",
@@ -556,27 +577,6 @@
         "Google",
         "大事",
         "The Verge"
-      ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-25-openai-news-how-preply-combines-ai-and-human-tutors-to-personalize-learning",
-      "date": "2026-06-25",
-      "category": "AI 大事",
-      "title": "OpenAI News：重要 AI 动态",
-      "sourceTitle": "How Preply combines AI and human tutors to personalize learning",
-      "summary": "OpenAI News 发布/报道了一条「AI 大事」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/preply",
-      "time": "08:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "wide",
