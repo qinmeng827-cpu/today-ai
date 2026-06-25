@@ -58,6 +58,8 @@ function decodeEntities(text = '') {
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCharCode(parseInt(code, 16)))
     .replace(/&apos;/g, "'");
 }
 
@@ -76,13 +78,14 @@ function pickLink(item) {
   return pick(item, 'link');
 }
 
-function cleanTitle(title, sourceName) {
-  if (!sourceName) return title;
-  return title.replace(new RegExp(`\\s+-\\s+${escapeRegExp(sourceName)}$`, 'i'), '').trim();
-}
-
 function escapeRegExp(text) {
   return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function cleanTitle(title, sourceName) {
+  const normalized = title.replace(/\bAl\b/g, 'AI').replace(/\s+/g, ' ').trim();
+  if (!sourceName) return normalized;
+  return normalized.replace(new RegExp(`\\s+-\\s+${escapeRegExp(sourceName)}$`, 'i'), '').trim();
 }
 
 function classify(title, fallbackCategory) {
@@ -95,8 +98,49 @@ function classify(title, fallbackCategory) {
   return fallbackCategory || 'AI 大事';
 }
 
+function primarySubject(title = '') {
+  const match = title.match(/\b(OpenAI|Anthropic|Google|Microsoft|Meta|Nvidia|NVIDIA|Apple|Amazon|xAI|DeepMind|Mistral|DeepSeek|Alibaba|Tencent|ByteDance|Perplexity|Stability AI|Hugging Face|Claude|Gemini|GPT-5?|Llama|Qwen)\b/i);
+  if (!match) return '';
+  const canonical = {
+    nvidia: 'NVIDIA',
+    openai: 'OpenAI',
+    anthropic: 'Anthropic',
+    google: 'Google',
+    microsoft: 'Microsoft',
+    meta: 'Meta',
+    apple: 'Apple',
+    amazon: 'Amazon',
+    xai: 'xAI',
+    deepmind: 'DeepMind',
+    mistral: 'Mistral',
+    deepseek: 'DeepSeek',
+    alibaba: 'Alibaba',
+    tencent: 'Tencent',
+    bytedance: 'ByteDance',
+    perplexity: 'Perplexity',
+    claude: 'Claude',
+    gemini: 'Gemini',
+    llama: 'Llama',
+    qwen: 'Qwen',
+  };
+  return canonical[match[1].toLowerCase()] || match[1];
+}
+
+function makeChineseTitle(sourceTitle, source, category) {
+  const subject = primarySubject(sourceTitle) || source;
+  const labels = {
+    'AI 大事': '重要 AI 动态',
+    '模型更新': '模型与能力更新',
+    'AI 产品工具': 'AI 产品工具动态',
+    '论文与技术': 'AI 技术研究动态',
+    '商业融资': 'AI 商业与融资动态',
+    '政策与安全': 'AI 政策与安全动态',
+  };
+  return `${subject}：${labels[category] || 'AI 动态'}`;
+}
+
 function makeSummary(story) {
-  return `${story.source} 报道：${story.sourceTitle}。这条资讯被归入「${story.category}」，建议关注它对 AI 产品、模型能力、产业格局或监管环境的后续影响。`;
+  return `${story.source} 发布/报道了一条「${story.category}」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。`;
 }
 
 function makeAnalysis(story) {
@@ -185,7 +229,7 @@ function toStory(raw, index, date) {
     id: `${date}-${idBase || index}`,
     date,
     category,
-    title: raw.title,
+    title: makeChineseTitle(raw.sourceTitle, raw.source, category),
     sourceTitle: raw.sourceTitle,
     summary: '',
     analysis: '',
@@ -254,5 +298,3 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
-
-

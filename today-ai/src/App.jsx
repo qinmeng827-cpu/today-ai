@@ -402,7 +402,7 @@ function App() {
               <span>{selectedStory.time}</span>
             </div>
             <h2>{selectedStory.title}</h2>
-            <p className="source-title">{selectedStory.sourceTitle}</p>
+            <p className="source-title" translate="no">{selectedStory.sourceTitle}</p>
             <p>{selectedStory.summary}</p>
             <div className="analysis-box">
               <span>为什么重要</span>
@@ -482,7 +482,7 @@ function StoryCard({ story, selected, favorite, read, hasNote, onOpen, onToggleF
           </span>
         </div>
         <h3>{story.title}</h3>
-        <p className="source-title">{story.sourceTitle}</p>
+        <p className="source-title" translate="no">{story.sourceTitle}</p>
         <p>{story.summary}</p>
         <div className="tag-row">
           {story.tags.slice(0, 3).map((tag) => (
