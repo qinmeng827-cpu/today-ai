@@ -375,6 +375,67 @@ const EDITORIAL_OVERRIDES = new Map(Object.entries({
     analysis: '当 Notion 这类产品团队深度使用 Codex，说明 AI 编程正在从个人效率工具走向团队级研发基础设施。',
     category: 'AI 产品工具',
   },
+
+  'Confidential submission of draft S-1 to the SEC': {
+    title: 'OpenAI 已向 SEC 秘密递交 S-1 草案',
+    summary: 'OpenAI News 确认，公司已向美国 SEC 秘密递交 S-1 草案，但尚未确定下一步行动时间。它释放出 OpenAI 资本市场路径正在推进的信号。',
+    analysis: '如果 OpenAI 进一步走向公开市场，外界会更关注收入结构、算力成本、治理架构和长期盈利能力。',
+    category: '商业融资',
+  },
+  'Built to benefit everyone: our plan': {
+    title: 'OpenAI 发布“让所有人受益”的 AGI 规划',
+    summary: 'OpenAI News 介绍其面向未来 AI 的整体愿景，重点包括普惠访问、安全治理和共享繁荣。核心是解释 OpenAI 如何让 AGI 的收益覆盖更多人群。',
+    analysis: '这类声明虽然偏战略，但会影响 OpenAI 的产品叙事、政策沟通和公众信任建设。',
+    category: '政策与安全',
+  },
+  'How Wasmer used Codex to build a Node.js runtime for the edge': {
+    title: 'Wasmer 用 Codex 构建边缘端 Node.js 运行时',
+    summary: 'OpenAI News 展示 Wasmer 如何使用 Codex 和 GPT-5.5 构建面向边缘计算的 Node.js runtime，并把开发速度提升 10 到 20 倍。',
+    analysis: '这是 AI 编程工具进入底层开发场景的案例。它说明 Codex 不只是写业务代码，也能参与运行时和基础设施开发。',
+    category: 'AI 产品工具',
+  },
+  'Travelers deploys AI-powered claims countrywide with OpenAI': {
+    title: 'Travelers 与 OpenAI 在全美部署 AI 理赔助手',
+    summary: 'OpenAI News 介绍 Travelers 使用 OpenAI 构建 AI-powered Claim Assistant，帮助客户提交理赔、提供 24 小时支持，并在需求高峰期扩展服务能力。',
+    analysis: '保险理赔是 AI 落地价值很明确的场景：流程标准、用户焦虑高、客服压力大。关键要看准确性和责任边界。',
+    category: 'AI 产品工具',
+  },
+  'Building the infrastructure for the Intelligence Age in Michigan': {
+    title: 'OpenAI 在密歇根建设 Intelligence Age 基础设施',
+    summary: 'OpenAI News 介绍其在密歇根启动 1GW 数据中心项目，作为 Stargate 计划的一部分，用于扩展 AI 基础设施、创造就业并支持社区。',
+    analysis: 'AI 竞争正在落到数据中心、电力和地方社区支持上。基础设施布局会决定未来模型服务的规模和成本。',
+    category: 'AI 大事',
+  },
+  'Boston Children’s uses AI to unlock new diagnoses': {
+    title: '波士顿儿童医院用 AI 帮助发现新的诊断线索',
+    summary: 'OpenAI News 介绍波士顿儿童医院使用 OpenAI 技术改善患者护理、减轻运营负担，并帮助诊断 40 多个罕见疾病病例。',
+    analysis: '医疗 AI 的关键价值是辅助专业医生更快找到线索，而不是替代医生。可靠性、隐私和临床验证仍然重要。',
+    category: 'AI 大事',
+  },
+  'How Braintrust turns customer requests into code with Codex': {
+    title: 'Braintrust 用 Codex 把客户需求更快转成代码',
+    summary: 'OpenAI News 展示 Braintrust 工程师如何使用 Codex 和 GPT-5.5 更快运行实验、编写代码，并缩短从客户反馈到产品改动的周期。',
+    analysis: '这类案例说明 AI 编程工具的价值正在从个人提效走向产品迭代提速。客户需求到代码交付的链条会被压缩。',
+    category: 'AI 产品工具',
+  },
+  'MUFG aims to become AI-native with OpenAI': {
+    title: '三菱日联金融集团与 OpenAI 推进 AI 原生组织转型',
+    summary: 'OpenAI News 介绍 MUFG 使用 ChatGPT Enterprise 构建 AI-native 组织，改进内部工作流，并推出新的 AI 金融服务。',
+    analysis: '大型金融机构采用 AI 的方式，会影响合规、审计、员工培训和客户服务标准。它是企业级 AI 落地的重要风向。',
+    category: 'AI 大事',
+  },
+  'Cisco and OpenAI redefine enterprise engineering with Codex': {
+    title: 'Cisco 与 OpenAI 用 Codex 重塑企业工程流程',
+    summary: 'OpenAI News 介绍 Cisco 使用 Codex 推进 AI-native 开发，提升 AI Defense 工作效率，并自动化缺陷修复。',
+    analysis: '企业工程团队使用 Codex 的案例，能说明 AI 编程工具是否能进入复杂组织流程，而不只是个人开发者玩具。',
+    category: 'AI 产品工具',
+  },
+  'OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership': {
+    title: 'OpenAI 与巴西媒体 Grupo Folha、UOL 达成内容合作',
+    summary: 'OpenAI News 宣布与 Grupo Folha 和 Grupo UOL 建立战略内容合作，把可信巴西新闻带入 ChatGPT，并强调署名和透明度。',
+    analysis: '媒体内容合作会影响 AI 搜索、新闻分发和版权授权模式。对内容行业来说，这是平台化合作继续扩展的信号。',
+    category: '商业融资',
+  },
 }));
 
 function todayInShanghai() {

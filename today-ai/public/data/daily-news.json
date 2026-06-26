@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T02:51:26.985Z",
+  "generatedAt": "2026-06-26T03:05:56.881Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
     "2026-06-26"
@@ -138,6 +138,28 @@
       "readMinutes": 5
     },
     {
+      "id": "2026-06-26-google-ai-blog-our-latest-google-finance-upgrades-including-a-new-app",
+      "date": "2026-06-26",
+      "category": "AI 产品工具",
+      "title": "Google Finance 升级并推出新应用，强化金融信息体验",
+      "sourceTitle": "Our latest Google Finance upgrades, including a new app",
+      "summary": "Google 宣布 Google Finance 的最新升级，并推出新的 Android 应用。它将金融信息查询、个性化体验和移动端使用结合得更紧。",
+      "analysis": "金融信息产品正在被 AI 和个性化体验重新包装。对普通用户来说，关键是信息是否更及时、解释是否更清楚。",
+      "sourceExcerpt": "The new Google Finance is coming out of beta and launching a new Android app.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "time": "00:00",
+      "importance": "中",
+      "tags": [
+        "Google",
+        "产品工具",
+        "Google AI Blog"
+      ],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp",
+      "size": "tall",
+      "readMinutes": 3
+    },
+    {
       "id": "2026-06-26-techcrunch-general-intuition-s-2-3b-bet-that-video-games-can-train-ai-agents-for",
       "date": "2026-06-26",
       "category": "AI 产品工具",
@@ -155,9 +177,9 @@
         "产品工具",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-26-techcrunch-netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-fas",
@@ -176,9 +198,9 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "size": "medium",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-26-techcrunch-2-days-left-to-save-up-to-190-join-1-000-founders-and-investors-at-te",
@@ -197,9 +219,9 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-26-techcrunch-adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs",
@@ -218,28 +240,7 @@
         "产品工具",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-06-26-techcrunch-amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
-      "date": "2026-06-26",
-      "category": "商业融资",
-      "title": "Amazon 加码印度，投入 130 亿美元建设 AI 基础设施",
-      "sourceTitle": "Amazon ups India bet with fresh $13B AI infrastructure investment",
-      "summary": "Amazon 宣布继续加大在印度的 AI 基础设施投资，规模达 130 亿美元。投资重点指向云、数据中心和算力能力。",
-      "analysis": "AI 基础设施正在全球扩张。印度市场既是云计算增长点，也是未来 AI 应用和开发者生态的重要战场。",
-      "sourceExcerpt": "Amazon’s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 4
     },
@@ -265,70 +266,25 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-06-26-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+      "id": "2026-06-26-techcrunch-amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
       "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
-      "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI News 介绍与 Broadcom 合作的 LLM 优化推理芯片。重点是让大模型服务在更低成本、更高效率的硬件上运行。",
-      "analysis": "推理芯片是 AI 商业化的关键基础设施。谁能降低推理成本，谁就更容易把 AI 功能做进更多产品。",
-      "sourceExcerpt": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "time": "14:00",
+      "category": "商业融资",
+      "title": "Amazon 加码印度，投入 130 亿美元建设 AI 基础设施",
+      "sourceTitle": "Amazon ups India bet with fresh $13B AI infrastructure investment",
+      "summary": "Amazon 宣布继续加大在印度的 AI 基础设施投资，规模达 130 亿美元。投资重点指向云、数据中心和算力能力。",
+      "analysis": "AI 基础设施正在全球扩张。印度市场既是云计算增长点，也是未来 AI 应用和开发者生态的重要战场。",
+      "sourceExcerpt": "Amazon’s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "time": "20:00",
       "importance": "中",
       "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
+        "商业融资",
+        "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
       "size": "wide",
       "readMinutes": 3
-    },
-    {
-      "id": "2026-06-26-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
-      "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "summary": "OpenAI News 介绍 Daybreak 旗下 Patch the Planet 计划，目标是支持开源维护者。它关注 AI 时代基础软件生态的维护压力和可持续资金。",
-      "analysis": "AI 工具高度依赖开源生态。支持维护者不是公益边角料，而是 AI 基础设施稳定性的组成部分。",
-      "sourceExcerpt": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/patch-the-planet",
-      "time": "18:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-26-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 探索用 AI 帮助医生诊断儿童罕见遗传病",
-      "sourceTitle": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "summary": "OpenAI News 介绍 AI 辅助医生诊断儿童罕见遗传病的案例。重点是用模型处理复杂医学信息，帮助缩短诊断路径。",
-      "analysis": "医疗 AI 的价值不在炫技，而在降低漏诊、缩短诊断时间和辅助专业医生决策。这个方向需要持续关注可靠性和临床验证。",
-      "sourceExcerpt": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "time": "16:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
     },
     {
       "id": "2026-06-26-the-verge-openai-reveals-its-first-ai-processor-jalape-o",
@@ -349,8 +305,8 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/openai-broadcom-jalapeno-inference-chip-image.webp?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 3
+      "size": "medium",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-26-the-verge-hollywood-is-bending-the-knee-to-openai",
@@ -371,8 +327,74 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
+      "size": "small",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-06-26-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
+      "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI News 介绍与 Broadcom 合作的 LLM 优化推理芯片。重点是让大模型服务在更低成本、更高效率的硬件上运行。",
+      "analysis": "推理芯片是 AI 商业化的关键基础设施。谁能降低推理成本，谁就更容易把 AI 功能做进更多产品。",
+      "sourceExcerpt": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "time": "14:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-26-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
+      "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "summary": "OpenAI News 介绍 Daybreak 旗下 Patch the Planet 计划，目标是支持开源维护者。它关注 AI 时代基础软件生态的维护压力和可持续资金。",
+      "analysis": "AI 工具高度依赖开源生态。支持维护者不是公益边角料，而是 AI 基础设施稳定性的组成部分。",
+      "sourceExcerpt": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/patch-the-planet",
+      "time": "18:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
       "size": "tall",
       "readMinutes": 4
+    },
+    {
+      "id": "2026-06-26-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "OpenAI 探索用 AI 帮助医生诊断儿童罕见遗传病",
+      "sourceTitle": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "summary": "OpenAI News 介绍 AI 辅助医生诊断儿童罕见遗传病的案例。重点是用模型处理复杂医学信息，帮助缩短诊断路径。",
+      "analysis": "医疗 AI 的价值不在炫技，而在降低漏诊、缩短诊断时间和辅助专业医生决策。这个方向需要持续关注可靠性和临床验证。",
+      "sourceExcerpt": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "time": "16:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-26-openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai",
@@ -392,84 +414,43 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-26-openai-news-confidential-submission-of-draft-s-1-to-the-sec",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "Confidential submission of draft S-1 to the SEC",
-      "sourceTitle": "Confidential submission of draft S-1 to the SEC",
-      "summary": "OpenAI News 摘要提到：OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-submits-confidential-s-1",
-      "time": "22:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-06-26-openai-news-built-to-benefit-everyone-our-plan",
+      "id": "2026-06-26-google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs-and-",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "Built to benefit everyone: our plan",
-      "sourceTitle": "Built to benefit everyone: our plan",
-      "summary": "OpenAI News 摘要提到：A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "time": "09:30",
+      "title": "Google 在弗吉尼亚投资社区与能源项目，支撑数据中心扩张",
+      "sourceTitle": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "summary": "Google 介绍其在弗吉尼亚的新社区投资，重点包括本地就业和能源可负担性。背后与数据中心和 AI 基础设施扩张密切相关。",
+      "analysis": "AI 基础设施不只需要芯片，还需要电力、社区支持和地方政策。能源议题会越来越影响 AI 扩张速度。",
+      "sourceExcerpt": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "time": "04:00",
       "importance": "中",
       "tags": [
+        "Google",
         "大事",
-        "OpenAI News"
+        "Google AI Blog"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp",
       "size": "small",
       "readMinutes": 4
     },
     {
-      "id": "2026-06-26-openai-news-how-wasmer-used-codex-to-build-a-node-js-runtime-for-the-edge",
+      "id": "2026-06-26-openai-news-building-the-infrastructure-for-the-intelligence-age-in-michigan",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "sourceTitle": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "summary": "OpenAI News 摘要提到：See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "title": "OpenAI 在密歇根建设 Intelligence Age 基础设施",
+      "sourceTitle": "Building the infrastructure for the Intelligence Age in Michigan",
+      "summary": "OpenAI News 介绍其在密歇根启动 1GW 数据中心项目，作为 Stargate 计划的一部分，用于扩展 AI 基础设施、创造就业并支持社区。",
+      "analysis": "AI 竞争正在落到数据中心、电力和地方社区支持上。基础设施布局会决定未来模型服务的规模和成本。",
+      "sourceExcerpt": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/wasmer",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-26-openai-news-travelers-deploys-ai-powered-claims-countrywide-with-openai",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "sourceTitle": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "summary": "OpenAI News 摘要提到：Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/travelers",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
       "time": "20:00",
       "importance": "中",
       "tags": [
@@ -477,39 +458,18 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-06-26-openai-news-building-the-infrastructure-for-the-intelligence-age-in-michigan",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "sourceTitle": "Building the infrastructure for the Intelligence Age in Michigan",
-      "summary": "OpenAI News 摘要提到：OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/stargate-michigan-data-center",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-26-openai-news-boston-children-s-uses-ai-to-unlock-new-diagnoses",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "title": "波士顿儿童医院用 AI 帮助发现新的诊断线索",
       "sourceTitle": "Boston Children’s uses AI to unlock new diagnoses",
-      "summary": "OpenAI News 摘要提到：Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "summary": "OpenAI News 介绍波士顿儿童医院使用 OpenAI 技术改善患者护理、减轻运营负担，并帮助诊断 40 多个罕见疾病病例。",
+      "analysis": "医疗 AI 的关键价值是辅助专业医生更快找到线索，而不是替代医生。可靠性、隐私和临床验证仍然重要。",
       "sourceExcerpt": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "source": "OpenAI News",
       "url": "https://openai.com/index/boston-childrens-hospital",
@@ -519,39 +479,18 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-26-openai-news-how-braintrust-turns-customer-requests-into-code-with-codex",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "sourceTitle": "How Braintrust turns customer requests into code with Codex",
-      "summary": "OpenAI News 摘要提到：How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/braintrust",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "OpenAI News"
-      ],
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
+      "size": "tall",
       "readMinutes": 3
     },
     {
       "id": "2026-06-26-openai-news-mufg-aims-to-become-ai-native-with-openai",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "MUFG aims to become AI-native with OpenAI",
+      "title": "三菱日联金融集团与 OpenAI 推进 AI 原生组织转型",
       "sourceTitle": "MUFG aims to become AI-native with OpenAI",
-      "summary": "OpenAI News 摘要提到：MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "summary": "OpenAI News 介绍 MUFG 使用 ChatGPT Enterprise 构建 AI-native 组织，改进内部工作流，并推出新的 AI 金融服务。",
+      "analysis": "大型金融机构采用 AI 的方式，会影响合规、审计、员工培训和客户服务标准。它是企业级 AI 落地的重要风向。",
       "sourceExcerpt": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "source": "OpenAI News",
       "url": "https://openai.com/index/mufg",
@@ -562,51 +501,113 @@
         "大事",
         "OpenAI News"
       ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-26-techcrunch-ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-they-r",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "AI 没有杀死工程岗位，反而让工程师更抗冲击",
+      "sourceTitle": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+      "summary": "这篇报道关注 AI 对工程岗位的真实影响：新数据并不支持“工程师会最先被替代”的判断，反而显示工程类岗位在就业市场里更有韧性。值得看的是，AI 正在改变岗位内容，而不是简单消灭岗位。",
+      "analysis": "如果你关心职业选择或团队配置，这条新闻比“AI 替代人类”的笼统叙事更有参考价值。关键要观察工程师的工作重心会向系统设计、评审和 AI 协作迁移多少。",
+      "sourceExcerpt": "While AI dominates the layoff narrative, engineers are actually making up a larger share of new hires, according to SignalFire data.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "time": "05:56",
+      "importance": "中",
+      "tags": [
+        "大事",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-06-26-the-verge-congresswoman-denies-staff-used-ai-to-write-defense-funding-amendment",
+      "date": "2026-06-26",
+      "category": "政策与安全",
+      "title": "美国议员否认用 AI 撰写国防拨款修正案",
+      "sourceTitle": "Congresswoman denies staff used AI to write defense funding amendment",
+      "summary": "报道提到，一名美国国会议员否认其团队使用 AI 撰写国防拨款修正案。争议点在于，AI 是否已经进入严肃立法与国防预算文本的起草流程。",
+      "analysis": "这不是普通工具使用问题，而是公共决策透明度问题。未来政府文件是否需要披露 AI 参与程度，会成为政策焦点。",
+      "sourceExcerpt": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts o",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+      "time": "03:36",
+      "importance": "中",
+      "tags": [
+        "政策与安全",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "small",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-26-techcrunch-ai-researchers-continue-to-leave-google-for-its-rivals",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "AI 研究员继续离开 Google，顶级人才流向竞争对手",
+      "sourceTitle": "AI researchers continue to leave Google for its rivals",
+      "summary": "报道关注 Google AI 人才持续流失的问题。顶尖研究员流向竞争对手，说明大模型竞争不只是产品竞赛，也是研究文化、激励机制和创业机会的竞争。",
+      "analysis": "AI 公司之间的人才迁移会改变模型路线和产品速度。人才流向有时比单次发布更能提示行业重心。",
+      "sourceExcerpt": "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following departures from top scientists Noam Shazeer and John Jumper.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "time": "05:42",
+      "importance": "中",
+      "tags": [
+        "Google",
+        "大事",
+        "TechCrunch"
+      ],
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-06-26-openai-news-cisco-and-openai-redefine-enterprise-engineering-with-codex",
+      "id": "2026-06-26-the-verge-the-27-million-ai-proxy-war-over-alex-bores-ends-in-a-draw",
       "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "sourceTitle": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "summary": "OpenAI News 摘要提到：Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/cisco",
-      "time": "19:00",
+      "category": "政策与安全",
+      "title": "一场围绕 AI 政策的 2700 万美元代理战暂时打成平手",
+      "sourceTitle": "The $27 million AI proxy war over Alex Bores ends in a draw",
+      "summary": "The Verge 报道了一场围绕 Alex Bores 的高额政治代理战。背后真正的焦点不是单一选举，而是 AI 产业、监管路线和政治资金正在更深地绑定。",
+      "analysis": "当 AI 政策进入选举和游说体系，行业规则会越来越受资本和政治博弈影响。这类新闻适合追踪监管风向。",
+      "sourceExcerpt": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to repr",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+      "time": "01:25",
       "importance": "中",
       "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
+        "政策与安全",
+        "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2282522212.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-06-26-openai-news-openai-grupo-folha-and-grupo-uol-announce-strategic-content-partners",
+      "id": "2026-06-26-techcrunch-the-memory-chip-crunch-is-paying-off-for-this-us-company",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "sourceTitle": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "summary": "OpenAI News 摘要提到：OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "time": "08:00",
+      "title": "存储芯片紧缺推高 AI 硬件景气，一家美国公司率先受益",
+      "sourceTitle": "The memory chip crunch is paying off for this US company",
+      "summary": "这条新闻关注存储芯片供需紧张带来的行业收益。AI 训练和推理都在推高高性能存储需求，硬件产业链的部分公司因此获得更强定价权。",
+      "analysis": "算力竞争不只发生在 GPU 上，存储、网络和数据中心配套也会成为利润重新分配的地方。",
+      "sourceExcerpt": "Revenue quadrupled to $41.45 billion compared with the same period a year ago. The company's profit, meanwhile, rose from $1.88 billion to an incredible $28.2 billion year-over-year.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+      "time": "05:30",
       "importance": "中",
       "tags": [
-        "OpenAI",
         "大事",
-        "OpenAI News"
+        "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "wide",
       "readMinutes": 3
     }
