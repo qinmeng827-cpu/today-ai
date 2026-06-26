@@ -61,6 +61,322 @@ const SOURCE_WEIGHT = new Map([
   ['OpenAI News', 36], ['Google AI Blog', 34], ['Microsoft', 30], ['NVIDIA Blog', 30],
 ]);
 
+const EDITORIAL_OVERRIDES = new Map(Object.entries({
+  'AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient': {
+    title: 'AI 没有杀死工程岗位，反而让工程师更抗冲击',
+    summary: '这篇报道关注 AI 对工程岗位的真实影响：新数据并不支持“工程师会最先被替代”的判断，反而显示工程类岗位在就业市场里更有韧性。值得看的是，AI 正在改变岗位内容，而不是简单消灭岗位。',
+    analysis: '如果你关心职业选择或团队配置，这条新闻比“AI 替代人类”的笼统叙事更有参考价值。关键要观察工程师的工作重心会向系统设计、评审和 AI 协作迁移多少。',
+    category: 'AI 大事',
+  },
+  'Europe is pushing back on Washington’s chip war': {
+    title: '欧洲开始反击美国芯片战，AI 算力供应链再起波动',
+    summary: '报道聚焦欧洲对美国芯片限制政策的反弹。芯片出口、供应链和算力获取正在变成 AI 竞争里的政策变量，欧洲不愿完全跟随华盛顿的节奏。',
+    analysis: 'AI 公司真正的瓶颈不只是模型能力，还有芯片、云资源和跨境政策。欧洲态度变化会影响企业采购、模型部署和长期成本。',
+    category: '政策与安全',
+  },
+  'The memory chip crunch is paying off for this US company': {
+    title: '存储芯片紧缺推高 AI 硬件景气，一家美国公司率先受益',
+    summary: '这条新闻关注存储芯片供需紧张带来的行业收益。AI 训练和推理都在推高高性能存储需求，硬件产业链的部分公司因此获得更强定价权。',
+    analysis: '算力竞争不只发生在 GPU 上，存储、网络和数据中心配套也会成为利润重新分配的地方。',
+    category: 'AI 大事',
+  },
+  'The $27 million AI proxy war over Alex Bores ends in a draw': {
+    title: '一场围绕 AI 政策的 2700 万美元代理战暂时打成平手',
+    summary: 'The Verge 报道了一场围绕 Alex Bores 的高额政治代理战。背后真正的焦点不是单一选举，而是 AI 产业、监管路线和政治资金正在更深地绑定。',
+    analysis: '当 AI 政策进入选举和游说体系，行业规则会越来越受资本和政治博弈影响。这类新闻适合追踪监管风向。',
+    category: '政策与安全',
+  },
+  'Congresswoman denies staff used AI to write defense funding amendment': {
+    title: '美国议员否认用 AI 撰写国防拨款修正案',
+    summary: '报道提到，一名美国国会议员否认其团队使用 AI 撰写国防拨款修正案。争议点在于，AI 是否已经进入严肃立法与国防预算文本的起草流程。',
+    analysis: '这不是普通工具使用问题，而是公共决策透明度问题。未来政府文件是否需要披露 AI 参与程度，会成为政策焦点。',
+    category: '政策与安全',
+  },
+  'Former Infosys chief has a new startup that wants to challenge the IT services world': {
+    title: 'Infosys 前高管创业，想用 AI 改写 IT 服务行业',
+    summary: '这篇报道关注 Infosys 前高管的新创业项目，目标是挑战传统 IT 服务模式。核心看点是 AI 是否能把外包、咨询和软件交付从人力密集型业务变成更自动化的服务。',
+    analysis: '如果 AI 能改变 IT 服务交付，受影响的会是大型外包公司、企业软件预算和咨询公司的收费模式。',
+    category: '商业融资',
+  },
+  'Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood': {
+    title: 'Cerebras 财报后股价大跌，市场担心 AI 芯片利润率',
+    summary: '报道指出 Cerebras 股价在财报后下挫，公司 CEO 认为外界误解了利润率展望。它反映出 AI 芯片公司即使站在热门赛道，也会被毛利、交付和客户集中度检验。',
+    analysis: 'AI 硬件公司不能只讲算力故事，资本市场会越来越关注真实收入质量、毛利率和可持续订单。',
+    category: '商业融资',
+  },
+  'AI researchers continue to leave Google for its rivals': {
+    title: 'AI 研究员继续离开 Google，顶级人才流向竞争对手',
+    summary: '报道关注 Google AI 人才持续流失的问题。顶尖研究员流向竞争对手，说明大模型竞争不只是产品竞赛，也是研究文化、激励机制和创业机会的竞争。',
+    analysis: 'AI 公司之间的人才迁移会改变模型路线和产品速度。人才流向有时比单次发布更能提示行业重心。',
+    category: 'AI 大事',
+  },
+  'OpenAI reveals its first AI processor: Jalapeño': {
+    title: 'OpenAI 首款自研 AI 处理器 Jalapeño 曝光',
+    summary: 'The Verge 报道 OpenAI 首款 AI 处理器 Jalapeño。OpenAI 正在把竞争从模型和应用延伸到芯片与推理成本，试图降低对外部硬件供应的依赖。',
+    analysis: '自研芯片会直接影响推理成本、产品价格和模型可用性。它也是 OpenAI 从软件公司走向基础设施公司的信号。',
+    category: 'AI 大事',
+  },
+  'The Google Home Speaker sounds good and looks great — but it’s finicky': {
+    title: '新版 Google Home 音箱体验不错，但智能家居细节仍不稳定',
+    summary: '这篇评测关注 Google Home Speaker 的真实使用体验：硬件观感和声音表现不错，但连接、控制或场景体验仍显得不够稳定。',
+    analysis: 'AI 助手进入家庭场景后，真正决定体验的往往不是模型参数，而是稳定性、响应速度和设备生态协同。',
+    category: 'AI 产品工具',
+  },
+  'Companies are scrambling to stop employees from maxing out AI budgets with small tasks': {
+    title: '企业开始管控 AI 使用预算，防止小任务烧掉大额费用',
+    summary: '报道关注企业员工用 AI 处理小任务导致预算快速消耗的问题。随着 AI 工具进入日常工作，企业开始需要更细的用量分析、权限分级和成本控制。',
+    analysis: 'AI 普及后的第一批管理难题不是“能不能用”，而是“怎么用得划算”。这会推动企业级 AI 管理工具增长。',
+    category: '商业融资',
+  },
+  'OpenAI unveils its first custom chip, built by Broadcom': {
+    title: 'OpenAI 与 Broadcom 推出首款定制芯片',
+    summary: 'TechCrunch 报道 OpenAI 与 Broadcom 合作推出首款定制芯片。它指向 OpenAI 在推理基础设施上的长期布局，目标是控制成本、供应和性能。',
+    analysis: '这条新闻的重要性在于，模型公司正在向硬件和云基础设施深入。未来 AI 产品竞争会越来越受单位推理成本影响。',
+    category: 'AI 大事',
+  },
+  'Figma now has AI motion graphics and shader tools': {
+    title: 'Figma 加入 AI 动效和 Shader 工具',
+    summary: 'The Verge 报道 Figma 新增 AI 动效与 Shader 工具。设计工具正在从静态界面设计扩展到动效、视觉生成和前端表达，降低设计师制作复杂视觉效果的门槛。',
+    analysis: '这会让设计流程更接近“设计即生产”。对产品团队来说，原型、动效和视觉实验的周期会继续缩短。',
+    category: 'AI 产品工具',
+  },
+  'Facebook rolls out an AI companion app for creators': {
+    title: 'Facebook 推出面向创作者的 AI 陪伴应用',
+    summary: 'TechCrunch 报道 Facebook 面向创作者推出 AI companion app。它瞄准创作者与粉丝互动、内容生产和账号运营中的自动化需求。',
+    analysis: '平台把 AI 助手放进创作者生态，意味着内容平台的竞争会从流量分发延伸到创作工具和粉丝关系运营。',
+    category: 'AI 产品工具',
+  },
+  'Agility Robotics plans to go public via SPAC in a $2.5B deal': {
+    title: 'Agility Robotics 计划通过 SPAC 上市，估值约 25 亿美元',
+    summary: '报道指出机器人公司 Agility Robotics 计划通过 SPAC 上市，交易估值约 25 亿美元。人形机器人和实体智能正在重新获得资本市场关注。',
+    analysis: '机器人公司能否上市成功，会检验实体智能商业化的真实预期。重点看订单、交付能力和单位经济模型。',
+    category: '商业融资',
+  },
+  'OpenAI and Broadcom unveil LLM-optimized inference chip': {
+    title: 'OpenAI 与 Broadcom 发布面向大模型推理的定制芯片',
+    summary: 'OpenAI News 介绍与 Broadcom 合作的 LLM 优化推理芯片。重点是让大模型服务在更低成本、更高效率的硬件上运行。',
+    analysis: '推理芯片是 AI 商业化的关键基础设施。谁能降低推理成本，谁就更容易把 AI 功能做进更多产品。',
+    category: 'AI 大事',
+  },
+  'Helping build shared standards for advanced AI': {
+    title: 'OpenAI 推动高级 AI 共享标准建设',
+    summary: 'OpenAI 介绍其参与高级 AI 共享标准建设的工作。重点在于为更强模型建立评估、安全、治理和协作框架。',
+    analysis: '行业标准会影响模型发布节奏、监管沟通和企业采用门槛。它比单个产品发布更偏长期基础设施。',
+    category: '政策与安全',
+  },
+  'How Omio is building the future of conversational travel': {
+    title: 'Omio 用对话式 AI 重做旅行预订体验',
+    summary: 'OpenAI News 展示 Omio 如何构建对话式旅行服务。重点是把搜索、规划、预订和客服变成自然语言交互流程。',
+    analysis: '旅行是 AI agent 很适合落地的场景，因为用户任务复杂、步骤多、信息变化快。值得观察转化率和客服成本变化。',
+    category: 'AI 产品工具',
+  },
+  'Patch the Planet: a Daybreak initiative to support open source maintainers': {
+    title: 'OpenAI 支持开源维护者，推出 Patch the Planet 计划',
+    summary: 'OpenAI News 介绍 Daybreak 旗下 Patch the Planet 计划，目标是支持开源维护者。它关注 AI 时代基础软件生态的维护压力和可持续资金。',
+    analysis: 'AI 工具高度依赖开源生态。支持维护者不是公益边角料，而是 AI 基础设施稳定性的组成部分。',
+    category: 'AI 大事',
+  },
+  'Codex-maxxing for long-running work': {
+    title: 'OpenAI 介绍 Codex 处理长周期工作的使用方式',
+    summary: 'OpenAI News 讨论如何让 Codex 更好地处理长时间、复杂代码任务。重点是把 AI 编程助手从短问答推进到持续执行、跟踪和交付。',
+    analysis: '如果 AI 编程工具能稳定处理长任务，它会改变开发者把工作拆分、委派和审查的方式。',
+    category: 'AI 产品工具',
+  },
+  'New usage analytics and updated spend controls for enterprises': {
+    title: 'OpenAI 为企业更新用量分析和费用控制',
+    summary: 'OpenAI News 介绍企业级用量分析和费用控制更新。它帮助企业看清 AI 使用情况、控制支出并管理不同团队的使用权限。',
+    analysis: '企业采用 AI 后，管理能力会成为关键卖点。预算、合规和可观测性决定 AI 能否从试点走向规模化。',
+    category: 'AI 产品工具',
+  },
+  'Figma adds code layers, support for animations, more AI features in new update': {
+    title: 'Figma 更新代码图层、动画支持和更多 AI 功能',
+    summary: 'TechCrunch 报道 Figma 新版本加入代码图层、动画支持和更多 AI 功能。设计工具正在更深地连接设计、动效和工程实现。',
+    analysis: '这类更新会影响设计师与工程师协作方式，也会提高原型到产品代码之间的转换效率。',
+    category: 'AI 产品工具',
+  },
+  'Using AI to help physicians diagnose rare genetic diseases affecting children': {
+    title: 'OpenAI 探索用 AI 帮助医生诊断儿童罕见遗传病',
+    summary: 'OpenAI News 介绍 AI 辅助医生诊断儿童罕见遗传病的案例。重点是用模型处理复杂医学信息，帮助缩短诊断路径。',
+    analysis: '医疗 AI 的价值不在炫技，而在降低漏诊、缩短诊断时间和辅助专业医生决策。这个方向需要持续关注可靠性和临床验证。',
+    category: 'AI 大事',
+  },
+  'A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry': {
+    title: '近自主 AI 化学家改进药物化学中的困难反应',
+    summary: 'OpenAI News 介绍一个近自主 AI 化学家改进药物化学反应的案例。它展示 AI 在实验设计、反应优化和科研自动化中的潜力。',
+    analysis: '如果 AI 能参与真实实验优化，科研效率会发生结构性变化。关键仍是可重复性、实验闭环和安全边界。',
+    category: '论文与技术',
+  },
+  'Introducing LifeSciBench': {
+    title: 'OpenAI 发布 LifeSciBench，用于评估生命科学能力',
+    summary: 'OpenAI News 发布 LifeSciBench，面向生命科学任务评估模型能力。它用于衡量模型在生物、医学和科研推理上的表现。',
+    analysis: '生命科学评测会影响模型进入科研和医疗场景的可信度。比起通用榜单，垂直评测更能说明真实应用能力。',
+    category: '论文与技术',
+  },
+  'Introducing the OpenAI Partner Network': {
+    title: 'OpenAI 推出合作伙伴网络',
+    summary: 'OpenAI News 介绍 OpenAI Partner Network。它旨在通过合作伙伴帮助企业更快部署 AI 方案，覆盖咨询、集成和行业落地。',
+    analysis: '合作伙伴生态是 AI 平台商业化的重要一步。模型能力需要服务商、集成商和行业方案才能进入企业流程。',
+    category: '商业融资',
+  },
+  'New OpenAI Academy courses for the next era of work': {
+    title: 'OpenAI Academy 推出面向新工作时代的课程',
+    summary: 'OpenAI News 介绍 OpenAI Academy 新课程，面向 AI 改变工作方式后的技能训练。重点是帮助个人和组织学习如何把 AI 放进日常流程。',
+    analysis: 'AI 普及最终会落到人的技能重构上。培训和课程生态会成为企业采用 AI 的配套基础设施。',
+    category: 'AI 产品工具',
+  },
+  'Google Home will soon get better at recognizing you': {
+    title: 'Google Home 将更擅长识别家庭成员',
+    summary: 'The Verge 报道 Google Home 即将提升识别用户的能力。智能家居助手正在变得更个性化，能根据不同家庭成员提供更准确的响应。',
+    analysis: '家庭 AI 的关键是身份识别、隐私和上下文记忆。越个性化，越需要处理好数据边界和误识别风险。',
+    category: 'AI 产品工具',
+  },
+
+  'The White House is asking OpenAI to slow roll the release of its new model over safety concerns': {
+    title: '白宫因安全担忧要求 OpenAI 放慢新模型发布',
+    summary: 'TechCrunch 报道称，白宫因安全顾虑要求 OpenAI 暂缓或分阶段发布新模型 GPT-5.6。模型发布开始受到政府安全审查影响，说明前沿模型不再只是产品节奏问题。',
+    analysis: '这条新闻重要在于，政府可能直接影响大模型发布时间表。企业和开发者需要关注模型可用性、API 节奏和合规要求的变化。',
+    category: '政策与安全',
+  },
+  'OpenAI will delay GPT-5.6 after Trump administration request': {
+    title: 'OpenAI 将按政府要求推迟 GPT-5.6 发布',
+    summary: 'The Verge 报道称，OpenAI 将在特朗普政府要求后推迟 GPT-5.6 的更广泛发布。发布方式可能从面向公众转向先给少量伙伴测试。',
+    analysis: '前沿模型发布正在进入“安全审查 + 分阶段放量”的新阶段。它会影响开发者预期、产品路线和竞争对手节奏。',
+    category: '模型更新',
+  },
+  'Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents': {
+    title: 'Patronus AI 融资 5000 万美元，用数字世界压力测试 AI 智能体',
+    summary: 'Patronus AI 获得 5000 万美元融资，计划构建“数字世界”来压力测试 AI agents。它瞄准的是智能体在复杂任务、工具调用和长流程中的可靠性问题。',
+    analysis: '智能体要进入企业流程，必须先证明不会在复杂环境里失控。评测和压力测试会成为 AI agent 生态的基础设施。',
+    category: 'AI 产品工具',
+  },
+  'Ford had to hire back former engineers to fix mistakes made by its automated systems': {
+    title: '福特召回前工程师修复自动化系统留下的问题',
+    summary: 'The Verge 报道称，福特不得不重新聘请前工程师来修复自动化系统造成的错误。这是一个典型提醒：自动化并不等于无需专业经验。',
+    analysis: 'AI 和自动化系统如果缺少人类专家校验，可能把组织知识和生产细节一起丢掉。它对制造业和企业自动化都有警示意义。',
+    category: 'AI 大事',
+  },
+  'Our latest Google Finance upgrades, including a new app': {
+    title: 'Google Finance 升级并推出新应用，强化金融信息体验',
+    summary: 'Google 宣布 Google Finance 的最新升级，并推出新的 Android 应用。它将金融信息查询、个性化体验和移动端使用结合得更紧。',
+    analysis: '金融信息产品正在被 AI 和个性化体验重新包装。对普通用户来说，关键是信息是否更及时、解释是否更清楚。',
+    category: 'AI 产品工具',
+  },
+  'Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT': {
+    title: 'Claude 正在吸引付费用户，挑战 ChatGPT 的消费市场优势',
+    summary: 'TechCrunch 报道称，尽管 ChatGPT 仍占据领先地位，越来越多愿意为 AI 付费的消费者开始选择 Anthropic 的 Claude。',
+    analysis: '付费用户迁移比免费流量更能说明产品黏性。Claude 的增长意味着消费级 AI 市场并没有完全定型。',
+    category: '模型更新',
+  },
+  'General Intuition’s $2.3B bet that video games can train AI agents for the real world': {
+    title: 'General Intuition 押注游戏数据训练现实世界 AI 智能体',
+    summary: 'General Intuition 以 23 亿美元估值押注用海量游戏行为数据训练 AI agents。它相信游戏中的行动数据能帮助 AI 学到更接近人类直觉的能力。',
+    analysis: '如果游戏数据能迁移到真实世界任务，智能体训练会出现新路径。关键要看这种“动作数据”能否跨场景泛化。',
+    category: 'AI 产品工具',
+  },
+  'Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x': {
+    title: 'Databricks 前 AI 负责人想把 AI 电力成本降低 1000 倍',
+    summary: 'TechCrunch 报道 Databricks 前 AI 负责人正在尝试大幅降低 AI 系统的能源开销。目标是让 AI 推理和生成更便宜、更可持续。',
+    analysis: 'AI 的成本竞争越来越像能源效率竞争。谁能显著降低功耗，谁就可能改变模型服务的价格结构。',
+    category: 'AI 大事',
+  },
+  'Netris raises $15M Series A from a16z to help AI neoclouds go live faster': {
+    title: 'Netris 获 a16z 领投 1500 万美元，帮助 AI 云更快上线',
+    summary: 'Netris 完成 1500 万美元 A 轮融资，投资方包括 a16z。它服务 AI neocloud 基础设施，帮助新型 AI 云更快部署网络和算力环境。',
+    analysis: 'AI 云服务竞争正在催生新的基础设施公司。网络、部署和运维效率会直接影响算力交付速度。',
+    category: '商业融资',
+  },
+  '2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit': {
+    title: 'TechCrunch 创始人峰会倒计时，创业者和投资人继续涌向 AI 议题',
+    summary: 'TechCrunch 推介 Founder Summit 活动，预计吸引大量创始人和投资人参与。虽然它是活动信息，但也反映 AI 创业和资本交流仍然活跃。',
+    analysis: '这类活动不是核心技术新闻，但能观察市场热度、融资叙事和创业者关注方向。',
+    category: '商业融资',
+  },
+  'Adobe acquires image and video enhancement tool maker Topaz Labs': {
+    title: 'Adobe 收购图像和视频增强工具 Topaz Labs',
+    summary: 'Adobe 收购 Topaz Labs，后者专注图像和视频增强工具。Adobe 正在继续补强创意工具链里的 AI 影像处理能力。',
+    analysis: '创意软件巨头会通过收购把独立 AI 工具纳入主工作流。对创作者来说，功能会更集中，但工具生态也会进一步整合。',
+    category: 'AI 产品工具',
+  },
+  'Amazon ups India bet with fresh $13B AI infrastructure investment': {
+    title: 'Amazon 加码印度，投入 130 亿美元建设 AI 基础设施',
+    summary: 'Amazon 宣布继续加大在印度的 AI 基础设施投资，规模达 130 亿美元。投资重点指向云、数据中心和算力能力。',
+    analysis: 'AI 基础设施正在全球扩张。印度市场既是云计算增长点，也是未来 AI 应用和开发者生态的重要战场。',
+    category: '商业融资',
+  },
+  'Facebook’s Creator Studio has been revived as an AI companion app': {
+    title: 'Facebook 将 Creator Studio 复活为 AI 创作者助手',
+    summary: 'The Verge 报道 Facebook 将 Creator Studio 以 AI companion app 的形式重新推出，面向创作者提供内容和运营辅助。',
+    analysis: '创作者平台正在把 AI 变成生产力入口。谁能帮创作者省时间、提高互动效率，谁就更能锁住内容供给。',
+    category: 'AI 产品工具',
+  },
+  'Hollywood is bending the knee to OpenAI': {
+    title: '好莱坞开始向 OpenAI 靠拢，影视行业 AI 态度转向',
+    summary: 'The Verge 报道好莱坞与 OpenAI 的关系正在发生变化。影视行业一边担心版权和工作岗位，一边也开始寻找与 AI 平台合作的方式。',
+    analysis: '内容行业对 AI 的态度从抵触走向谈判，会影响版权授权、视频生成产品和创意工作流。',
+    category: 'AI 大事',
+  },
+  'How Preply combines AI and human tutors to personalize learning': {
+    title: 'Preply 用 AI 搭配真人教师做个性化学习',
+    summary: 'OpenAI News 介绍 Preply 如何把 AI 与真人教师结合，用于个性化学习体验。AI 负责辅助练习、反馈和学习路径，教师保留关键指导角色。',
+    analysis: '教育 AI 的可行路径很可能不是替代教师，而是放大教师能力。混合模式更容易被用户和机构接受。',
+    category: 'AI 产品工具',
+  },
+  'How an astrophysicist uses Codex to help simulate black holes': {
+    title: '天体物理学家用 Codex 辅助模拟黑洞',
+    summary: 'OpenAI News 展示天体物理学家如何使用 Codex 辅助黑洞模拟。AI 编程工具正在进入科研计算和复杂模拟工作。',
+    analysis: '科研场景能检验 AI 编程工具的深度能力。它不只是写业务代码，也可能改变科学计算的迭代速度。',
+    category: '论文与技术',
+  },
+  'Supporting Europe’s work in ensuring a trustworthy AI ecosystem': {
+    title: 'OpenAI 支持欧洲建设可信 AI 生态',
+    summary: 'OpenAI News 介绍其支持欧洲可信 AI 生态建设的工作。重点包括安全、合规、政策合作和企业采用。',
+    analysis: '欧洲是全球 AI 监管的重要样板市场。OpenAI 在欧洲的动作会影响合规标准和企业落地节奏。',
+    category: '政策与安全',
+  },
+  'OpenAI to acquire Ona': {
+    title: 'OpenAI 将收购 Ona，继续扩展产品与团队能力',
+    summary: 'OpenAI News 宣布将收购 Ona。虽然公开信息有限，但这说明 OpenAI 仍在通过并购补强特定产品、人才或技术能力。',
+    analysis: 'OpenAI 的收购动作值得关注，因为它往往透露公司下一阶段要补齐的产品或组织短板。',
+    category: '商业融资',
+  },
+  'BBVA puts AI at the core of banking with OpenAI': {
+    title: 'BBVA 与 OpenAI 合作，把 AI 放进银行核心流程',
+    summary: 'OpenAI News 介绍 BBVA 如何把 AI 纳入银行核心业务。银行业正在从试点工具走向更系统的 AI 工作流改造。',
+    analysis: '金融机构采用 AI 的速度和边界，会影响企业级 AI 的合规、审计和风险管理标准。',
+    category: 'AI 大事',
+  },
+  'Our new community investments in Virginia support local jobs and expand energy affordability.': {
+    title: 'Google 在弗吉尼亚投资社区与能源项目，支撑数据中心扩张',
+    summary: 'Google 介绍其在弗吉尼亚的新社区投资，重点包括本地就业和能源可负担性。背后与数据中心和 AI 基础设施扩张密切相关。',
+    analysis: 'AI 基础设施不只需要芯片，还需要电力、社区支持和地方政策。能源议题会越来越影响 AI 扩张速度。',
+    category: 'AI 大事',
+  },
+  'PRC-linked influence operations are targeting AI debates in the US': {
+    title: 'OpenAI 称关联中国的影响力行动正瞄准美国 AI 争论',
+    summary: 'OpenAI News 称，与中国相关的影响力行动正在针对美国 AI 政策和舆论讨论。AI 议题正在成为国际信息博弈的一部分。',
+    analysis: 'AI 安全已经超出模型本身，进入舆论、政策和地缘竞争层面。平台需要更强的监测和溯源能力。',
+    category: '政策与安全',
+  },
+  'From data to decisions: how LSEG is scaling trusted AI': {
+    title: 'LSEG 用可信 AI 把数据转化为决策',
+    summary: 'OpenAI News 介绍 LSEG 如何规模化部署可信 AI，把金融数据转化为更可用的决策支持。',
+    analysis: '金融数据公司采用 AI 的重点是可信度、可解释性和合规。它代表企业级 AI 从工具走向决策基础设施。',
+    category: 'AI 产品工具',
+  },
+  'How engineers at Nextdoor use Codex to build without limits': {
+    title: 'Nextdoor 工程师用 Codex 提升开发效率',
+    summary: 'OpenAI News 展示 Nextdoor 工程师如何使用 Codex 辅助开发。AI 编程工具正在被放进真实工程团队的日常工作流。',
+    analysis: 'AI 编程助手的价值不只在生成代码，而在缩短调试、迁移和维护周期。团队采用方式会决定实际收益。',
+    category: 'AI 产品工具',
+  },
+  'What Codex unlocks for Notion': {
+    title: 'Notion 用 Codex 解锁新的产品开发方式',
+    summary: 'OpenAI News 介绍 Codex 为 Notion 带来的开发效率和产品协作变化。它展示 AI 编程工具如何进入成熟 SaaS 团队。',
+    analysis: '当 Notion 这类产品团队深度使用 Codex，说明 AI 编程正在从个人效率工具走向团队级研发基础设施。',
+    category: 'AI 产品工具',
+  },
+}));
+
 function todayInShanghai() {
   const parts = new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Asia/Shanghai',
@@ -154,7 +470,25 @@ function cleanTitle(title, sourceName) {
   return normalized.replace(new RegExp(`\\s+-\\s+${escapeRegExp(sourceName)}$`, 'i'), '').trim();
 }
 
+function editorialFor(title = '') {
+  return EDITORIAL_OVERRIDES.get(title.trim());
+}
+
+function cleanExcerpt(text = '') {
+  return stripTags(text)
+    .replace(/\s+/g, ' ')
+    .replace(/Continue reading.*$/i, '')
+    .trim()
+    .slice(0, 260);
+}
+
+function pickSourceExcerpt(item) {
+  return cleanExcerpt(pick(item, 'description') || pick(item, 'summary') || pick(item, 'content:encoded'));
+}
+
 function classify(title, fallbackCategory) {
+  const override = editorialFor(title);
+  if (override?.category) return override.category;
   const text = title.toLowerCase();
   if (/regulation|safety|policy|copyright|lawsuit|court|security|privacy|government|election|pentagon|risk|congress|congresswoman|defense|washington|chip war/.test(text)) return '政策与安全';
   if (/paper|research|arxiv|benchmark|training|dataset|robotics|simulation|agentic|eval|scientists/.test(text)) return '论文与技术';
@@ -194,23 +528,27 @@ function primarySubject(title = '') {
 }
 
 function makeChineseTitle(sourceTitle, source, category) {
-  const subject = primarySubject(sourceTitle) || source;
-  const labels = {
-    'AI 大事': '重要 AI 动态',
-    '模型更新': '模型与能力更新',
-    'AI 产品工具': 'AI 产品工具动态',
-    '论文与技术': 'AI 技术研究动态',
-    '商业融资': 'AI 商业与融资动态',
-    '政策与安全': 'AI 政策与安全动态',
-  };
-  return `${subject}：${labels[category] || 'AI 动态'}`;
+  const override = editorialFor(sourceTitle);
+  if (override?.title) return override.title;
+
+  const subject = primarySubject(sourceTitle);
+  if (subject && sourceTitle.length < 90) return sourceTitle;
+  return sourceTitle || `${source}：${category}`;
 }
 
 function makeSummary(story) {
-  return `${story.source} 发布/报道了一条「${story.category}」相关资讯。英文原标题已保留在下方，建议点击「原文」核对完整内容和上下文。`;
+  const override = editorialFor(story.sourceTitle);
+  if (override?.summary) return override.summary;
+  if (story.sourceExcerpt) {
+    return `${story.source} 摘要提到：${story.sourceExcerpt}`;
+  }
+  return `这条新闻关注「${story.sourceTitle}」。它被归入「${story.category}」，建议重点看它对产品路线、成本结构、监管环境或行业竞争的实际影响。`;
 }
 
 function makeAnalysis(story) {
+  const override = editorialFor(story.sourceTitle);
+  if (override?.analysis) return override.analysis;
+
   const hints = {
     'AI 大事': '这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。',
     '模型更新': '模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。',
@@ -259,6 +597,7 @@ async function fetchRssFeed(feed) {
       source: feed.source,
       url: pickLink(item) || feed.url,
       image: pickImageFromItem(item),
+      sourceExcerpt: pickSourceExcerpt(item),
       published: Number.isNaN(published.getTime()) ? new Date() : published,
       category: classify(sourceTitle, feed.category),
     };
@@ -278,6 +617,7 @@ async function fetchArxiv() {
       source: 'arXiv',
       url: pick(entry, 'id'),
       image: '',
+      sourceExcerpt: cleanExcerpt(pick(entry, 'summary')),
       published: Number.isNaN(published.getTime()) ? new Date() : published,
       category: '论文与技术',
     };
@@ -302,6 +642,7 @@ function toStory(raw, index, date) {
     sourceTitle: raw.sourceTitle,
     summary: '',
     analysis: '',
+    sourceExcerpt: raw.sourceExcerpt || '',
     source: raw.source,
     url: raw.url,
     time: timeInShanghai(raw.published),
