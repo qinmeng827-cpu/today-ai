@@ -1,83 +1,10 @@
 {
-  "generatedAt": "2026-06-26T04:07:21.282Z",
+  "generatedAt": "2026-06-26T04:39:46.014Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
     "2026-06-26"
   ],
   "stories": [
-    {
-      "id": "2026-06-26-glm-q1-fable",
-      "date": "2026-06-26",
-      "category": "模型更新",
-      "title": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
-      "sourceTitle": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
-      "summary": "量子位 报道关注「马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "互利共赢的生态繁荣",
-      "source": "量子位",
-      "region": "china",
-      "url": "https://www.qbitai.com/2026/06/438351.html",
-      "time": "12:35",
-      "importance": "高",
-      "tags": [
-        "智谱",
-        "中国 AI",
-        "模型更新",
-        "量子位"
-      ],
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-06-26-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-06-26",
-      "category": "政策与安全",
-      "title": "Qwen3Guard：Token 流实时安全防护",
-      "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
-      "summary": "Qwen Blog 报道关注「Qwen3Guard: Real-time Safety for Your Token Stream」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, ",
-      "source": "Qwen Blog",
-      "region": "china",
-      "url": "https://qwenlm.github.io/blog/qwen3guard/",
-      "time": "04:00",
-      "importance": "高",
-      "tags": [
-        "Qwen",
-        "中国 AI",
-        "政策与安全",
-        "Qwen Blog"
-      ],
-      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-26-infoq-fable-5-anthropic-qwen-ceo",
-      "date": "2026-06-26",
-      "category": "政策与安全",
-      "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
-      "sourceTitle": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
-      "summary": "InfoQ 中文 报道关注「Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "region": "china",
-      "url": "https://www.infoq.cn/article/MVDrYfoCovqj6zBNxr9e?utm_source=rss&utm_medium=article",
-      "time": "19:12",
-      "importance": "高",
-      "tags": [
-        "Anthropic",
-        "Qwen",
-        "中国 AI",
-        "政策与安全",
-        "InfoQ 中文"
-      ],
-      "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 5
-    },
     {
       "id": "2026-06-26-techcrunch-the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-",
       "date": "2026-06-26",
@@ -98,7 +25,7 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
+      "size": "cover",
       "readMinutes": 3
     },
     {
@@ -122,7 +49,7 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
+      "size": "tall",
       "readMinutes": 4
     },
     {
@@ -138,14 +65,61 @@
       "region": "global",
       "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
       "time": "00:48",
-      "importance": "中",
+      "importance": "高",
       "tags": [
         "大事",
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "size": "wide",
       "readMinutes": 5
+    },
+    {
+      "id": "2026-06-26-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
+      "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI News 介绍与 Broadcom 合作的 LLM 优化推理芯片。重点是让大模型服务在更低成本、更高效率的硬件上运行。",
+      "analysis": "推理芯片是 AI 商业化的关键基础设施。谁能降低推理成本，谁就更容易把 AI 功能做进更多产品。",
+      "sourceExcerpt": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "time": "14:00",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-26-glm-q1-fable",
+      "date": "2026-06-26",
+      "category": "模型更新",
+      "title": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
+      "sourceTitle": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
+      "summary": "量子位 报道关注「马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "互利共赢的生态繁荣",
+      "source": "量子位",
+      "region": "china",
+      "url": "https://www.qbitai.com/2026/06/438351.html",
+      "time": "12:35",
+      "importance": "高",
+      "tags": [
+        "智谱",
+        "中国 AI",
+        "模型更新",
+        "量子位"
+      ],
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-26-techcrunch-patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-age",
@@ -167,8 +141,57 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
+      "size": "cover",
       "readMinutes": 3
+    },
+    {
+      "id": "2026-06-26-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-06-26",
+      "category": "政策与安全",
+      "title": "Qwen3Guard：Token 流实时安全防护",
+      "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "summary": "Qwen Blog 报道关注「Qwen3Guard: Real-time Safety for Your Token Stream」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, ",
+      "source": "Qwen Blog",
+      "region": "china",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "time": "04:00",
+      "importance": "中",
+      "tags": [
+        "Qwen",
+        "中国 AI",
+        "政策与安全",
+        "Qwen Blog"
+      ],
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-26-infoq-fable-5-anthropic-qwen-ceo",
+      "date": "2026-06-26",
+      "category": "政策与安全",
+      "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
+      "sourceTitle": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
+      "summary": "InfoQ 中文 报道关注「Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/MVDrYfoCovqj6zBNxr9e?utm_source=rss&utm_medium=article",
+      "time": "19:12",
+      "importance": "中",
+      "tags": [
+        "Anthropic",
+        "Qwen",
+        "中国 AI",
+        "政策与安全",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-26-the-verge-ford-had-to-hire-back-former-engineers-to-fix-mistakes-made-by-its-aut",
@@ -189,7 +212,7 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/acastro_STK056_02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
+      "size": "medium",
       "readMinutes": 4
     },
     {
@@ -214,7 +237,7 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
+      "size": "small",
       "readMinutes": 5
     },
     {
@@ -237,7 +260,7 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
+      "size": "cover",
       "readMinutes": 3
     },
     {
@@ -259,30 +282,8 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-26-techcrunch-2-days-left-to-save-up-to-190-join-1-000-founders-and-investors-at-te",
-      "date": "2026-06-26",
-      "category": "商业融资",
-      "title": "TechCrunch 创始人峰会倒计时，创业者和投资人继续涌向 AI 议题",
-      "sourceTitle": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
-      "summary": "TechCrunch 推介 Founder Summit 活动，预计吸引大量创始人和投资人参与。虽然它是活动信息，但也反映 AI 创业和资本交流仍然活跃。",
-      "analysis": "这类活动不是核心技术新闻，但能观察市场热度、融资叙事和创业者关注方向。",
-      "sourceExcerpt": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
-      "time": "22:00",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
       "size": "tall",
-      "readMinutes": 5
+      "readMinutes": 4
     },
     {
       "id": "2026-06-26-techcrunch-adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs",
@@ -307,52 +308,6 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-06-26-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
-      "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI News 介绍与 Broadcom 合作的 LLM 优化推理芯片。重点是让大模型服务在更低成本、更高效率的硬件上运行。",
-      "analysis": "推理芯片是 AI 商业化的关键基础设施。谁能降低推理成本，谁就更容易把 AI 功能做进更多产品。",
-      "sourceExcerpt": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "time": "14:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-26-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
-      "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "summary": "OpenAI News 介绍 Daybreak 旗下 Patch the Planet 计划，目标是支持开源维护者。它关注 AI 时代基础软件生态的维护压力和可持续资金。",
-      "analysis": "AI 工具高度依赖开源生态。支持维护者不是公益边角料，而是 AI 基础设施稳定性的组成部分。",
-      "sourceExcerpt": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/patch-the-planet",
-      "time": "18:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
-    },
-    {
       "id": "2026-06-26-techcrunch-amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
       "date": "2026-06-26",
       "category": "商业融资",
@@ -371,7 +326,7 @@
         "TechCrunch"
       ],
       "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
+      "size": "medium",
       "readMinutes": 3
     },
     {
@@ -394,7 +349,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "size": "small",
       "readMinutes": 4
     },
     {
@@ -416,7 +371,7 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Facebook-Creator-Studio-relaunch.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
+      "size": "cover",
       "readMinutes": 5
     },
     {
@@ -439,7 +394,7 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/openai-broadcom-jalapeno-inference-chip-image.webp?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
+      "size": "tall",
       "readMinutes": 3
     },
     {
@@ -462,8 +417,31 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
-      "size": "small",
+      "size": "wide",
       "readMinutes": 4
+    },
+    {
+      "id": "2026-06-26-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
+      "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "summary": "OpenAI News 介绍 Daybreak 旗下 Patch the Planet 计划，目标是支持开源维护者。它关注 AI 时代基础软件生态的维护压力和可持续资金。",
+      "analysis": "AI 工具高度依赖开源生态。支持维护者不是公益边角料，而是 AI 基础设施稳定性的组成部分。",
+      "sourceExcerpt": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/patch-the-planet",
+      "time": "18:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-26-openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai",
@@ -485,7 +463,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "size": "small",
       "readMinutes": 5
     },
     {
@@ -508,7 +486,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "size": "cover",
       "readMinutes": 3
     },
     {
@@ -531,7 +509,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "size": "tall",
       "readMinutes": 4
     },
     {
@@ -553,7 +531,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
+      "size": "wide",
       "readMinutes": 5
     },
     {
@@ -576,7 +554,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
+      "size": "medium",
       "readMinutes": 3
     },
     {
@@ -598,7 +576,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "size": "small",
       "readMinutes": 4
     },
     {
@@ -621,7 +599,7 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "size": "cover",
       "readMinutes": 5
     },
     {
@@ -644,8 +622,30 @@
         "OpenAI News"
       ],
       "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "size": "tall",
       "readMinutes": 3
+    },
+    {
+      "id": "2026-06-26-techcrunch-2-days-left-to-save-up-to-190-join-1-000-founders-and-investors-at-te",
+      "date": "2026-06-26",
+      "category": "商业融资",
+      "title": "TechCrunch 创始人峰会倒计时，创业者和投资人继续涌向 AI 议题",
+      "sourceTitle": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
+      "summary": "TechCrunch 推介 Founder Summit 活动，预计吸引大量创始人和投资人参与。虽然它是活动信息，但也反映 AI 创业和资本交流仍然活跃。",
+      "analysis": "这类活动不是核心技术新闻，但能观察市场热度、融资叙事和创业者关注方向。",
+      "sourceExcerpt": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
+      "time": "22:00",
+      "importance": "中",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
     }
   ]
 }

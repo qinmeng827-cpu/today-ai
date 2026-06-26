@@ -769,7 +769,7 @@ function scoreStory(story, index) {
   const text = `${story.sourceTitle || ''} ${story.sourceExcerpt || ''}`;
   let qualityScore = 0;
   if (isChinaStory(story)) {
-    if (/发布|模型|平台|产品|工具|智能体|企业|融资|投资|ARR|算力|芯片|基础设施|科大讯飞|智谱|GLM|通义|千问|Qwen|DeepSeek|Kimi|豆包|腾讯|阿里|百度|字节|商汤/.test(text)) qualityScore += 18;
+    if (/发布|模型|平台|产品|工具|智能体|企业|融资|投资|ARR|算力|芯片|基础设施|科大讯飞|智谱|GLM|通义|千问|Qwen|DeepSeek|Kimi|豆包|腾讯|阿里|百度|字节|商汤/.test(text)) qualityScore += 6;
     if (/WAIC|WAVES|报名|大会|峰会|论坛|联名|盛夏|活动|直播|回放|嘉宾|\d+月\d+日|深圳|上海|北京/.test(text)) qualityScore -= 36;
   }
   return sourceScore + categoryScore + recencyScore + qualityScore - index * 0.05;
@@ -808,34 +808,47 @@ function selectDailyStories(scored) {
   const seen = new Set();
   let chinaCount = 0;
 
+  const keyFor = (entry) => `${entry.story.source}-${entry.story.sourceTitle}`;
   const add = (entry) => {
-    const key = `${entry.story.source}-${entry.story.sourceTitle}`;
+    const key = keyFor(entry);
     if (seen.has(key) || selected.length >= STORY_LIMIT) return false;
+    if (isChinaStory(entry.story) && chinaCount >= CHINA_STORY_MAX) return false;
     seen.add(key);
     selected.push(entry);
     if (isChinaStory(entry.story)) chinaCount += 1;
     return true;
   };
 
-  const chinaCandidates = scored.filter(({ story }) => isChinaStory(story));
-  for (const source of ['量子位', 'Qwen Blog', 'InfoQ 中文']) {
-    if (chinaCount >= CHINA_STORY_MIN) break;
-    const entry = chinaCandidates.find(({ story }) => story.source === source);
-    if (entry) add(entry);
-  }
-
-  for (const entry of chinaCandidates) {
-    if (chinaCount >= CHINA_STORY_MIN) break;
-    add(entry);
-  }
-
   for (const entry of scored) {
     if (selected.length >= STORY_LIMIT) break;
-    if (isChinaStory(entry.story) && chinaCount >= CHINA_STORY_MAX) continue;
     add(entry);
   }
 
-  return selected;
+  const chinaCandidates = scored.filter(({ story }) => isChinaStory(story));
+  const balancedChinaCandidates = [
+    ...['量子位', 'Qwen Blog', 'InfoQ 中文']
+      .map((source) => chinaCandidates.find(({ story }) => story.source === source))
+      .filter(Boolean),
+    ...chinaCandidates,
+  ];
+
+  for (const entry of balancedChinaCandidates) {
+    if (chinaCount >= CHINA_STORY_MIN) break;
+    const key = keyFor(entry);
+    if (seen.has(key)) continue;
+
+    const replaceIndex = [...selected]
+      .map((candidate, index) => ({ candidate, index }))
+      .reverse()
+      .find(({ candidate }) => !isChinaStory(candidate.story))?.index;
+    if (replaceIndex === undefined) break;
+
+    selected[replaceIndex] = entry;
+    seen.add(key);
+    chinaCount += 1;
+  }
+
+  return selected.sort((a, b) => b.score - a.score).slice(0, STORY_LIMIT);
 }
 function dedupe(stories) {
   const seen = new Set();
@@ -887,6 +900,8 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
+
+
 
 
 
