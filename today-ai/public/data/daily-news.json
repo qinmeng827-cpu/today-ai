@@ -1,10 +1,83 @@
 {
-  "generatedAt": "2026-06-26T03:05:56.881Z",
+  "generatedAt": "2026-06-26T04:07:21.282Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
     "2026-06-26"
   ],
   "stories": [
+    {
+      "id": "2026-06-26-glm-q1-fable",
+      "date": "2026-06-26",
+      "category": "模型更新",
+      "title": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
+      "sourceTitle": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
+      "summary": "量子位 报道关注「马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "互利共赢的生态繁荣",
+      "source": "量子位",
+      "region": "china",
+      "url": "https://www.qbitai.com/2026/06/438351.html",
+      "time": "12:35",
+      "importance": "高",
+      "tags": [
+        "智谱",
+        "中国 AI",
+        "模型更新",
+        "量子位"
+      ],
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-26-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-06-26",
+      "category": "政策与安全",
+      "title": "Qwen3Guard：Token 流实时安全防护",
+      "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "summary": "Qwen Blog 报道关注「Qwen3Guard: Real-time Safety for Your Token Stream」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, ",
+      "source": "Qwen Blog",
+      "region": "china",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "time": "04:00",
+      "importance": "高",
+      "tags": [
+        "Qwen",
+        "中国 AI",
+        "政策与安全",
+        "Qwen Blog"
+      ],
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-26-infoq-fable-5-anthropic-qwen-ceo",
+      "date": "2026-06-26",
+      "category": "政策与安全",
+      "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
+      "sourceTitle": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
+      "summary": "InfoQ 中文 报道关注「Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/MVDrYfoCovqj6zBNxr9e?utm_source=rss&utm_medium=article",
+      "time": "19:12",
+      "importance": "高",
+      "tags": [
+        "Anthropic",
+        "Qwen",
+        "中国 AI",
+        "政策与安全",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
     {
       "id": "2026-06-26-techcrunch-the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-",
       "date": "2026-06-26",
@@ -15,6 +88,7 @@
       "analysis": "这条新闻重要在于，政府可能直接影响大模型发布时间表。企业和开发者需要关注模型可用性、API 节奏和合规要求的变化。",
       "sourceExcerpt": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
       "time": "07:34",
       "importance": "高",
@@ -23,8 +97,8 @@
         "政策与安全",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
+      "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
+      "size": "medium",
       "readMinutes": 3
     },
     {
@@ -37,6 +111,7 @@
       "analysis": "前沿模型发布正在进入“安全审查 + 分阶段放量”的新阶段。它会影响开发者预期、产品路线和竞争对手节奏。",
       "sourceExcerpt": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&A that it",
       "source": "The Verge",
+      "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
       "time": "05:57",
       "importance": "高",
@@ -47,7 +122,7 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
+      "size": "small",
       "readMinutes": 4
     },
     {
@@ -60,15 +135,16 @@
       "analysis": "AI 的成本竞争越来越像能源效率竞争。谁能显著降低功耗，谁就可能改变模型服务的价格结构。",
       "sourceExcerpt": "Un-0 is an image-generation system tool that shows for the first time how the company's technology can replicate conventional AI systems.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
       "time": "00:48",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
       "readMinutes": 5
     },
     {
@@ -81,16 +157,17 @@
       "analysis": "智能体要进入企业流程，必须先证明不会在复杂环境里失控。评测和压力测试会成为 AI agent 生态的基础设施。",
       "sourceExcerpt": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
       "time": "04:19",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "智能体",
         "产品工具",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
       "readMinutes": 3
     },
     {
@@ -103,15 +180,16 @@
       "analysis": "AI 和自动化系统如果缺少人类专家校验，可能把组织知识和生产细节一起丢掉。它对制造业和企业自动化都有警示意义。",
       "sourceExcerpt": "To celebrate its new status as No. 1 in JD Power's initial quality ranking among mainstream automakers, Ford is opening up about the challenges it has faced in recent years, especially around its reliance on automated systems in production and design. It turns",
       "source": "The Verge",
+      "region": "global",
       "url": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
       "time": "20:00",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/acastro_STK056_02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
+      "size": "wide",
       "readMinutes": 4
     },
     {
@@ -124,6 +202,7 @@
       "analysis": "付费用户迁移比免费流量更能说明产品黏性。Claude 的增长意味着消费级 AI 市场并没有完全定型。",
       "sourceExcerpt": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
       "time": "01:38",
       "importance": "中",
@@ -131,33 +210,12 @@
         "Anthropic",
         "Claude",
         "GPT",
-        "模型更新"
+        "模型更新",
+        "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
+      "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82",
+      "size": "medium",
       "readMinutes": 5
-    },
-    {
-      "id": "2026-06-26-google-ai-blog-our-latest-google-finance-upgrades-including-a-new-app",
-      "date": "2026-06-26",
-      "category": "AI 产品工具",
-      "title": "Google Finance 升级并推出新应用，强化金融信息体验",
-      "sourceTitle": "Our latest Google Finance upgrades, including a new app",
-      "summary": "Google 宣布 Google Finance 的最新升级，并推出新的 Android 应用。它将金融信息查询、个性化体验和移动端使用结合得更紧。",
-      "analysis": "金融信息产品正在被 AI 和个性化体验重新包装。对普通用户来说，关键是信息是否更及时、解释是否更清楚。",
-      "sourceExcerpt": "The new Google Finance is coming out of beta and launching a new Android app.",
-      "source": "Google AI Blog",
-      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-      "time": "00:00",
-      "importance": "中",
-      "tags": [
-        "Google",
-        "产品工具",
-        "Google AI Blog"
-      ],
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp",
-      "size": "tall",
-      "readMinutes": 3
     },
     {
       "id": "2026-06-26-techcrunch-general-intuition-s-2-3b-bet-that-video-games-can-train-ai-agents-for",
@@ -169,6 +227,7 @@
       "analysis": "如果游戏数据能迁移到真实世界任务，智能体训练会出现新路径。关键要看这种“动作数据”能否跨场景泛化。",
       "sourceExcerpt": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
       "time": "00:55",
       "importance": "中",
@@ -177,9 +236,9 @@
         "产品工具",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-26-techcrunch-netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-fas",
@@ -191,6 +250,7 @@
       "analysis": "AI 云服务竞争正在催生新的基础设施公司。网络、部署和运维效率会直接影响算力交付速度。",
       "sourceExcerpt": "Netris provides software that runs on network switches, and offers a platform that helps neocloud operators reduce the time it takes to go live.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
       "time": "22:55",
       "importance": "中",
@@ -198,9 +258,9 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "cover",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-26-techcrunch-2-days-left-to-save-up-to-190-join-1-000-founders-and-investors-at-te",
@@ -212,6 +272,7 @@
       "analysis": "这类活动不是核心技术新闻，但能观察市场热度、融资叙事和创业者关注方向。",
       "sourceExcerpt": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
       "time": "22:00",
       "importance": "中",
@@ -219,9 +280,9 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 5
     },
     {
       "id": "2026-06-26-techcrunch-adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs",
@@ -233,6 +294,7 @@
       "analysis": "创意软件巨头会通过收购把独立 AI 工具纳入主工作流。对创作者来说，功能会更集中，但工具生态也会进一步整合。",
       "sourceExcerpt": "Adobe said that it will integrate Topaz Labs' tools across its apps.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
       "time": "21:30",
       "importance": "中",
@@ -240,29 +302,54 @@
         "产品工具",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-26-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
+      "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI News 介绍与 Broadcom 合作的 LLM 优化推理芯片。重点是让大模型服务在更低成本、更高效率的硬件上运行。",
+      "analysis": "推理芯片是 AI 商业化的关键基础设施。谁能降低推理成本，谁就更容易把 AI 功能做进更多产品。",
+      "sourceExcerpt": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "time": "14:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
       "readMinutes": 4
     },
     {
-      "id": "2026-06-26-the-verge-facebook-s-creator-studio-has-been-revived-as-an-ai-companion-app",
+      "id": "2026-06-26-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
       "date": "2026-06-26",
-      "category": "AI 产品工具",
-      "title": "Facebook 将 Creator Studio 复活为 AI 创作者助手",
-      "sourceTitle": "Facebook’s Creator Studio has been revived as an AI companion app",
-      "summary": "The Verge 报道 Facebook 将 Creator Studio 以 AI companion app 的形式重新推出，面向创作者提供内容和运营辅助。",
-      "analysis": "创作者平台正在把 AI 变成生产力入口。谁能帮创作者省时间、提高互动效率，谁就更能锁住内容供给。",
-      "sourceExcerpt": "Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Met",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
-      "time": "17:06",
+      "category": "AI 大事",
+      "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
+      "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "summary": "OpenAI News 介绍 Daybreak 旗下 Patch the Planet 计划，目标是支持开源维护者。它关注 AI 时代基础软件生态的维护压力和可持续资金。",
+      "analysis": "AI 工具高度依赖开源生态。支持维护者不是公益边角料，而是 AI 基础设施稳定性的组成部分。",
+      "sourceExcerpt": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/patch-the-planet",
+      "time": "18:00",
       "importance": "中",
       "tags": [
-        "产品工具",
-        "The Verge"
+        "OpenAI",
+        "大事",
+        "OpenAI News"
       ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Facebook-Creator-Studio-relaunch.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
       "readMinutes": 5
     },
     {
@@ -275,6 +362,7 @@
       "analysis": "AI 基础设施正在全球扩张。印度市场既是云计算增长点，也是未来 AI 应用和开发者生态的重要战场。",
       "sourceExcerpt": "Amazon’s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
       "source": "TechCrunch",
+      "region": "global",
       "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
       "time": "20:00",
       "importance": "中",
@@ -282,97 +370,9 @@
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-06-26-the-verge-openai-reveals-its-first-ai-processor-jalape-o",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 首款自研 AI 处理器 Jalapeño 曝光",
-      "sourceTitle": "OpenAI reveals its first AI processor: Jalapeño",
-      "summary": "The Verge 报道 OpenAI 首款 AI 处理器 Jalapeño。OpenAI 正在把竞争从模型和应用延伸到芯片与推理成本，试图降低对外部硬件供应的依赖。",
-      "analysis": "自研芯片会直接影响推理成本、产品价格和模型可用性。它也是 OpenAI 从软件公司走向基础设施公司的信号。",
-      "sourceExcerpt": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalapeño, is designed to power current and future large language models, according to an announcement on Wednesday. Jalapeño is an A",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-      "time": "22:36",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/openai-broadcom-jalapeno-inference-chip-image.webp?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-26-the-verge-hollywood-is-bending-the-knee-to-openai",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "好莱坞开始向 OpenAI 靠拢，影视行业 AI 态度转向",
-      "sourceTitle": "Hollywood is bending the knee to OpenAI",
-      "summary": "The Verge 报道好莱坞与 OpenAI 的关系正在发生变化。影视行业一边担心版权和工作岗位，一边也开始寻找与 AI 平台合作的方式。",
-      "analysis": "内容行业对 AI 的态度从抵触走向谈判，会影响版权授权、视频生成产品和创意工作流。",
-      "sourceExcerpt": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
-      "time": "06:03",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
-      "size": "small",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-26-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
-      "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI News 介绍与 Broadcom 合作的 LLM 优化推理芯片。重点是让大模型服务在更低成本、更高效率的硬件上运行。",
-      "analysis": "推理芯片是 AI 商业化的关键基础设施。谁能降低推理成本，谁就更容易把 AI 功能做进更多产品。",
-      "sourceExcerpt": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "time": "14:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 3
-    },
-    {
-      "id": "2026-06-26-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
-      "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "summary": "OpenAI News 介绍 Daybreak 旗下 Patch the Planet 计划，目标是支持开源维护者。它关注 AI 时代基础软件生态的维护压力和可持续资金。",
-      "analysis": "AI 工具高度依赖开源生态。支持维护者不是公益边角料，而是 AI 基础设施稳定性的组成部分。",
-      "sourceExcerpt": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/patch-the-planet",
-      "time": "18:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
     },
     {
       "id": "2026-06-26-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
@@ -384,6 +384,7 @@
       "analysis": "医疗 AI 的价值不在炫技，而在降低漏诊、缩短诊断时间和辅助专业医生决策。这个方向需要持续关注可靠性和临床验证。",
       "sourceExcerpt": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
       "source": "OpenAI News",
+      "region": "global",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
       "time": "16:00",
       "importance": "中",
@@ -392,9 +393,77 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-26-the-verge-facebook-s-creator-studio-has-been-revived-as-an-ai-companion-app",
+      "date": "2026-06-26",
+      "category": "AI 产品工具",
+      "title": "Facebook 将 Creator Studio 复活为 AI 创作者助手",
+      "sourceTitle": "Facebook’s Creator Studio has been revived as an AI companion app",
+      "summary": "The Verge 报道 Facebook 将 Creator Studio 以 AI companion app 的形式重新推出，面向创作者提供内容和运营辅助。",
+      "analysis": "创作者平台正在把 AI 变成生产力入口。谁能帮创作者省时间、提高互动效率，谁就更能锁住内容供给。",
+      "sourceExcerpt": "Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Met",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "time": "17:06",
+      "importance": "中",
+      "tags": [
+        "产品工具",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Facebook-Creator-Studio-relaunch.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "wide",
       "readMinutes": 5
+    },
+    {
+      "id": "2026-06-26-the-verge-openai-reveals-its-first-ai-processor-jalape-o",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "OpenAI 首款自研 AI 处理器 Jalapeño 曝光",
+      "sourceTitle": "OpenAI reveals its first AI processor: Jalapeño",
+      "summary": "The Verge 报道 OpenAI 首款 AI 处理器 Jalapeño。OpenAI 正在把竞争从模型和应用延伸到芯片与推理成本，试图降低对外部硬件供应的依赖。",
+      "analysis": "自研芯片会直接影响推理成本、产品价格和模型可用性。它也是 OpenAI 从软件公司走向基础设施公司的信号。",
+      "sourceExcerpt": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalapeño, is designed to power current and future large language models, according to an announcement on Wednesday. Jalapeño is an A",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+      "time": "22:36",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/openai-broadcom-jalapeno-inference-chip-image.webp?quality=90&strip=all&crop=0,0,100,100",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-26-the-verge-hollywood-is-bending-the-knee-to-openai",
+      "date": "2026-06-26",
+      "category": "AI 大事",
+      "title": "好莱坞开始向 OpenAI 靠拢，影视行业 AI 态度转向",
+      "sourceTitle": "Hollywood is bending the knee to OpenAI",
+      "summary": "The Verge 报道好莱坞与 OpenAI 的关系正在发生变化。影视行业一边担心版权和工作岗位，一边也开始寻找与 AI 平台合作的方式。",
+      "analysis": "内容行业对 AI 的态度从抵触走向谈判，会影响版权授权、视频生成产品和创意工作流。",
+      "sourceExcerpt": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+      "time": "06:03",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
+      "size": "small",
+      "readMinutes": 4
     },
     {
       "id": "2026-06-26-openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai",
@@ -406,6 +475,7 @@
       "analysis": "金融机构采用 AI 的速度和边界，会影响企业级 AI 的合规、审计和风险管理标准。",
       "sourceExcerpt": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "source": "OpenAI News",
+      "region": "global",
       "url": "https://openai.com/index/bbva",
       "time": "08:00",
       "importance": "中",
@@ -414,31 +484,32 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-06-26-google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs-and-",
+      "id": "2026-06-26-openai-news-access-openai-models-and-codex-through-your-oracle-cloud-commitment",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "Google 在弗吉尼亚投资社区与能源项目，支撑数据中心扩张",
-      "sourceTitle": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "summary": "Google 介绍其在弗吉尼亚的新社区投资，重点包括本地就业和能源可负担性。背后与数据中心和 AI 基础设施扩张密切相关。",
-      "analysis": "AI 基础设施不只需要芯片，还需要电力、社区支持和地方政策。能源议题会越来越影响 AI 扩张速度。",
-      "sourceExcerpt": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "source": "Google AI Blog",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "title": "可通过 Oracle 云承诺使用 OpenAI 模型和 Codex",
+      "sourceTitle": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "summary": "OpenAI News 摘要提到：Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
       "time": "04:00",
       "importance": "中",
       "tags": [
-        "Google",
+        "OpenAI",
         "大事",
-        "Google AI Blog"
+        "OpenAI News"
       ],
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp",
-      "size": "small",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
     },
     {
       "id": "2026-06-26-openai-news-building-the-infrastructure-for-the-intelligence-age-in-michigan",
@@ -450,51 +521,9 @@
       "analysis": "AI 竞争正在落到数据中心、电力和地方社区支持上。基础设施布局会决定未来模型服务的规模和成本。",
       "sourceExcerpt": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
       "source": "OpenAI News",
+      "region": "global",
       "url": "https://openai.com/index/stargate-michigan-data-center",
       "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-26-openai-news-boston-children-s-uses-ai-to-unlock-new-diagnoses",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "波士顿儿童医院用 AI 帮助发现新的诊断线索",
-      "sourceTitle": "Boston Children’s uses AI to unlock new diagnoses",
-      "summary": "OpenAI News 介绍波士顿儿童医院使用 OpenAI 技术改善患者护理、减轻运营负担，并帮助诊断 40 多个罕见疾病病例。",
-      "analysis": "医疗 AI 的关键价值是辅助专业医生更快找到线索，而不是替代医生。可靠性、隐私和临床验证仍然重要。",
-      "sourceExcerpt": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/boston-childrens-hospital",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-06-26-openai-news-mufg-aims-to-become-ai-native-with-openai",
-      "date": "2026-06-26",
-      "category": "AI 大事",
-      "title": "三菱日联金融集团与 OpenAI 推进 AI 原生组织转型",
-      "sourceTitle": "MUFG aims to become AI-native with OpenAI",
-      "summary": "OpenAI News 介绍 MUFG 使用 ChatGPT Enterprise 构建 AI-native 组织，改进内部工作流，并推出新的 AI 金融服务。",
-      "analysis": "大型金融机构采用 AI 的方式，会影响合规、审计、员工培训和客户服务标准。它是企业级 AI 落地的重要风向。",
-      "sourceExcerpt": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/mufg",
-      "time": "08:00",
       "importance": "中",
       "tags": [
         "OpenAI",
@@ -506,108 +535,115 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-06-26-techcrunch-ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-they-r",
+      "id": "2026-06-26-openai-news-boston-children-s-uses-ai-to-unlock-new-diagnoses",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "AI 没有杀死工程岗位，反而让工程师更抗冲击",
-      "sourceTitle": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
-      "summary": "这篇报道关注 AI 对工程岗位的真实影响：新数据并不支持“工程师会最先被替代”的判断，反而显示工程类岗位在就业市场里更有韧性。值得看的是，AI 正在改变岗位内容，而不是简单消灭岗位。",
-      "analysis": "如果你关心职业选择或团队配置，这条新闻比“AI 替代人类”的笼统叙事更有参考价值。关键要观察工程师的工作重心会向系统设计、评审和 AI 协作迁移多少。",
-      "sourceExcerpt": "While AI dominates the layoff narrative, engineers are actually making up a larger share of new hires, according to SignalFire data.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
-      "time": "05:56",
+      "title": "波士顿儿童医院用 AI 帮助发现新的诊断线索",
+      "sourceTitle": "Boston Children’s uses AI to unlock new diagnoses",
+      "summary": "OpenAI News 介绍波士顿儿童医院使用 OpenAI 技术改善患者护理、减轻运营负担，并帮助诊断 40 多个罕见疾病病例。",
+      "analysis": "医疗 AI 的关键价值是辅助专业医生更快找到线索，而不是替代医生。可靠性、隐私和临床验证仍然重要。",
+      "sourceExcerpt": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "time": "20:00",
       "importance": "中",
       "tags": [
         "大事",
-        "TechCrunch"
+        "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "medium",
       "readMinutes": 5
     },
     {
-      "id": "2026-06-26-the-verge-congresswoman-denies-staff-used-ai-to-write-defense-funding-amendment",
+      "id": "2026-06-26-openai-news-mufg-aims-to-become-ai-native-with-openai",
       "date": "2026-06-26",
-      "category": "政策与安全",
-      "title": "美国议员否认用 AI 撰写国防拨款修正案",
-      "sourceTitle": "Congresswoman denies staff used AI to write defense funding amendment",
-      "summary": "报道提到，一名美国国会议员否认其团队使用 AI 撰写国防拨款修正案。争议点在于，AI 是否已经进入严肃立法与国防预算文本的起草流程。",
-      "analysis": "这不是普通工具使用问题，而是公共决策透明度问题。未来政府文件是否需要披露 AI 参与程度，会成为政策焦点。",
-      "sourceExcerpt": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts o",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
-      "time": "03:36",
+      "category": "AI 大事",
+      "title": "三菱日联金融集团与 OpenAI 推进 AI 原生组织转型",
+      "sourceTitle": "MUFG aims to become AI-native with OpenAI",
+      "summary": "OpenAI News 介绍 MUFG 使用 ChatGPT Enterprise 构建 AI-native 组织，改进内部工作流，并推出新的 AI 金融服务。",
+      "analysis": "大型金融机构采用 AI 的方式，会影响合规、审计、员工培训和客户服务标准。它是企业级 AI 落地的重要风向。",
+      "sourceExcerpt": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/mufg",
+      "time": "08:00",
       "importance": "中",
       "tags": [
-        "政策与安全",
-        "The Verge"
+        "OpenAI",
+        "大事",
+        "OpenAI News"
       ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-06-26-techcrunch-ai-researchers-continue-to-leave-google-for-its-rivals",
+      "id": "2026-06-26-openai-news-how-virgin-atlantic-ships-faster-with-codex",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "AI 研究员继续离开 Google，顶级人才流向竞争对手",
-      "sourceTitle": "AI researchers continue to leave Google for its rivals",
-      "summary": "报道关注 Google AI 人才持续流失的问题。顶尖研究员流向竞争对手，说明大模型竞争不只是产品竞赛，也是研究文化、激励机制和创业机会的竞争。",
-      "analysis": "AI 公司之间的人才迁移会改变模型路线和产品速度。人才流向有时比单次发布更能提示行业重心。",
-      "sourceExcerpt": "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following departures from top scientists Noam Shazeer and John Jumper.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
-      "time": "05:42",
+      "title": "Virgin Atlantic 用 Codex 加快软件交付",
+      "sourceTitle": "How Virgin Atlantic ships faster with Codex",
+      "summary": "OpenAI News 摘要提到：How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "time": "08:00",
       "importance": "中",
       "tags": [
-        "Google",
         "大事",
-        "TechCrunch"
+        "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-06-26-the-verge-the-27-million-ai-proxy-war-over-alex-bores-ends-in-a-draw",
+      "id": "2026-06-26-openai-news-adventhealth-advances-whole-person-care-with-openai",
       "date": "2026-06-26",
-      "category": "政策与安全",
-      "title": "一场围绕 AI 政策的 2700 万美元代理战暂时打成平手",
-      "sourceTitle": "The $27 million AI proxy war over Alex Bores ends in a draw",
-      "summary": "The Verge 报道了一场围绕 Alex Bores 的高额政治代理战。背后真正的焦点不是单一选举，而是 AI 产业、监管路线和政治资金正在更深地绑定。",
-      "analysis": "当 AI 政策进入选举和游说体系，行业规则会越来越受资本和政治博弈影响。这类新闻适合追踪监管风向。",
-      "sourceExcerpt": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to repr",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
-      "time": "01:25",
+      "category": "AI 大事",
+      "title": "AdventHealth 用 OpenAI 推进医疗护理服务",
+      "sourceTitle": "AdventHealth advances whole-person care with OpenAI",
+      "summary": "OpenAI News 摘要提到：AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/adventhealth",
+      "time": "20:00",
       "importance": "中",
       "tags": [
-        "政策与安全",
-        "The Verge"
+        "OpenAI",
+        "大事",
+        "OpenAI News"
       ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2282522212.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-06-26-techcrunch-the-memory-chip-crunch-is-paying-off-for-this-us-company",
+      "id": "2026-06-26-openai-news-the-next-phase-of-openai-s-education-for-countries",
       "date": "2026-06-26",
       "category": "AI 大事",
-      "title": "存储芯片紧缺推高 AI 硬件景气，一家美国公司率先受益",
-      "sourceTitle": "The memory chip crunch is paying off for this US company",
-      "summary": "这条新闻关注存储芯片供需紧张带来的行业收益。AI 训练和推理都在推高高性能存储需求，硬件产业链的部分公司因此获得更强定价权。",
-      "analysis": "算力竞争不只发生在 GPU 上，存储、网络和数据中心配套也会成为利润重新分配的地方。",
-      "sourceExcerpt": "Revenue quadrupled to $41.45 billion compared with the same period a year ago. The company's profit, meanwhile, rose from $1.88 billion to an incredible $28.2 billion year-over-year.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
-      "time": "05:30",
+      "title": "OpenAI 推进国家级 AI 教育计划下一阶段",
+      "sourceTitle": "The next phase of OpenAI’s Education for Countries",
+      "summary": "OpenAI News 摘要提到：OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "time": "08:00",
       "importance": "中",
       "tags": [
+        "OpenAI",
         "大事",
-        "TechCrunch"
+        "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
       "size": "wide",
       "readMinutes": 3
     }

@@ -52,13 +52,21 @@ const RSS_FEEDS = [
   { source: 'TechCrunch', category: '商业融资', url: 'https://techcrunch.com/category/artificial-intelligence/feed/' },
   { source: 'Google AI Blog', category: '模型更新', url: 'https://blog.google/technology/ai/rss/' },
   { source: 'OpenAI News', category: 'AI 大事', url: 'https://openai.com/news/rss.xml' },
+  { source: '量子位', category: 'AI 大事', region: 'china', requireAi: true, url: 'https://www.qbitai.com/feed' },
+  { source: 'InfoQ 中文', category: 'AI 产品工具', region: 'china', requireAi: true, url: 'https://www.infoq.cn/feed' },
+  { source: 'Qwen Blog', category: '模型更新', region: 'china', url: 'https://qwenlm.github.io/blog/index.xml' },
 ];
+
+const STORY_LIMIT = 28;
+const CHINA_STORY_MIN = 3;
+const CHINA_STORY_MAX = 5;
 
 const SOURCE_WEIGHT = new Map([
   ['Reuters', 40], ['Associated Press', 36], ['The Verge', 34], ['Axios', 34],
   ['TechCrunch', 32], ['Bloomberg', 32], ['Financial Times', 32], ['The Wall Street Journal', 32],
   ['Business Insider', 26], ['VentureBeat', 24], ['MIT Technology Review', 28], ['arXiv', 24],
   ['OpenAI News', 36], ['Google AI Blog', 34], ['Microsoft', 30], ['NVIDIA Blog', 30],
+  ['量子位', 31], ['InfoQ 中文', 27], ['Qwen Blog', 33],
 ]);
 
 const EDITORIAL_OVERRIDES = new Map(Object.entries({
@@ -547,16 +555,45 @@ function pickSourceExcerpt(item) {
   return cleanExcerpt(pick(item, 'description') || pick(item, 'summary') || pick(item, 'content:encoded'));
 }
 
+function isWeakExcerpt(excerpt = '') {
+  return !excerpt || excerpt.length < 12 || /^点击查看原文|^read more|^continue reading/i.test(excerpt);
+}
+
+function makeChinaSummary(story) {
+  const focus = story.category === '模型更新'
+    ? '国内模型能力和发布节奏'
+    : story.category === '政策与安全'
+      ? '国内外 AI 竞争、合规和治理变化'
+      : story.category === '商业融资'
+        ? '中国 AI 公司的商业化和资本动向'
+        : '中国 AI 产品和企业应用落地';
+  return `${story.source} 报道关注「${story.sourceTitle}」。这条适合用来观察${focus}，建议结合原文判断它对行业主线的实际影响。`;
+}
+
+function hasChinese(text = '') {
+  return /[\u4e00-\u9fff]/.test(text);
+}
+
+function isChinaStory(story = {}) {
+  const text = `${story.source || ''} ${story.sourceTitle || ''} ${story.title || ''}`;
+  return story.region === 'china' || /量子位|InfoQ 中文|Qwen|通义|千问|阿里|腾讯|百度|字节|豆包|DeepSeek|Kimi|月之暗面|智谱|GLM|讯飞|商汤|阶跃星辰|MiniMax|百川|零一万物/.test(text);
+}
+
+function isAiRelevant(story = {}) {
+  const text = `${story.sourceTitle || ''} ${story.sourceExcerpt || ''}`.toLowerCase();
+  return /ai|人工智能|大模型|模型|智能体|agent|agentic|qwen|通义|千问|deepseek|kimi|智谱|glm|豆包|claude|gpt|openai|anthropic|llm|copilot|算力|芯片|机器人|生成式|aigc|机器学习|神经网络|推理|训练|数据集|基准|安全|治理/.test(text);
+}
+
 function classify(title, fallbackCategory) {
   const override = editorialFor(title);
   if (override?.category) return override.category;
   const text = title.toLowerCase();
-  if (/regulation|safety|policy|copyright|lawsuit|court|security|privacy|government|election|pentagon|risk|congress|congresswoman|defense|washington|chip war/.test(text)) return '政策与安全';
-  if (/paper|research|arxiv|benchmark|training|dataset|robotics|simulation|agentic|eval|scientists/.test(text)) return '论文与技术';
-  if (/model|claude|gpt|gemini|llama|mistral|qwen|deepseek|release|frontier|reasoning/.test(text)) return '模型更新';
-  if (/tool|app|browser|assistant|agent|product|launch|workflow|coding|search/.test(text)) return 'AI 产品工具';
-  if (/funding|raises|valuation|acquisition|ipo|startup|venture|revenue|deal|investor|earnings|stock/.test(text)) return '商业融资';
-  if (/job|jobs|workforce|labor|employment|chip|compute|data center/.test(text)) return 'AI 大事';
+  if (/监管|政策|安全|合规|隐私|版权|诉讼|法律|治理|风险|权限|白宫|政府|国防|regulation|safety|policy|copyright|lawsuit|court|security|privacy|government|election|pentagon|risk|congress|congresswoman|defense|washington|chip war/.test(text)) return '政策与安全';
+  if (/论文|研究|数据集|基准|评测|训练|推理|强化学习|科学|开源|paper|research|arxiv|benchmark|training|dataset|robotics|simulation|agentic|eval|scientists/.test(text)) return '论文与技术';
+  if (/模型|qwen|通义|千问|deepseek|kimi|智谱|glm|豆包|claude|gpt|gemini|llama|mistral|release|frontier|reasoning/.test(text)) return '模型更新';
+  if (/工具|应用|助手|智能体|平台|搜索|编码|copilot|tool|app|browser|assistant|agent|product|launch|workflow|coding|search/.test(text)) return 'AI 产品工具';
+  if (/融资|收购|投资|估值|上市|营收|arr|商业|创业|funding|raises|valuation|acquisition|ipo|startup|venture|revenue|deal|investor|earnings|stock/.test(text)) return '商业融资';
+  if (/算力|芯片|数据中心|基础设施|企业|job|jobs|workforce|labor|employment|chip|compute|data center/.test(text)) return 'AI 大事';
   return fallbackCategory || 'AI 大事';
 }
 
@@ -588,9 +625,39 @@ function primarySubject(title = '') {
   return canonical[match[1].toLowerCase()] || match[1];
 }
 
+function makeQwenChineseTitle(sourceTitle = '') {
+  const qwenTitleMap = [
+    [/Qwen3Guard/i, 'Qwen3Guard：Token 流实时安全防护'],
+    [/Qwen-Image-Edit/i, 'Qwen-Image-Edit：更高质量的图像编辑模型'],
+    [/Qwen-Image:/i, 'Qwen-Image：强化原生文字渲染的图像模型'],
+    [/Qwen-MT/i, 'Qwen-MT：更快更智能的机器翻译模型'],
+    [/Qwen3-Coder/i, 'Qwen3-Coder：面向智能体编程的代码模型'],
+    [/Qwen-TTS/i, 'Qwen-TTS：通义千问语音模型支持更多方言'],
+    [/Qwen VLo/i, 'Qwen VLo：从理解世界到生成视觉内容'],
+  ];
+  const match = qwenTitleMap.find(([pattern]) => pattern.test(sourceTitle));
+  return match ? match[1] : `通义千问官方：${sourceTitle}`;
+}
+
+function makeOpenAINewsTitle(sourceTitle = '') {
+  const accessMatch = sourceTitle.match(/Access OpenAI models and Codex through your (.+?) cloud commitment/i);
+  if (accessMatch) return `可通过 ${accessMatch[1]} 云承诺使用 OpenAI 模型和 Codex`;
+  const codexMatch = sourceTitle.match(/How (.+?) ships faster with Codex/i);
+  if (codexMatch) return `${codexMatch[1]} 用 Codex 加快软件交付`;
+  const careMatch = sourceTitle.match(/(.+?) advances .*care with OpenAI/i);
+  if (careMatch) return `${careMatch[1]} 用 OpenAI 推进医疗护理服务`;
+  if (/Education for Countries/i.test(sourceTitle)) return 'OpenAI 推进国家级 AI 教育计划下一阶段';
+  if (/infrastructure for the Intelligence Age/i.test(sourceTitle)) return 'OpenAI 推进智能时代基础设施建设';
+  if (/benefit everyone/i.test(sourceTitle)) return 'OpenAI 公布让 AI 惠及更多人的计划';
+  return `OpenAI：${sourceTitle}`;
+}
+
 function makeChineseTitle(sourceTitle, source, category) {
   const override = editorialFor(sourceTitle);
   if (override?.title) return override.title;
+  if (hasChinese(sourceTitle)) return sourceTitle;
+  if (source === 'Qwen Blog') return makeQwenChineseTitle(sourceTitle);
+  if (source === 'OpenAI News') return makeOpenAINewsTitle(sourceTitle);
 
   const subject = primarySubject(sourceTitle);
   if (subject && sourceTitle.length < 90) return sourceTitle;
@@ -600,7 +667,12 @@ function makeChineseTitle(sourceTitle, source, category) {
 function makeSummary(story) {
   const override = editorialFor(story.sourceTitle);
   if (override?.summary) return override.summary;
-  if (story.sourceExcerpt) {
+  if (story.source === 'Qwen Blog') return makeChinaSummary(story);
+  if (isChinaStory(story) && isWeakExcerpt(story.sourceExcerpt)) return makeChinaSummary(story);
+  if (story.sourceExcerpt && !isWeakExcerpt(story.sourceExcerpt)) {
+    if (story.region === 'china' || hasChinese(story.sourceExcerpt)) {
+      return `${story.source} 报道：${story.sourceExcerpt}`;
+    }
     return `${story.source} 摘要提到：${story.sourceExcerpt}`;
   }
   return `这条新闻关注「${story.sourceTitle}」。它被归入「${story.category}」，建议重点看它对产品路线、成本结构、监管环境或行业竞争的实际影响。`;
@@ -609,6 +681,9 @@ function makeSummary(story) {
 function makeAnalysis(story) {
   const override = editorialFor(story.sourceTitle);
   if (override?.analysis) return override.analysis;
+  if (isChinaStory(story)) {
+    return '这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。';
+  }
 
   const hints = {
     'AI 大事': '这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。',
@@ -624,12 +699,13 @@ function makeAnalysis(story) {
 function makeTags(story) {
   const tags = new Set();
   const text = `${story.title} ${story.sourceTitle}`;
-  for (const keyword of ['OpenAI', 'Anthropic', 'Google', 'Microsoft', 'Nvidia', 'Meta', 'Claude', 'Gemini', 'GPT', 'agent', 'robotics', 'arXiv']) {
+  for (const keyword of ['OpenAI', 'Anthropic', 'Google', 'Microsoft', 'Nvidia', 'Meta', 'Claude', 'Gemini', 'GPT', 'Qwen', 'DeepSeek', 'Kimi', '智谱', '豆包', '通义', 'agent', 'robotics', 'arXiv']) {
     if (text.toLowerCase().includes(keyword.toLowerCase())) tags.add(keyword.replace('agent', '智能体').replace('robotics', '机器人'));
   }
+  if (isChinaStory(story)) tags.add('中国 AI');
   tags.add(story.category.replace('AI ', ''));
   tags.add(story.source);
-  return [...tags].slice(0, 4);
+  return [...tags].slice(0, 5);
 }
 
 async function fetchText(url) {
@@ -652,19 +728,20 @@ async function fetchRssFeed(feed) {
     const sourceTitle = cleanTitle(pick(item, 'title'), feed.source);
     const publishedText = pick(item, 'pubDate') || pick(item, 'published') || pick(item, 'updated');
     const published = new Date(publishedText || Date.now());
-    return {
+    const story = {
       sourceTitle,
       title: sourceTitle,
       source: feed.source,
+      region: feed.region || 'global',
       url: pickLink(item) || feed.url,
       image: pickImageFromItem(item),
       sourceExcerpt: pickSourceExcerpt(item),
       published: Number.isNaN(published.getTime()) ? new Date() : published,
       category: classify(sourceTitle, feed.category),
     };
-  }).filter((item) => item.sourceTitle && item.url);
+    return story;
+  }).filter((item) => item.sourceTitle && item.url && (!feed.requireAi || isAiRelevant(item)));
 }
-
 async function fetchArxiv() {
   const url = 'https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=14';
   const xml = await fetchText(url);
@@ -689,7 +766,13 @@ function scoreStory(story, index) {
   const sourceScore = SOURCE_WEIGHT.get(story.source) || 12;
   const categoryScore = story.category === 'AI 大事' ? 10 : story.category === '政策与安全' ? 7 : 5;
   const recencyScore = Math.max(0, 24 - Math.floor((Date.now() - story.published.getTime()) / 36e5));
-  return sourceScore + categoryScore + recencyScore - index * 0.05;
+  const text = `${story.sourceTitle || ''} ${story.sourceExcerpt || ''}`;
+  let qualityScore = 0;
+  if (isChinaStory(story)) {
+    if (/发布|模型|平台|产品|工具|智能体|企业|融资|投资|ARR|算力|芯片|基础设施|科大讯飞|智谱|GLM|通义|千问|Qwen|DeepSeek|Kimi|豆包|腾讯|阿里|百度|字节|商汤/.test(text)) qualityScore += 18;
+    if (/WAIC|WAVES|报名|大会|峰会|论坛|联名|盛夏|活动|直播|回放|嘉宾|\d+月\d+日|深圳|上海|北京/.test(text)) qualityScore -= 36;
+  }
+  return sourceScore + categoryScore + recencyScore + qualityScore - index * 0.05;
 }
 
 function toStory(raw, index, date) {
@@ -705,6 +788,7 @@ function toStory(raw, index, date) {
     analysis: '',
     sourceExcerpt: raw.sourceExcerpt || '',
     source: raw.source,
+    region: raw.region || 'global',
     url: raw.url,
     time: timeInShanghai(raw.published),
     importance: index < 5 ? '高' : '中',
@@ -719,6 +803,40 @@ function toStory(raw, index, date) {
   return story;
 }
 
+function selectDailyStories(scored) {
+  const selected = [];
+  const seen = new Set();
+  let chinaCount = 0;
+
+  const add = (entry) => {
+    const key = `${entry.story.source}-${entry.story.sourceTitle}`;
+    if (seen.has(key) || selected.length >= STORY_LIMIT) return false;
+    seen.add(key);
+    selected.push(entry);
+    if (isChinaStory(entry.story)) chinaCount += 1;
+    return true;
+  };
+
+  const chinaCandidates = scored.filter(({ story }) => isChinaStory(story));
+  for (const source of ['量子位', 'Qwen Blog', 'InfoQ 中文']) {
+    if (chinaCount >= CHINA_STORY_MIN) break;
+    const entry = chinaCandidates.find(({ story }) => story.source === source);
+    if (entry) add(entry);
+  }
+
+  for (const entry of chinaCandidates) {
+    if (chinaCount >= CHINA_STORY_MIN) break;
+    add(entry);
+  }
+
+  for (const entry of scored) {
+    if (selected.length >= STORY_LIMIT) break;
+    if (isChinaStory(entry.story) && chinaCount >= CHINA_STORY_MAX) continue;
+    add(entry);
+  }
+
+  return selected;
+}
 function dedupe(stories) {
   const seen = new Set();
   const result = [];
@@ -740,10 +858,10 @@ async function main() {
   }
 
   const date = todayInShanghai();
-  const ranked = dedupe(fetched)
+  const scored = dedupe(fetched)
     .map((story, index) => ({ story, score: scoreStory(story, index) }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 28)
+    .sort((a, b) => b.score - a.score);
+  const ranked = selectDailyStories(scored)
     .map(({ story }, index) => toStory(story, index, date));
 
   if (ranked.length < 8) {
@@ -769,3 +887,17 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
