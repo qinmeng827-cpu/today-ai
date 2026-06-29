@@ -1,13 +1,148 @@
 {
-  "generatedAt": "2026-06-28T00:14:07.835Z",
+  "generatedAt": "2026-06-29T00:18:59.605Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-06-28"
+    "2026-06-29"
   ],
   "stories": [
     {
-      "id": "2026-06-28-the-verge-margaret-atwood-says-the-problem-with-ai-is-garbage-in-garbage-out",
-      "date": "2026-06-28",
+      "id": "2026-06-29-the-verge-china-s-z-ai-claims-it-can-match-mythos-on-cybersecurity",
+      "date": "2026-06-29",
+      "category": "政策与安全",
+      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
+      "sourceTitle": "China’s Z.ai claims it can match Mythos on cybersecurity",
+      "summary": "The Verge 摘要提到：China's Zhipu AI (Z.ai) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems",
+      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
+      "sourceExcerpt": "China's Zhipu AI (Z.ai) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "time": "05:42",
+      "importance": "高",
+      "tags": [
+        "政策与安全",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STKS515_CYBER_WARFARE2_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-29-the-verge-suno-launches-spark-incubator-program-to-feed-independent-artists-to-i",
+      "date": "2026-06-29",
+      "category": "AI 产品工具",
+      "title": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+      "sourceTitle": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+      "summary": "The Verge 摘要提到：Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To a",
+      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
+      "sourceExcerpt": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To a",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+      "time": "04:27",
+      "importance": "高",
+      "tags": [
+        "产品工具",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK467_AI_MUSIC_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-29-techcrunch-ford-rehires-gray-beard-engineers-after-ai-falls-short",
+      "date": "2026-06-29",
+      "category": "商业融资",
+      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "sourceTitle": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "summary": "TechCrunch 摘要提到：\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "time": "03:05",
+      "importance": "高",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-06-29-openai-news-hp-inc-launches-frontier-strategic-partnership-with-openai",
+      "date": "2026-06-29",
+      "category": "模型更新",
+      "title": "OpenAI：HP Inc. launches Frontier strategic partnership with OpenAI",
+      "sourceTitle": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "OpenAI News 摘要提到：HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
+      "sourceExcerpt": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "time": "01:00",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "模型更新",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-06-29-the-verge-prosecutors-used-chatgpt-logs-as-evidence-in-the-palisades-fire-trial",
+      "date": "2026-06-29",
+      "category": "模型更新",
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "sourceTitle": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "summary": "The Verge 摘要提到：Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the deadliest wildfires in LA history. To make their case, prosecutors turned to location data from his iPhone, security camera footage, and witnes",
+      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
+      "sourceExcerpt": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the deadliest wildfires in LA history. To make their case, prosecutors turned to location data from his iPhone, security camera footage, and witnes",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "time": "22:12",
+      "importance": "高",
+      "tags": [
+        "GPT",
+        "模型更新",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22530766/1232927726.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "small",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-29-techcrunch-why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia",
+      "date": "2026-06-29",
+      "category": "商业融资",
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "sourceTitle": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "summary": "TechCrunch 摘要提到：Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "time": "23:00",
+      "importance": "中",
+      "tags": [
+        "Nvidia",
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
+      "size": "cover",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-06-29-the-verge-margaret-atwood-says-the-problem-with-ai-is-garbage-in-garbage-out",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
       "sourceTitle": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
@@ -18,130 +153,18 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
       "time": "02:39",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2258417618.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-06-28-techcrunch-softbank-s-ceo-isn-t-the-only-one-with-questions-about-elon-musk-s-or",
-      "date": "2026-06-28",
-      "category": "AI 大事",
-      "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
-      "sourceTitle": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
-      "summary": "TechCrunch 摘要提到：Not everyone is buying Elon Musk’s vision for orbital data centers.",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Not everyone is buying Elon Musk’s vision for orbital data centers.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
-      "time": "04:42",
-      "importance": "高",
-      "tags": [
-        "大事",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
       "size": "tall",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-28-techcrunch-apple-vision-pro-exec-is-reportedly-leaving-for-openai",
-      "date": "2026-06-28",
-      "category": "AI 产品工具",
-      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "sourceTitle": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "summary": "TechCrunch 摘要提到：Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
-      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
-      "sourceExcerpt": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-      "time": "00:45",
-      "importance": "高",
-      "tags": [
-        "OpenAI",
-        "产品工具",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-28-the-verge-why-is-apple-asking-me-to-pay-more-for-big-tech-s-ai-obsession",
-      "date": "2026-06-28",
-      "category": "AI 产品工具",
-      "title": "Why is Apple asking me to pay more for Big Tech’s AI obsession?",
-      "sourceTitle": "Why is Apple asking me to pay more for Big Tech’s AI obsession?",
-      "summary": "The Verge 摘要提到：Tim Cook recently said price increases were \"unavoidable\" and described the company's pricing as \"unsustainable.\" The 16-inch MacBook Pro saw its price go up by $300. The 11-inch iPad Air went from $599 to $749. Even the HomePod Mini got a $30 bump to $129. Co",
-      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
-      "sourceExcerpt": "Tim Cook recently said price increases were \"unavoidable\" and described the company's pricing as \"unsustainable.\" The 16-inch MacBook Pro saw its price go up by $300. The 11-inch iPad Air went from $599 to $749. Even the HomePod Mini got a $30 bump to $129. Co",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
-      "time": "21:30",
-      "importance": "高",
-      "tags": [
-        "产品工具",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK071_ACastro_apple_0003_a30fb2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-06-28-techcrunch-the-fittest-founder-in-the-room-got-cancer-here-s-how-he-used-ai-to-f",
-      "date": "2026-06-28",
-      "category": "商业融资",
-      "title": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
-      "sourceTitle": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
-      "summary": "TechCrunch 摘要提到：When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-      "time": "22:00",
-      "importance": "高",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-06-28-techcrunch-asian-ai-startups-launch-mythos-like-models-as-anthropic-s-export-ban",
-      "date": "2026-06-28",
-      "category": "AI 产品工具",
-      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
-      "sourceTitle": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
-      "summary": "TechCrunch 摘要提到：New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
-      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
-      "sourceExcerpt": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "Anthropic",
-        "产品工具",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-28-the-verge-anthropic-s-mythos-5-is-back",
-      "date": "2026-06-28",
+      "id": "2026-06-29-the-verge-anthropic-s-mythos-5-is-back",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "Anthropic’s Mythos 5 is back",
       "sourceTitle": "Anthropic’s Mythos 5 is back",
@@ -159,12 +182,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/DCD_0617_Fable5.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 3
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-06-28-the-verge-anthropic-s-mythos-mess-is-only-getting-worse",
-      "date": "2026-06-28",
+      "id": "2026-06-29-the-verge-anthropic-s-mythos-mess-is-only-getting-worse",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "Anthropic’s Mythos mess is only getting worse",
       "sourceTitle": "Anthropic’s Mythos mess is only getting worse",
@@ -182,12 +205,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 4
+      "size": "medium",
+      "readMinutes": 5
     },
     {
-      "id": "2026-06-28-the-verge-ford-had-to-hire-back-former-engineers-to-fix-mistakes-made-by-its-aut",
-      "date": "2026-06-28",
+      "id": "2026-06-29-the-verge-ford-had-to-hire-back-former-engineers-to-fix-mistakes-made-by-its-aut",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "福特召回前工程师修复自动化系统留下的问题",
       "sourceTitle": "Ford had to hire back former engineers to fix mistakes made by its automated systems",
@@ -204,12 +227,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/acastro_STK056_02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 5
+      "size": "small",
+      "readMinutes": 3
     },
     {
-      "id": "2026-06-28-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
       "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -226,13 +249,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 4
     },
     {
-      "id": "2026-06-28-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
       "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
@@ -249,13 +272,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 5
     },
     {
-      "id": "2026-06-28-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "OpenAI 探索用 AI 帮助医生诊断儿童罕见遗传病",
       "sourceTitle": "Using AI to help physicians diagnose rare genetic diseases affecting children",
@@ -272,36 +295,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-28-openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai",
-      "date": "2026-06-28",
-      "category": "AI 大事",
-      "title": "BBVA 与 OpenAI 合作，把 AI 放进银行核心流程",
-      "sourceTitle": "BBVA puts AI at the core of banking with OpenAI",
-      "summary": "OpenAI News 介绍 BBVA 如何把 AI 纳入银行核心业务。银行业正在从试点工具走向更系统的 AI 工作流改造。",
-      "analysis": "金融机构采用 AI 的速度和边界，会影响企业级 AI 的合规、审计和风险管理标准。",
-      "sourceExcerpt": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/bbva",
-      "time": "08:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "wide",
       "readMinutes": 3
     },
     {
-      "id": "2026-06-28-google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs-and-",
-      "date": "2026-06-28",
+      "id": "2026-06-29-google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs-and-",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "Google 在弗吉尼亚投资社区与能源项目，支撑数据中心扩张",
       "sourceTitle": "Our new community investments in Virginia support local jobs and expand energy affordability.",
@@ -323,8 +323,31 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-06-28-openai-news-access-openai-models-and-codex-through-your-oracle-cloud-commitment",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai",
+      "date": "2026-06-29",
+      "category": "AI 大事",
+      "title": "BBVA 与 OpenAI 合作，把 AI 放进银行核心流程",
+      "sourceTitle": "BBVA puts AI at the core of banking with OpenAI",
+      "summary": "OpenAI News 介绍 BBVA 如何把 AI 纳入银行核心业务。银行业正在从试点工具走向更系统的 AI 工作流改造。",
+      "analysis": "金融机构采用 AI 的速度和边界，会影响企业级 AI 的合规、审计和风险管理标准。",
+      "sourceExcerpt": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/bbva",
+      "time": "08:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-06-29-openai-news-access-openai-models-and-codex-through-your-oracle-cloud-commitment",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "可通过 Oracle 云承诺使用 OpenAI 模型和 Codex",
       "sourceTitle": "Access OpenAI models and Codex through your Oracle cloud commitment",
@@ -341,13 +364,35 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
     },
     {
-      "id": "2026-06-28-openai-news-building-the-infrastructure-for-the-intelligence-age-in-michigan",
-      "date": "2026-06-28",
+      "id": "2026-06-29-techcrunch-softbank-s-ceo-isn-t-the-only-one-with-questions-about-elon-musk-s-or",
+      "date": "2026-06-29",
+      "category": "AI 大事",
+      "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+      "sourceTitle": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+      "summary": "TechCrunch 摘要提到：Not everyone is buying Elon Musk’s vision for orbital data centers.",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Not everyone is buying Elon Musk’s vision for orbital data centers.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "time": "04:42",
+      "importance": "中",
+      "tags": [
+        "大事",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-06-29-openai-news-building-the-infrastructure-for-the-intelligence-age-in-michigan",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "OpenAI 在密歇根建设 Intelligence Age 基础设施",
       "sourceTitle": "Building the infrastructure for the Intelligence Age in Michigan",
@@ -364,13 +409,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
-      "id": "2026-06-28-openai-news-boston-children-s-uses-ai-to-unlock-new-diagnoses",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-boston-children-s-uses-ai-to-unlock-new-diagnoses",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "波士顿儿童医院用 AI 帮助发现新的诊断线索",
       "sourceTitle": "Boston Children’s uses AI to unlock new diagnoses",
@@ -386,13 +431,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
     },
     {
-      "id": "2026-06-28-techcrunch-why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-tu",
-      "date": "2026-06-28",
+      "id": "2026-06-29-techcrunch-why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-tu",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
       "sourceTitle": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
@@ -410,13 +455,13 @@
         "大事",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-06-28-techcrunch-openai-s-jalape-o-chip-is-big-tech-s-spiciest-move-away-from-nvidia",
-      "date": "2026-06-28",
+      "id": "2026-06-29-techcrunch-openai-s-jalape-o-chip-is-big-tech-s-spiciest-move-away-from-nvidia",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
       "sourceTitle": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
@@ -434,13 +479,13 @@
         "大事",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-06-28-openai-news-mufg-aims-to-become-ai-native-with-openai",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-mufg-aims-to-become-ai-native-with-openai",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "三菱日联金融集团与 OpenAI 推进 AI 原生组织转型",
       "sourceTitle": "MUFG aims to become AI-native with OpenAI",
@@ -457,13 +502,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-06-28-techcrunch-databricks-former-ai-chief-thinks-he-can-cut-ai-s-power-bill-by-1-000",
-      "date": "2026-06-28",
+      "id": "2026-06-29-techcrunch-databricks-former-ai-chief-thinks-he-can-cut-ai-s-power-bill-by-1-000",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "Databricks 前 AI 负责人想把 AI 电力成本降低 1000 倍",
       "sourceTitle": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
@@ -479,57 +524,13 @@
         "大事",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-28-the-verge-congresswoman-denies-staff-used-ai-to-write-defense-funding-amendment",
-      "date": "2026-06-28",
-      "category": "政策与安全",
-      "title": "美国议员否认用 AI 撰写国防拨款修正案",
-      "sourceTitle": "Congresswoman denies staff used AI to write defense funding amendment",
-      "summary": "报道提到，一名美国国会议员否认其团队使用 AI 撰写国防拨款修正案。争议点在于，AI 是否已经进入严肃立法与国防预算文本的起草流程。",
-      "analysis": "这不是普通工具使用问题，而是公共决策透明度问题。未来政府文件是否需要披露 AI 参与程度，会成为政策焦点。",
-      "sourceExcerpt": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts o",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
-      "time": "03:36",
-      "importance": "中",
-      "tags": [
-        "政策与安全",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-06-28-the-verge-the-27-million-ai-proxy-war-over-alex-bores-ends-in-a-draw",
-      "date": "2026-06-28",
-      "category": "政策与安全",
-      "title": "一场围绕 AI 政策的 2700 万美元代理战暂时打成平手",
-      "sourceTitle": "The $27 million AI proxy war over Alex Bores ends in a draw",
-      "summary": "The Verge 报道了一场围绕 Alex Bores 的高额政治代理战。背后真正的焦点不是单一选举，而是 AI 产业、监管路线和政治资金正在更深地绑定。",
-      "analysis": "当 AI 政策进入选举和游说体系，行业规则会越来越受资本和政治博弈影响。这类新闻适合追踪监管风向。",
-      "sourceExcerpt": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to repr",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
-      "time": "01:25",
-      "importance": "中",
-      "tags": [
-        "政策与安全",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2282522212.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "wide",
       "readMinutes": 4
     },
     {
-      "id": "2026-06-28-openai-news-how-virgin-atlantic-ships-faster-with-codex",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-how-virgin-atlantic-ships-faster-with-codex",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "Virgin Atlantic 用 Codex 加快软件交付",
       "sourceTitle": "How Virgin Atlantic ships faster with Codex",
@@ -550,8 +551,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-06-28-openai-news-adventhealth-advances-whole-person-care-with-openai",
-      "date": "2026-06-28",
+      "id": "2026-06-29-openai-news-adventhealth-advances-whole-person-care-with-openai",
+      "date": "2026-06-29",
       "category": "AI 大事",
       "title": "AdventHealth 用 OpenAI 推进医疗护理服务",
       "sourceTitle": "AdventHealth advances whole-person care with OpenAI",
@@ -573,32 +574,54 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-06-28-browserbc-agent",
-      "date": "2026-06-28",
-      "category": "AI 产品工具",
-      "title": "BrowserBC：克隆人类点击，让一次网页操作转化为所有Agent的能力",
-      "sourceTitle": "BrowserBC：克隆人类点击，让一次网页操作转化为所有Agent的能力",
-      "summary": "量子位 报道：人类一次录制，Agent就能模拟",
+      "id": "2026-06-29-top-yuxinlu1",
+      "date": "2026-06-29",
+      "category": "模型更新",
+      "title": "抱抱脸模型TOP榜，我现在只服yuxinlu1",
+      "sourceTitle": "抱抱脸模型TOP榜，我现在只服yuxinlu1",
+      "summary": "量子位 报道关注「抱抱脸模型TOP榜，我现在只服yuxinlu1」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "人类一次录制，Agent就能模拟",
+      "sourceExcerpt": "杀进一众大厂中间",
       "source": "量子位",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/06/439393.html",
-      "time": "20:29",
+      "url": "https://www.qbitai.com/2026/06/439603.html",
+      "time": "21:55",
       "importance": "中",
       "tags": [
-        "智能体",
         "中国 AI",
-        "产品工具",
+        "模型更新",
         "量子位"
       ],
-      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-06-28-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-06-28",
+      "id": "2026-06-29-infoq-core-ai-ai",
+      "date": "2026-06-29",
+      "category": "AI 大事",
+      "title": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
+      "sourceTitle": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
+      "summary": "InfoQ 中文 报道关注「苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/x6KDPdgrdHzY7I38JK9U?utm_source=rss&utm_medium=article",
+      "time": "19:06",
+      "importance": "中",
+      "tags": [
+        "中国 AI",
+        "大事",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-06-29-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-06-29",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -616,32 +639,7 @@
         "政策与安全",
         "Qwen Blog"
       ],
-      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-06-28-infoq-fable-5-anthropic-qwen-ceo",
-      "date": "2026-06-28",
-      "category": "政策与安全",
-      "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
-      "sourceTitle": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
-      "summary": "InfoQ 中文 报道关注「Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "region": "china",
-      "url": "https://www.infoq.cn/article/MVDrYfoCovqj6zBNxr9e?utm_source=rss&utm_medium=article",
-      "time": "19:12",
-      "importance": "中",
-      "tags": [
-        "Anthropic",
-        "Qwen",
-        "中国 AI",
-        "政策与安全",
-        "InfoQ 中文"
-      ],
-      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
       "size": "wide",
       "readMinutes": 3
     }
