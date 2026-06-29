@@ -649,7 +649,38 @@ function makeOpenAINewsTitle(sourceTitle = '') {
   if (/Education for Countries/i.test(sourceTitle)) return 'OpenAI 推进国家级 AI 教育计划下一阶段';
   if (/infrastructure for the Intelligence Age/i.test(sourceTitle)) return 'OpenAI 推进智能时代基础设施建设';
   if (/benefit everyone/i.test(sourceTitle)) return 'OpenAI 公布让 AI 惠及更多人的计划';
-  return `OpenAI：${sourceTitle}`;
+  if (/Frontier strategic partnership/i.test(sourceTitle)) return 'HP 与 OpenAI 扩大战略合作，推进企业级 AI 落地';
+  if (/disproved a central conjecture in discrete geometry/i.test(sourceTitle)) return 'OpenAI 模型推翻离散几何中的核心猜想';
+  if (/Ramp engineers accelerate code review with Codex/i.test(sourceTitle)) return 'Ramp 工程师用 Codex 加速代码审查';
+  return 'OpenAI：重要 AI 动态';
+}
+
+function makeFallbackChineseTitle(sourceTitle = '', source = '', category = '') {
+  const rules = [
+    [/Z\.ai.*match Mythos.*cybersecurity/i, '智谱 Z.ai 称其模型在网络安全任务上可媲美 Mythos'],
+    [/Suno launches Spark incubator/i, 'Suno 推出 Spark 孵化计划，扶持独立音乐人进入 AI 音乐生态'],
+    [/Ford rehires.*engineers.*AI falls short/i, 'AI 自动化未达预期，福特返聘资深工程师救场'],
+    [/Prosecutors used ChatGPT logs/i, '检方在 Palisades 火灾案中使用 ChatGPT 记录作为证据'],
+    [/Wall Street.*Micron.*next Nvidia/i, '华尔街为何把美光视为下一个 NVIDIA'],
+    [/Margaret Atwood.*garbage in, garbage out/i, '玛格丽特·阿特伍德批评 AI：垃圾进，垃圾出'],
+    [/Anthropic.*Mythos 5 is back/i, 'Anthropic 的 Mythos 5 模型重新上线'],
+    [/Anthropic.*Mythos mess/i, 'Anthropic 的 Mythos 发布风波继续升级'],
+    [/OpenAI.*SpaceX.*own chips/i, '从 OpenAI 到 SpaceX，科技巨头为何纷纷自研 AI 芯片'],
+    [/Jalape(?:ñ|n)o chip.*Nvidia/i, 'OpenAI 的 Jalapeño 芯片让大厂加速摆脱 NVIDIA 依赖'],
+  ];
+  const matched = rules.find(([pattern]) => pattern.test(sourceTitle));
+  if (matched) return matched[1];
+
+  const subject = primarySubject(sourceTitle) || source;
+  const categoryPhrases = {
+    'AI 大事': '重要 AI 动态',
+    '模型更新': '模型与能力更新',
+    'AI 产品工具': 'AI 产品工具动态',
+    '论文与技术': 'AI 技术研究动态',
+    '商业融资': 'AI 商业与融资动态',
+    '政策与安全': 'AI 政策与安全动态',
+  };
+  return `${subject}：${categoryPhrases[category] || 'AI 行业动态'}`;
 }
 
 function makeChineseTitle(sourceTitle, source, category) {
@@ -658,10 +689,20 @@ function makeChineseTitle(sourceTitle, source, category) {
   if (hasChinese(sourceTitle)) return sourceTitle;
   if (source === 'Qwen Blog') return makeQwenChineseTitle(sourceTitle);
   if (source === 'OpenAI News') return makeOpenAINewsTitle(sourceTitle);
+  return makeFallbackChineseTitle(sourceTitle, source, category);
+}
 
-  const subject = primarySubject(sourceTitle);
-  if (subject && sourceTitle.length < 90) return sourceTitle;
-  return sourceTitle || `${source}：${category}`;
+function makeEnglishSourceSummary(story) {
+  const title = makeChineseTitle(story.sourceTitle, story.source, story.category);
+  const theme = {
+    'AI 大事': '它可能影响行业主线、公司竞争和后续产品节奏。',
+    '模型更新': '重点看模型能力、开放策略和真实任务表现是否发生变化。',
+    'AI 产品工具': '重点看它是否会改变创作者、开发者或企业用户的日常工作流。',
+    '论文与技术': '重点看技术路线是否能从论文或实验走向真实产品。',
+    '商业融资': '重点看资本和产业资源正在流向哪些 AI 场景。',
+    '政策与安全': '重点看它对合规、安全、模型访问和公众信任的影响。',
+  }[story.category] || '重点看它对 AI 行业后续走向的实际影响。';
+  return `${story.source} 报道关注「${title}」。${theme}英文原题保留在卡片下方，方便回到原文核对细节。`;
 }
 
 function makeSummary(story) {
@@ -673,9 +714,9 @@ function makeSummary(story) {
     if (story.region === 'china' || hasChinese(story.sourceExcerpt)) {
       return `${story.source} 报道：${story.sourceExcerpt}`;
     }
-    return `${story.source} 摘要提到：${story.sourceExcerpt}`;
+    return makeEnglishSourceSummary(story);
   }
-  return `这条新闻关注「${story.sourceTitle}」。它被归入「${story.category}」，建议重点看它对产品路线、成本结构、监管环境或行业竞争的实际影响。`;
+  return `这条新闻关注「${makeChineseTitle(story.sourceTitle, story.source, story.category)}」。它被归入「${story.category}」，建议重点看它对产品路线、成本结构、监管环境或行业竞争的实际影响。`;
 }
 
 function makeAnalysis(story) {
@@ -900,6 +941,11 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
+
+
+
+
+
 
 
 
