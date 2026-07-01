@@ -639,6 +639,41 @@ function makeQwenChineseTitle(sourceTitle = '') {
   return match ? match[1] : `通义千问官方：${sourceTitle}`;
 }
 
+
+const FALLBACK_EDITORIAL_RULES = [
+  { pattern: /Anthropic.?s long-sidelined Fable 5 is greenlit to return/i, title: 'Anthropic 长期搁置的 Fable 5 获准回归', summary: 'Anthropic 的 Fable 5 重新获得发布许可，说明前沿模型发布正在安全审查、监管沟通和产品节奏之间反复拉扯。' },
+  { pattern: /Netflix is using an AI-generated Gene Wilder voice/i, title: 'Netflix 在真人秀中使用 AI 生成的 Gene Wilder 声音', summary: 'Netflix 在威利·旺卡相关真人秀里使用 AI 生成声音，继续把影视娱乐里的授权、纪念形象和合成内容争议推到台前。' },
+  { pattern: /Libby will filter out AI content/i, title: 'Libby 将尝试过滤 AI 内容，但做法并不彻底', summary: '电子书与有声书平台 Libby 开始处理 AI 内容过滤问题，反映内容平台正在面对 AI 生成作品的标注、分发和版权边界。' },
+  { pattern: /Google.?s NotebookLM can sum up your research in a TikTok-style clip/i, title: 'Google NotebookLM 可把研究资料生成 TikTok 风格短视频摘要', summary: 'Google 正在把 NotebookLM 从文字和音频摘要扩展到短视频表达，研究资料和知识管理工具正在明显向多媒体化发展。' },
+  { pattern: /OpenClaw is finally available on Android and iOS/i, title: 'OpenClaw 终于登陆 Android 和 iOS', summary: 'OpenClaw 推出移动端版本，说明 AI 原生应用正在从桌面和网页继续迁移到手机入口。' },
+  { pattern: /DeepMind trio who built a poker AI.*quant hedge funds/i, title: 'DeepMind 三位扑克 AI 作者转向量化对冲基金', summary: '曾参与扑克 AI 的 DeepMind 团队成员转向量化投资，显示强化学习、博弈推理和金融交易之间的技术迁移正在加速。' },
+  { pattern: /Meet the lawyer who beat Elon Musk/i, title: '两次击败马斯克的律师进入科技诉讼焦点', summary: '这篇报道聚焦与马斯克相关的诉讼人物。它和 AI 行业的关系在于，科技巨头的竞争正越来越多地进入法律和监管战场。' },
+  { pattern: /Google introduces a faster, cheaper image generator with Nano Banana 2 Lite/i, title: 'Google 推出更快更便宜的 Nano Banana 2 Lite 图像生成器', summary: 'Google 发布更低成本的图像生成模型，重点是把生成式视觉能力做得更快、更便宜，方便进入更多产品场景。' },
+  { pattern: /Nvidia competitor Etched hits \$5B valuation, \$1B in sales for AI chip/i, title: 'AI 芯片公司 Etched 估值达 50 亿美元，销售额冲上 10 亿美元', summary: 'Nvidia 竞争者 Etched 获得高估值和大额销售数据，说明 AI 芯片市场正在从“只有 GPU”转向更多专用推理芯片竞争。' },
+  { pattern: /Anthropic launches Claude Sonnet 5 as a cheaper way to run agents/i, title: 'Anthropic 发布 Claude Sonnet 5，降低智能体运行成本', summary: 'Anthropic 推出更适合智能体任务的 Claude Sonnet 5，核心看点是用更低成本支撑长流程、多步骤的 AI agent。' },
+  { pattern: /Acti puts AI agents directly into your smartphone keyboard/i, title: 'Acti 把 AI 智能体直接放进手机键盘', summary: 'Acti 试图把 AI agent 放到输入法入口，让智能体更贴近日常沟通、搜索和操作场景。' },
+  { pattern: /Claude Science bets on workflow, not a new model/i, title: 'Anthropic 的 Claude Science 押注科研工作流，而不是单纯发新模型', summary: 'Anthropic 面向科研场景强调工作流整合，说明科学 AI 的竞争不只看模型指标，也看能否进入研究人员真实流程。' },
+  { pattern: /Lumo, Proton.?s privacy-focused AI chatbot, gets an upgrade/i, title: 'Proton 升级隐私优先的 AI 聊天机器人 Lumo', summary: 'Proton 更新 Lumo，主打隐私保护的 AI 聊天体验。它反映用户对 AI 工具的数据边界和隐私承诺越来越敏感。' },
+  { pattern: /X now offers an MCP server/i, title: 'X 推出 MCP Server，让 AI 工具更容易接入平台', summary: 'X 提供 MCP Server，方便外部 AI 工具调用平台能力。MCP 正在成为应用和智能体之间连接数据、工具与服务的新接口。' },
+  { pattern: /Podcasting platform Riverside enters the newsletter publishing game/i, title: '播客平台 Riverside 进军 Newsletter 发布工具', summary: 'Riverside 从播客制作扩展到 Newsletter 发布，内容创作平台正在把音视频、文字和分发工具打包到同一工作流里。' },
+  { pattern: /Amazon launches new \$1 billion FDE org/i, title: 'Amazon 成立 10 亿美元 FDE 组织，追随 OpenAI 与 Anthropic 的企业落地打法', summary: 'Amazon 建立新的前线部署工程组织，显示大模型公司正在用更贴近客户现场的团队推动企业级 AI 落地。' },
+  { pattern: /How ChatGPT adoption has expanded/i, title: 'ChatGPT 的采用范围继续扩大', summary: 'OpenAI 介绍 ChatGPT 的采用变化，重点是 AI 从个人工具扩展到企业、教育和专业工作流中的速度。' },
+  { pattern: /OKX wants AI agents to hire and pay each other/i, title: 'OKX 设想让 AI 智能体彼此雇佣并支付报酬', summary: 'OKX 把加密支付和 AI agent 结合，试图让智能体之间可以完成雇佣、结算和协作。' },
+  { pattern: /The AI jobs debate just got messier/i, title: 'AI 对就业的影响争论变得更复杂', summary: '关于 AI 是否取代工作的争论出现更多矛盾证据。真正值得关注的是岗位内容、工资结构和技能要求如何变化。' },
+  { pattern: /Tidal won.?t pay royalties on AI-generated music/i, title: 'Tidal 不会为 AI 生成音乐支付版税，但也不完全封禁', summary: 'Tidal 对 AI 生成音乐采取折中政策，不支付版税但也不彻底禁止，音乐平台正在寻找版权、创作者权益和 AI 内容之间的平衡。' },
+  { pattern: /OpenAI is teasing new hardware.*Codex/i, title: 'OpenAI 暗示将推出面向 Codex 的新硬件', summary: 'OpenAI 预告与 Codex 相关的新硬件，可能意味着 AI 编程助手未来会和专用设备或新交互方式结合。' },
+  { pattern: /Lawmakers want to ban AI companies from selling your health data/i, title: '美国议员拟禁止 AI 公司出售用户健康数据', summary: '美国议员希望限制 AI 公司出售健康数据，医疗与个人数据正在成为 AI 监管里的高敏感区域。' },
+  { pattern: /Unlocking Britain.?s next era of productivity/i, title: 'Google 推动英国 AI 生产力计划，培养 AI 先行者', summary: 'Google AI Blog 介绍面向英国的 AI 生产力计划，重点是培训、企业采用和国家层面的 AI 能力建设。' },
+  { pattern: /Introducing GeneBench-Pro/i, title: 'OpenAI 发布 GeneBench-Pro，评估基因相关 AI 能力', summary: 'OpenAI 推出 GeneBench-Pro，用于评估模型在基因、生物和生命科学任务上的表现。' },
+  { pattern: /Core dump epidemiology: fixing an 18-year-old bug/i, title: 'OpenAI 通过 core dump 分析修复 18 年老 bug', summary: 'OpenAI 分享一次长期软件缺陷的定位和修复过程，展示 AI 与工程诊断工具在复杂系统维护中的价值。' },
+  { pattern: /Trump drops restrictions on Anthropic.?s Mythos and Fable models/i, title: '特朗普政府取消 Anthropic Mythos 与 Fable 模型限制', summary: '美国政府放松对 Anthropic 前沿模型的限制，说明模型发布正在安全审查、产业竞争和政策博弈之间不断调整。' },
+  { pattern: /Wayve launches \$85M employee tender offer at \$8\.5B valuation/i, title: '自动驾驶 AI 公司 Wayve 以 85 亿美元估值启动员工股权回购', summary: 'Wayve 启动 8500 万美元员工股权回购，估值达到 85 亿美元，说明自动驾驶与具身智能方向仍受到资本关注。' },
+  { pattern: /Inside Genebench-Pro/i, title: 'OpenAI 详解 GeneBench-Pro 的生命科学评测方法', summary: 'OpenAI 进一步介绍 GeneBench-Pro，重点是如何评估模型在基因和生命科学任务中的可靠性。' },
+];
+
+function fallbackEditorialFor(sourceTitle = '') {
+  return FALLBACK_EDITORIAL_RULES.find(({ pattern }) => pattern.test(sourceTitle));
+}
 function makeOpenAINewsTitle(sourceTitle = '') {
   const accessMatch = sourceTitle.match(/Access OpenAI models and Codex through your (.+?) cloud commitment/i);
   if (accessMatch) return `可通过 ${accessMatch[1]} 云承诺使用 OpenAI 模型和 Codex`;
@@ -652,9 +687,10 @@ function makeOpenAINewsTitle(sourceTitle = '') {
   if (/Frontier strategic partnership/i.test(sourceTitle)) return 'HP 与 OpenAI 扩大战略合作，推进企业级 AI 落地';
   if (/disproved a central conjecture in discrete geometry/i.test(sourceTitle)) return 'OpenAI 模型推翻离散几何中的核心猜想';
   if (/Ramp engineers accelerate code review with Codex/i.test(sourceTitle)) return 'Ramp 工程师用 Codex 加速代码审查';
-  return 'OpenAI：重要 AI 动态';
+  const fallback = fallbackEditorialFor(sourceTitle);
+  if (fallback) return fallback.title;
+  return makeKeywordTitle(sourceTitle, 'OpenAI News', classify(sourceTitle, 'AI 大事'));
 }
-
 function makeFallbackChineseTitle(sourceTitle = '', source = '', category = '') {
   const rules = [
     [/Z\.ai.*match Mythos.*cybersecurity/i, '智谱 Z.ai 称其模型在网络安全任务上可媲美 Mythos'],
@@ -668,9 +704,15 @@ function makeFallbackChineseTitle(sourceTitle = '', source = '', category = '') 
     [/OpenAI.*SpaceX.*own chips/i, '从 OpenAI 到 SpaceX，科技巨头为何纷纷自研 AI 芯片'],
     [/Jalape(?:ñ|n)o chip.*Nvidia/i, 'OpenAI 的 Jalapeño 芯片让大厂加速摆脱 NVIDIA 依赖'],
   ];
+  const fallback = fallbackEditorialFor(sourceTitle);
+  if (fallback) return fallback.title;
   const matched = rules.find(([pattern]) => pattern.test(sourceTitle));
   if (matched) return matched[1];
 
+  return makeKeywordTitle(sourceTitle, source, category);
+}
+
+function makeKeywordTitle(sourceTitle = '', source = '', category = '') {
   const subject = primarySubject(sourceTitle) || source;
   const categoryPhrases = {
     'AI 大事': '重要 AI 动态',
@@ -693,6 +735,7 @@ function makeChineseTitle(sourceTitle, source, category) {
 }
 
 function makeEnglishSourceSummary(story) {
+  const fallback = fallbackEditorialFor(story.sourceTitle);
   const title = makeChineseTitle(story.sourceTitle, story.source, story.category);
   const theme = {
     'AI 大事': '它可能影响行业主线、公司竞争和后续产品节奏。',
@@ -941,6 +984,9 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
+
+
+
 
 
 
