@@ -1,36 +1,80 @@
 {
-  "generatedAt": "2026-07-05T00:12:04.838Z",
+  "generatedAt": "2026-07-06T00:15:18.025Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-07-05"
+    "2026-07-06"
   ],
   "stories": [
     {
-      "id": "2026-07-05-techcrunch-new-google-commercial-imagines-a-declaration-of-independence-written-",
-      "date": "2026-07-05",
-      "category": "商业融资",
-      "title": "Google：AI 商业与融资动态",
-      "sourceTitle": "New Google commercial imagines a Declaration of Independence written with help from AI",
-      "summary": "TechCrunch 报道关注「Google：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
-      "source": "TechCrunch",
+      "id": "2026-07-06-the-verge-some-of-the-nation-s-rich-are-letting-ai-teach-their-kids",
+      "date": "2026-07-06",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "Some of the nation’s rich are letting AI teach their kids",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditi",
+      "source": "The Verge",
       "region": "global",
-      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-      "time": "04:55",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "time": "06:30",
       "importance": "高",
       "tags": [
-        "Google",
-        "商业融资",
-        "TechCrunch"
+        "大事",
+        "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25584700/STK483_EDUCATION_C.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "cover",
       "readMinutes": 3
     },
     {
-      "id": "2026-07-05-the-verge-the-fanfiction-community-is-at-war-with-ai-and-itself",
-      "date": "2026-07-05",
+      "id": "2026-07-06-the-verge-infuriating-google-commercial-imagines-the-founding-fathers-embracing-",
+      "date": "2026-07-06",
+      "category": "AI 大事",
+      "title": "Google：重要 AI 动态",
+      "sourceTitle": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "summary": "The Verge 报道关注「Google：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them d",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "time": "22:23",
+      "importance": "高",
+      "tags": [
+        "Google",
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Q3RjZY-rSsc-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-07-06-techcrunch-amazon-will-stop-accepting-new-customers-for-mechanical-turk",
+      "date": "2026-07-06",
+      "category": "商业融资",
+      "title": "Amazon：AI 商业与融资动态",
+      "sourceTitle": "Amazon will stop accepting new customers for Mechanical Turk",
+      "summary": "TechCrunch 报道关注「Amazon：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "These may be the last days of Amazon’s Mechanical Turk.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "time": "01:43",
+      "importance": "高",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-07-06-the-verge-the-fanfiction-community-is-at-war-with-ai-and-itself",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "The fanfiction community is at war with AI — and itself",
@@ -47,80 +91,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/AI_Hands_A_Bernis_02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-07-05-techcrunch-midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-",
-      "date": "2026-07-05",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "time": "02:00",
-      "importance": "高",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-07-05-techcrunch-alibaba-reportedly-bans-employees-from-using-claude-code",
-      "date": "2026-07-05",
-      "category": "模型更新",
-      "title": "Alibaba：模型与能力更新",
-      "sourceTitle": "Alibaba reportedly bans employees from using Claude Code",
-      "summary": "TechCrunch 报道关注「Alibaba：模型与能力更新」。重点看模型能力、开放策略和真实任务表现是否发生变化。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
-      "sourceExcerpt": "Alibaba has reportedly classified Claude Code as high-risk software.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "time": "00:32",
-      "importance": "高",
-      "tags": [
-        "Claude",
-        "模型更新",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82",
       "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-07-05-techcrunch-what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
-      "date": "2026-07-05",
-      "category": "模型更新",
-      "title": "Mistral：模型与能力更新",
-      "sourceTitle": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "summary": "TechCrunch 报道关注「Mistral：模型与能力更新」。重点看模型能力、开放策略和真实任务表现是否发生变化。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
-      "sourceExcerpt": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "time": "23:51",
-      "importance": "高",
-      "tags": [
-        "OpenAI",
-        "模型更新",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-07-05-the-verge-anthropic-wants-to-develop-its-own-drugs",
-      "date": "2026-07-05",
+      "id": "2026-07-06-the-verge-anthropic-wants-to-develop-its-own-drugs",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "Anthropic：重要 AI 动态",
       "sourceTitle": "Anthropic wants to develop its own drugs",
@@ -131,19 +107,19 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
       "time": "21:56",
-      "importance": "中",
+      "importance": "高",
       "tags": [
         "Anthropic",
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_A_3800fc-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 5
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-07-05-the-verge-a-behind-the-scenes-look-at-midjourney-s-medical-scanner-leaves-many-q",
-      "date": "2026-07-05",
+      "id": "2026-07-06-the-verge-a-behind-the-scenes-look-at-midjourney-s-medical-scanner-leaves-many-q",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
@@ -160,12 +136,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ultrasound_phantom_segmentation-b254a71d083eb5c9.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 3
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-07-05-the-verge-openai-floats-giving-trump-administration-5-percent-cut-of-ai-boom",
-      "date": "2026-07-05",
+      "id": "2026-07-06-the-verge-openai-floats-giving-trump-administration-5-percent-cut-of-ai-boom",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
@@ -183,12 +159,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 4
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-07-05-the-verge-anthropic-s-long-sidelined-fable-5-is-greenlit-to-return",
-      "date": "2026-07-05",
+      "id": "2026-07-06-the-verge-anthropic-s-long-sidelined-fable-5-is-greenlit-to-return",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "Anthropic 长期搁置的 Fable 5 获准回归",
       "sourceTitle": "Anthropic’s long-sidelined Fable 5 is greenlit to return",
@@ -206,12 +182,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 5
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-07-05-the-verge-netflix-is-using-an-ai-generated-gene-wilder-voice-in-its-willy-wonka-",
-      "date": "2026-07-05",
+      "id": "2026-07-06-the-verge-netflix-is-using-an-ai-generated-gene-wilder-voice-in-its-willy-wonka-",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "Netflix 在真人秀中使用 AI 生成的 Gene Wilder 声音",
       "sourceTitle": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
@@ -228,56 +204,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/videoframe_9748.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-07-05-the-verge-libby-will-filter-out-ai-content-kind-of",
-      "date": "2026-07-05",
-      "category": "AI 大事",
-      "title": "Libby 将尝试过滤 AI 内容，但做法并不彻底",
-      "sourceTitle": "Libby will filter out AI content, kind of",
-      "summary": "The Verge 报道关注「Libby 将尝试过滤 AI 内容，但做法并不彻底」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. \"AI is the new frontier for us,\" says Marc DeBevoise, who took over as the new CEO of OverDrive",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/column/959433/libby-ai-filter",
-      "time": "23:30",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24148705/PXL_20221028_153245856.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-07-05-the-verge-meet-the-lawyer-who-beat-elon-musk-twice",
-      "date": "2026-07-05",
-      "category": "AI 大事",
-      "title": "两次击败马斯克的律师进入科技诉讼焦点",
-      "sourceTitle": "Meet the lawyer who beat Elon Musk — twice",
-      "summary": "The Verge 报道关注「两次击败马斯克的律师进入科技诉讼焦点」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Watching Elon Musk fulminate at Bill Savitt during Musk v. Altman - the case in which Musk sued Sam Altman and OpenAI instead of seeing a therapist about his AI failures - was a bit like watching a toddler have a temper tantrum at his nursery school teacher. S",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268607_An_interview_with_William_Savitt_Elon_Musks_courtroom_nemesis_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
+      "size": "medium",
       "readMinutes": 5
     },
     {
-      "id": "2026-07-05-openai-news-inside-genebench-pro",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-inside-genebench-pro",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI 详解 GeneBench-Pro 的生命科学评测方法",
       "sourceTitle": "Inside Genebench-Pro",
@@ -294,13 +226,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-07-05-openai-news-introducing-genebench-pro",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-introducing-genebench-pro",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI 发布 GeneBench-Pro，评估基因相关 AI 能力",
       "sourceTitle": "Introducing GeneBench-Pro",
@@ -317,13 +249,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-07-05-openai-news-core-dump-epidemiology-fixing-an-18-year-old-bug",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-core-dump-epidemiology-fixing-an-18-year-old-bug",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI 通过 core dump 分析修复 18 年老 bug",
       "sourceTitle": "Core dump epidemiology: fixing an 18-year-old bug",
@@ -340,13 +272,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-07-05-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI 与 Broadcom 发布面向大模型推理的定制芯片",
       "sourceTitle": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -363,13 +295,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
       "readMinutes": 3
     },
     {
-      "id": "2026-07-05-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-patch-the-planet-a-daybreak-initiative-to-support-open-source-mainta",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI 支持开源维护者，推出 Patch the Planet 计划",
       "sourceTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
@@ -386,13 +318,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
       "readMinutes": 4
     },
     {
-      "id": "2026-07-05-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-using-ai-to-help-physicians-diagnose-rare-genetic-diseases-affecting",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI 探索用 AI 帮助医生诊断儿童罕见遗传病",
       "sourceTitle": "Using AI to help physicians diagnose rare genetic diseases affecting children",
@@ -409,13 +341,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
       "readMinutes": 5
     },
     {
-      "id": "2026-07-05-google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs-and-",
-      "date": "2026-07-05",
+      "id": "2026-07-06-google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs-and-",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "Google 在弗吉尼亚投资社区与能源项目，支撑数据中心扩张",
       "sourceTitle": "Our new community investments in Virginia support local jobs and expand energy affordability.",
@@ -433,12 +365,12 @@
         "Google AI Blog"
       ],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp",
-      "size": "medium",
+      "size": "cover",
       "readMinutes": 3
     },
     {
-      "id": "2026-07-05-openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-bbva-puts-ai-at-the-core-of-banking-with-openai",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "BBVA 与 OpenAI 合作，把 AI 放进银行核心流程",
       "sourceTitle": "BBVA puts AI at the core of banking with OpenAI",
@@ -455,13 +387,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
       "readMinutes": 4
     },
     {
-      "id": "2026-07-05-openai-news-access-openai-models-and-codex-through-your-oracle-cloud-commitment",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-access-openai-models-and-codex-through-your-oracle-cloud-commitment",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "可通过 Oracle 云承诺使用 OpenAI 模型和 Codex",
       "sourceTitle": "Access OpenAI models and Codex through your Oracle cloud commitment",
@@ -478,13 +410,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
       "readMinutes": 5
     },
     {
-      "id": "2026-07-05-techcrunch-anthropic-is-discussing-a-new-custom-chip-with-samsung",
-      "date": "2026-07-05",
+      "id": "2026-07-06-techcrunch-anthropic-is-discussing-a-new-custom-chip-with-samsung",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "Anthropic：重要 AI 动态",
       "sourceTitle": "Anthropic is discussing a new custom chip with Samsung",
@@ -501,13 +433,13 @@
         "大事",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-07-05-openai-news-building-the-infrastructure-for-the-intelligence-age-in-michigan",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-building-the-infrastructure-for-the-intelligence-age-in-michigan",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "OpenAI 在密歇根建设 Intelligence Age 基础设施",
       "sourceTitle": "Building the infrastructure for the Intelligence Age in Michigan",
@@ -524,13 +456,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
       "readMinutes": 4
     },
     {
-      "id": "2026-07-05-openai-news-boston-children-s-uses-ai-to-unlock-new-diagnoses",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-boston-children-s-uses-ai-to-unlock-new-diagnoses",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "波士顿儿童医院用 AI 帮助发现新的诊断线索",
       "sourceTitle": "Boston Children’s uses AI to unlock new diagnoses",
@@ -546,13 +478,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
       "readMinutes": 5
     },
     {
-      "id": "2026-07-05-openai-news-mufg-aims-to-become-ai-native-with-openai",
-      "date": "2026-07-05",
+      "id": "2026-07-06-openai-news-mufg-aims-to-become-ai-native-with-openai",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "三菱日联金融集团与 OpenAI 推进 AI 原生组织转型",
       "sourceTitle": "MUFG aims to become AI-native with OpenAI",
@@ -569,25 +501,93 @@
         "大事",
         "OpenAI News"
       ],
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-07-06-openai-news-how-virgin-atlantic-ships-faster-with-codex",
+      "date": "2026-07-06",
+      "category": "AI 大事",
+      "title": "Virgin Atlantic 用 Codex 加快软件交付",
+      "sourceTitle": "How Virgin Atlantic ships faster with Codex",
+      "summary": "OpenAI News 报道关注「Virgin Atlantic 用 Codex 加快软件交付」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "time": "08:00",
+      "importance": "中",
+      "tags": [
+        "大事",
+        "OpenAI News"
+      ],
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-07-06-openai-news-adventhealth-advances-whole-person-care-with-openai",
+      "date": "2026-07-06",
+      "category": "AI 大事",
+      "title": "AdventHealth 用 OpenAI 推进医疗护理服务",
+      "sourceTitle": "AdventHealth advances whole-person care with OpenAI",
+      "summary": "OpenAI News 报道关注「AdventHealth 用 OpenAI 推进医疗护理服务」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/adventhealth",
+      "time": "20:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-07-06-openai-news-how-ramp-engineers-accelerate-code-review-with-codex",
+      "date": "2026-07-06",
+      "category": "AI 大事",
+      "title": "Ramp 工程师用 Codex 加速代码审查",
+      "sourceTitle": "How Ramp engineers accelerate code review with Codex",
+      "summary": "OpenAI News 报道关注「Ramp 工程师用 Codex 加速代码审查」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/ramp",
+      "time": "08:00",
+      "importance": "中",
+      "tags": [
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-07-05-25",
-      "date": "2026-07-05",
+      "id": "2026-07-06-meta-gpu",
+      "date": "2026-07-06",
       "category": "模型更新",
-      "title": "光象科技累计完成数亿元天使轮融资，布局物理原生基座模型",
-      "sourceTitle": "光象科技累计完成数亿元天使轮融资，布局物理原生基座模型",
-      "summary": "量子位 报道关注「光象科技累计完成数亿元天使轮融资，布局物理原生基座模型」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
+      "title": "Meta也来卖铲子了！小扎：模型可以慢，GPU必须赚",
+      "sourceTitle": "Meta也来卖铲子了！小扎：模型可以慢，GPU必须赚",
+      "summary": "量子位 报道：正考虑推出Meta Compute",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "",
+      "sourceExcerpt": "正考虑推出Meta Compute",
       "source": "量子位",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/07/442958.html",
-      "time": "13:52",
+      "url": "https://www.qbitai.com/2026/07/443339.html",
+      "time": "22:30",
       "importance": "中",
       "tags": [
+        "Meta",
         "中国 AI",
         "模型更新",
         "量子位"
@@ -597,8 +597,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-07-05-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-07-05",
+      "id": "2026-07-06-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-07-06",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -621,8 +621,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-07-05-infoq-openai-anthropic",
-      "date": "2026-07-05",
+      "id": "2026-07-06-infoq-openai-anthropic",
+      "date": "2026-07-06",
       "category": "AI 大事",
       "title": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
       "sourceTitle": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
