@@ -1,5 +1,9 @@
 ﻿today-ai/node_modules/
 today-ai/dist/
+today-ai/.env
+today-ai/.env.*
+!today-ai/.env.example
 .DS_Store
 Thumbs.db
 today-ai/.npm-cache/
+

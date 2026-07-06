@@ -887,6 +887,128 @@ function toStory(raw, index, date) {
   return story;
 }
 
+function extractJsonObject(text = '') {
+  const cleaned = text.trim().replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```$/i, '').trim();
+  try {
+    return JSON.parse(cleaned);
+  } catch {
+    const start = cleaned.indexOf('{');
+    const end = cleaned.lastIndexOf('}');
+    if (start >= 0 && end > start) return JSON.parse(cleaned.slice(start, end + 1));
+    throw new Error('DeepSeek response did not contain valid JSON');
+  }
+}
+
+function isVagueTitle(title = '') {
+  return /重要 AI 动态|AI 产品工具动态|AI 商业与融资动态|AI 技术研究动态|AI 政策与安全动态|模型与能力更新|行业动态/.test(title);
+}
+
+function isUsablePolishedStory(item = {}) {
+  return item
+    && typeof item.id === 'string'
+    && typeof item.title === 'string'
+    && typeof item.summary === 'string'
+    && hasChinese(item.title)
+    && hasChinese(item.summary)
+    && !isVagueTitle(item.title)
+    && item.title.trim().length >= 6
+    && item.summary.trim().length >= 24;
+}
+
+function buildDeepSeekPayload(stories) {
+  return stories.map((story) => ({
+    id: story.id,
+    source: story.source,
+    category: story.category,
+    sourceTitle: story.sourceTitle,
+    sourceExcerpt: story.sourceExcerpt,
+    currentTitle: story.title,
+    currentSummary: story.summary,
+  }));
+}
+
+async function polishStoriesWithDeepSeek(stories) {
+  const apiKey = process.env.DEEPSEEK_API_KEY;
+  if (!apiKey) {
+    console.log('DEEPSEEK_API_KEY not set; using rule-based editorial fallback.');
+    return stories;
+  }
+
+  const model = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
+  const payload = buildDeepSeekPayload(stories);
+  const response = await fetch('https://api.deepseek.com/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      model,
+      temperature: 0.2,
+      max_tokens: 8000,
+      stream: false,
+      response_format: { type: 'json_object' },
+      messages: [
+        {
+          role: 'system',
+          content: [
+            '你是“今日 AI”中文日报的资深编辑。',
+            '任务：把英文 AI 新闻改写成自然、具体、准确的中文标题和中文摘要。',
+            '必须遵守：',
+            '1. 输出严格 JSON，不要 Markdown，不要解释。',
+            '2. 保留公司名、产品名、模型名，如 OpenAI、Anthropic、Claude、Fable、Codex、NVIDIA。',
+            '3. 不要编造原文没有的信息。',
+            '4. 中文标题必须具体，禁止“重要 AI 动态”“AI 产品工具动态”“行业动态”等空泛标题。',
+            '5. 英文原题不要翻成奇怪中文；专有名词可保留英文。',
+            '6. summary 用 1-2 句中文说明发生了什么和为什么值得关注。',
+            '7. analysis 用 1 句中文给出个人分析师视角。',
+            'JSON 格式：{"stories":[{"id":"...","title":"...","summary":"...","analysis":"..."}]}',
+          ].join('\n'),
+        },
+        {
+          role: 'user',
+          content: JSON.stringify({ stories: payload }),
+        },
+      ],
+    }),
+  });
+
+  if (!response.ok) {
+    const detail = await response.text().catch(() => '');
+    throw new Error(`DeepSeek API ${response.status}: ${detail.slice(0, 300)}`);
+  }
+
+  const data = await response.json();
+  const content = data?.choices?.[0]?.message?.content || '';
+  const parsed = extractJsonObject(content);
+  const edited = Array.isArray(parsed?.stories) ? parsed.stories : [];
+  const editsById = new Map(edited.filter(isUsablePolishedStory).map((item) => [item.id, item]));
+  let applied = 0;
+
+  const polished = stories.map((story) => {
+    const edit = editsById.get(story.id);
+    if (!edit) return story;
+    applied += 1;
+    return {
+      ...story,
+      title: edit.title.trim(),
+      summary: edit.summary.trim(),
+      analysis: typeof edit.analysis === 'string' && hasChinese(edit.analysis) ? edit.analysis.trim() : story.analysis,
+    };
+  });
+
+  console.log(`DeepSeek polished ${applied}/${stories.length} stories with ${model}.`);
+  return polished;
+}
+
+async function polishStories(stories) {
+  try {
+    return await polishStoriesWithDeepSeek(stories);
+  } catch (error) {
+    console.warn(`DeepSeek polish skipped: ${error.message}`);
+    return stories;
+  }
+}
 function selectDailyStories(scored) {
   const selected = [];
   const seen = new Set();
@@ -958,8 +1080,8 @@ async function main() {
   const scored = dedupe(fetched)
     .map((story, index) => ({ story, score: scoreStory(story, index) }))
     .sort((a, b) => b.score - a.score);
-  const ranked = selectDailyStories(scored)
-    .map(({ story }, index) => toStory(story, index, date));
+  const ranked = await polishStories(selectDailyStories(scored)
+    .map(({ story }, index) => toStory(story, index, date)));
 
   if (ranked.length < 8) {
     throw new Error(`Only ${ranked.length} stories fetched; refusing to overwrite daily-news.json`);
@@ -984,27 +1106,4 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

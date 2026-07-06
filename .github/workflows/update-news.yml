@@ -37,6 +37,9 @@ jobs:
 
       - name: Generate latest daily news
         working-directory: today-ai
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: deepseek-v4-flash
         run: node scripts/update-news.mjs
 
       - name: Commit updated news data
@@ -57,3 +60,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
