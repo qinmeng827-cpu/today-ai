@@ -1,13 +1,79 @@
 {
-  "generatedAt": "2026-08-02T00:12:59.883Z",
+  "generatedAt": "2026-08-03T00:12:01.783Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-08-02"
+    "2026-08-03"
   ],
   "stories": [
     {
-      "id": "2026-08-02-the-verge-is-this-billboard-hot-100-hit-ai-slop",
-      "date": "2026-08-02",
+      "id": "2026-08-03-the-verge-fender-s-ceo-seems-to-think-your-bandmates-are-just-analog-ai",
+      "date": "2026-08-03",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already rag",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "time": "03:36",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-08-03-techcrunch-sam-altman-and-ai-s-decel-debate",
+      "date": "2026-08-03",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Sam Altman and AI’s decel debate",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "time": "04:54",
+      "importance": "高",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-03-the-verge-is-paying-artists-enough-to-convince-them-to-embrace-ai",
+      "date": "2026-08-03",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "Is paying artists enough to convince them to embrace AI?",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters hav",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "time": "21:00",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-31-at-4.11.25-PM.png?quality=90&strip=all&crop=2.6881256103516,0,97.311874389648,100",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-03-the-verge-is-this-billboard-hot-100-hit-ai-slop",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Is this Billboard Hot 100 hit AI slop?",
@@ -24,101 +90,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/artworks-WsdIgVXV8NOV-0-t1080x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-08-02-techcrunch-judge-denies-xai-s-request-to-block-minnesota-ban-on-nudify-apps",
-      "date": "2026-08-02",
-      "category": "AI 产品工具",
-      "title": "xAI：AI 产品工具动态",
-      "sourceTitle": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "summary": "TechCrunch 报道关注「xAI：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
-      "sourceExcerpt": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-      "time": "04:26",
-      "importance": "高",
-      "tags": [
-        "产品工具",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-02-techcrunch-youtuber-hank-green-says-his-ai-usage-is-not-healthy",
-      "date": "2026-08-02",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "time": "03:45",
-      "importance": "高",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-08-02-techcrunch-sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
-      "date": "2026-08-02",
-      "category": "模型更新",
-      "title": "TechCrunch：模型与能力更新",
-      "sourceTitle": "Sam Altman is still making the case for parenting via ChatGPT",
-      "summary": "TechCrunch 报道关注「TechCrunch：模型与能力更新」。重点看模型能力、开放策略和真实任务表现是否发生变化。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
-      "sourceExcerpt": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-      "time": "01:07",
-      "importance": "高",
-      "tags": [
-        "GPT",
-        "模型更新",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
       "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-02-techcrunch-this-9-key-physically-locks-your-most-addictive-apps",
-      "date": "2026-08-02",
-      "category": "AI 产品工具",
-      "title": "TechCrunch：AI 产品工具动态",
-      "sourceTitle": "This $9 key physically locks your most addictive apps",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
-      "sourceExcerpt": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
-      "time": "23:58",
-      "importance": "高",
-      "tags": [
-        "产品工具",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-02-the-verge-here-s-the-problem-with-putting-an-ai-image-generator-in-google-earth",
-      "date": "2026-08-02",
+      "id": "2026-08-03-the-verge-here-s-the-problem-with-putting-an-ai-image-generator-in-google-earth",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "Google：重要 AI 动态",
       "sourceTitle": "Here’s the problem with putting an AI image generator in Google Earth",
@@ -129,19 +106,19 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
       "time": "01:05",
-      "importance": "中",
+      "importance": "高",
       "tags": [
         "Google",
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Dream-House.mp4_snapshot_00.11.422.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 5
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-02-the-verge-the-major-labels-propose-rules-to-keep-ai-slop-off-the-charts",
-      "date": "2026-08-02",
+      "id": "2026-08-03-the-verge-the-major-labels-propose-rules-to-keep-ai-slop-off-the-charts",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "The major labels propose rules to keep AI slop off the charts",
@@ -158,12 +135,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK467_AI_Music.webp?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 3
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-02-the-verge-tim-cook-hints-at-icloud-plus-tier-for-ai-power-users",
-      "date": "2026-08-02",
+      "id": "2026-08-03-the-verge-tim-cook-hints-at-icloud-plus-tier-for-ai-power-users",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Tim Cook hints at iCloud Plus tier for AI power users",
@@ -180,12 +157,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2280563832.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 4
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-02-the-verge-the-loss-of-situational-awareness",
-      "date": "2026-08-02",
+      "id": "2026-08-03-the-verge-the-loss-of-situational-awareness",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "The loss of Situational Awareness",
@@ -202,57 +179,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKS522_AGI_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-08-02-the-verge-linkedin-actually-adds-a-seems-like-ai-slop-button",
-      "date": "2026-08-02",
-      "category": "AI 大事",
-      "title": "The Verge：重要 AI 动态",
-      "sourceTitle": "LinkedIn actually adds a ‘seems like AI slop’ button",
-      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
-      "time": "02:43",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/1785424232227.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-08-02-the-verge-google-deepmind-s-new-ai-model-can-control-a-robot-s-entire-body",
-      "date": "2026-08-02",
-      "category": "AI 大事",
-      "title": "Google：重要 AI 动态",
-      "sourceTitle": "Google DeepMind’s new AI model can control a robot’s entire body",
-      "summary": "The Verge 报道关注「Google：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its fe",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
-      "time": "01:18",
-      "importance": "中",
-      "tags": [
-        "Google",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gemini-robotics-2-shelf.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
+      "size": "wide",
       "readMinutes": 4
     },
     {
-      "id": "2026-08-02-openai-news-ten-advances-in-mathematics-and-theoretical-computer-science",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-ten-advances-in-mathematics-and-theoretical-computer-science",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Ten advances in mathematics and theoretical computer science",
@@ -269,13 +201,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-02-openai-news-advancing-responsible-ai-across-europe",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-advancing-responsible-ai-across-europe",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Advancing responsible AI across Europe",
@@ -292,13 +224,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-02-openai-news-building-abundant-intelligence",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-building-abundant-intelligence",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Building abundant intelligence",
@@ -315,13 +247,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-08-02-openai-news-univ-builds-an-ai-ready-workforce",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-univ-builds-an-ai-ready-workforce",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Univé builds an AI-ready workforce",
@@ -338,13 +270,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-02-openai-news-disrupting-a-criminal-scam-operation",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-disrupting-a-criminal-scam-operation",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Disrupting a Criminal Scam Operation",
@@ -361,13 +293,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-02-openai-news-how-ai-is-expanding-what-people-do-at-work",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-how-ai-is-expanding-what-people-do-at-work",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How AI is expanding what people do at work",
@@ -384,13 +316,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
       "readMinutes": 4
     },
     {
-      "id": "2026-08-02-openai-news-building-ai-infrastructure-with-the-effingham-county-community",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-building-ai-infrastructure-with-the-effingham-county-community",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Building AI infrastructure with the Effingham County community",
@@ -407,13 +339,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-02-openai-news-how-news-organizations-are-using-ai-to-advance-their-vital-missions",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-how-news-organizations-are-using-ai-to-advance-their-vital-missions",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How news organizations are using AI to advance their vital missions",
@@ -430,13 +362,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-02-openai-news-advancing-the-next-era-of-national-science",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-advancing-the-next-era-of-national-science",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Advancing the next era of national science",
@@ -453,13 +385,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
       "readMinutes": 4
     },
     {
-      "id": "2026-08-02-openai-news-introducing-openai-presence",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-introducing-openai-presence",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Introducing OpenAI Presence",
@@ -476,13 +408,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-02-openai-news-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-codex",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-codex",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
@@ -499,13 +431,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-02-openai-news-david-v-lez-and-robin-vince-join-the-boards-of-the-openai-foundation",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-david-v-lez-and-robin-vince-join-the-boards-of-the-openai-foundation",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
@@ -522,13 +454,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
       "readMinutes": 4
     },
     {
-      "id": "2026-08-02-openai-news-a-scorecard-for-the-ai-age",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-a-scorecard-for-the-ai-age",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "A scorecard for the AI age",
@@ -545,13 +477,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-02-openai-news-why-teens-deserve-access-to-safe-ai",
-      "date": "2026-08-02",
+      "id": "2026-08-03-openai-news-why-teens-deserve-access-to-safe-ai",
+      "date": "2026-08-03",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Why teens deserve access to safe AI",
@@ -568,59 +500,82 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-08-03-openai-news-how-codex-became-a-collaborator-for-openai-s-creative-team",
+      "date": "2026-08-03",
+      "category": "AI 大事",
+      "title": "OpenAI：重要 AI 动态",
+      "sourceTitle": "How Codex became a collaborator for OpenAI’s creative team",
+      "summary": "OpenAI News 报道关注「OpenAI：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/codex-collaborator-creative-team",
+      "time": "15:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-03-openai-news-how-cars24-scales-conversations-and-builds-faster-with-openai",
+      "date": "2026-08-03",
+      "category": "AI 大事",
+      "title": "OpenAI：重要 AI 动态",
+      "sourceTitle": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary": "OpenAI News 报道关注「OpenAI：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/cars24",
+      "time": "08:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-03-openai-news-how-deutsche-telekom-is-rewiring-telecommunications-with-ai",
+      "date": "2026-08-03",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "time": "15:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-02-200",
-      "date": "2026-08-02",
-      "category": "AI 大事",
-      "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
-      "sourceTitle": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
-      "summary": "量子位 报道：具身智能的τ（bushi）",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "具身智能的τ（bushi）",
-      "source": "量子位",
-      "region": "china",
-      "url": "https://www.qbitai.com/2026/08/464781.html",
-      "time": "18:45",
-      "importance": "中",
-      "tags": [
-        "中国 AI",
-        "大事",
-        "量子位"
-      ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-02-infoq-92-ai-uber-ai",
-      "date": "2026-08-02",
-      "category": "AI 产品工具",
-      "title": "92% 工程师都在用 AI 后，Uber 开始给 AI “限额”了",
-      "sourceTitle": "92% 工程师都在用 AI 后，Uber 开始给 AI “限额”了",
-      "summary": "InfoQ 中文 报道关注「92% 工程师都在用 AI 后，Uber 开始给 AI “限额”了」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "region": "china",
-      "url": "https://www.infoq.cn/article/Iu2dhFs8JiFqoUGuXJ4m?utm_source=rss&utm_medium=article",
-      "time": "22:05",
-      "importance": "中",
-      "tags": [
-        "中国 AI",
-        "产品工具",
-        "InfoQ 中文"
-      ],
-      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-08-02-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-08-02",
+      "id": "2026-08-03-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-08-03",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -638,7 +593,55 @@
         "政策与安全",
         "Qwen Blog"
       ],
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
+      "size": "cover",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-03-infoq-nvidia-vera-rubin-token",
+      "date": "2026-08-03",
+      "category": "AI 大事",
+      "title": "NVIDIA Vera Rubin 正式登场：从芯片卷到电网，只为压低每一个 Token 的成本",
+      "sourceTitle": "NVIDIA Vera Rubin 正式登场：从芯片卷到电网，只为压低每一个 Token 的成本",
+      "summary": "InfoQ 中文 报道关注「NVIDIA Vera Rubin 正式登场：从芯片卷到电网，只为压低每一个 Token 的成本」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/3gb6NlxK6c0A9or5Zfbt?utm_source=rss&utm_medium=article",
+      "time": "01:16",
+      "importance": "中",
+      "tags": [
+        "Nvidia",
+        "中国 AI",
+        "大事",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-03-anthropic",
+      "date": "2026-08-03",
+      "category": "模型更新",
+      "title": "Anthropic模型，也失控了。。。",
+      "sourceTitle": "Anthropic模型，也失控了。。。",
+      "summary": "量子位 报道关注「Anthropic模型，也失控了。。。」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "14万次测试翻旧账",
+      "source": "量子位",
+      "region": "china",
+      "url": "https://www.qbitai.com/2026/08/464412.html",
+      "time": "11:18",
+      "importance": "中",
+      "tags": [
+        "Anthropic",
+        "中国 AI",
+        "模型更新",
+        "量子位"
+      ],
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=82",
       "size": "wide",
       "readMinutes": 3
     }
