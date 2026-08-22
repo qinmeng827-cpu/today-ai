@@ -1,13 +1,104 @@
 {
-  "generatedAt": "2026-08-21T23:37:25.307Z",
+  "generatedAt": "2026-08-22T23:34:32.058Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-08-22"
+    "2026-08-23"
   ],
   "stories": [
     {
-      "id": "2026-08-22-the-verge-over-1-million-people-have-clicked-linkedin-s-ai-slop-button",
-      "date": "2026-08-22",
+      "id": "2026-08-23-techcrunch-harvard-s-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+      "date": "2026-08-23",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "time": "05:46",
+      "importance": "高",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-08-23-techcrunch-inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperf",
+      "date": "2026-08-23",
+      "category": "论文与技术",
+      "title": "DeepMind：AI 技术研究动态",
+      "sourceTitle": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "summary": "TechCrunch 报道关注「DeepMind：AI 技术研究动态」。重点看技术路线是否能从论文或实验走向真实产品。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "技术论文适合看趋势，不必只看单点指标，更要关注它能否迁移到真实产品。",
+      "sourceExcerpt": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "time": "03:00",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "论文与技术",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-23-techcrunch-openai-says-california-should-strengthen-its-ai-safety-bill",
+      "date": "2026-08-23",
+      "category": "政策与安全",
+      "title": "OpenAI：AI 政策与安全动态",
+      "sourceTitle": "OpenAI says California should strengthen its AI safety bill",
+      "summary": "TechCrunch 报道关注「OpenAI：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
+      "sourceExcerpt": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "time": "00:30",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "政策与安全",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-23-techcrunch-frontier-ai-labs-still-won-t-say-how-they-d-contain-a-rogue-model",
+      "date": "2026-08-23",
+      "category": "模型更新",
+      "title": "TechCrunch：模型与能力更新",
+      "sourceTitle": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "summary": "TechCrunch 报道关注「TechCrunch：模型与能力更新」。重点看模型能力、开放策略和真实任务表现是否发生变化。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
+      "sourceExcerpt": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "time": "00:00",
+      "importance": "高",
+      "tags": [
+        "模型更新",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-08-23-the-verge-over-1-million-people-have-clicked-linkedin-s-ai-slop-button",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Over 1 million people have clicked LinkedIn’s AI slop button",
@@ -24,58 +115,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/1785424232227.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-08-22-techcrunch-nvidia-partners-with-data-center-developer-cloverleaf",
-      "date": "2026-08-22",
-      "category": "AI 大事",
-      "title": "NVIDIA：重要 AI 动态",
-      "sourceTitle": "Nvidia partners with data center developer Cloverleaf",
-      "summary": "TechCrunch 报道关注「NVIDIA：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-      "time": "06:37",
-      "importance": "高",
-      "tags": [
-        "Nvidia",
-        "大事",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
+      "size": "small",
       "readMinutes": 4
     },
     {
-      "id": "2026-08-22-techcrunch-anthropic-s-opus-4-6-is-a-smut-machine",
-      "date": "2026-08-22",
-      "category": "商业融资",
-      "title": "Anthropic：AI 商业与融资动态",
-      "sourceTitle": "Anthropic’s Opus 4.6 is a smut-machine",
-      "summary": "TechCrunch 报道关注「Anthropic：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-      "time": "07:07",
-      "importance": "高",
-      "tags": [
-        "Anthropic",
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-08-22-the-verge-major-youtube-creators-are-facing-backlash-for-accepting-ai-money",
-      "date": "2026-08-22",
+      "id": "2026-08-23-the-verge-major-youtube-creators-are-facing-backlash-for-accepting-ai-money",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Major YouTube creators are facing backlash for accepting AI money",
@@ -86,85 +131,18 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
       "time": "21:37",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/ai-label_eb9dbb.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-08-22-techcrunch-nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-",
-      "date": "2026-08-22",
-      "category": "商业融资",
-      "title": "NVIDIA：AI 商业与融资动态",
-      "sourceTitle": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "summary": "TechCrunch 报道关注「NVIDIA：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "time": "03:43",
-      "importance": "高",
-      "tags": [
-        "Nvidia",
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-22-techcrunch-starcloud-raises-250-million-for-orbital-data-centers-as-launch-optio",
-      "date": "2026-08-22",
-      "category": "AI 产品工具",
-      "title": "TechCrunch：AI 产品工具动态",
-      "sourceTitle": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
-      "sourceExcerpt": "There's about to be a big fight to secure access to space.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "time": "22:00",
-      "importance": "中",
-      "tags": [
-        "产品工具",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-22-techcrunch-the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital",
-      "date": "2026-08-22",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "The DOJ is investigating a16z. What does this mean for venture capital?",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been inve",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
-      "time": "22:00",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-08-22-the-verge-google-discover-is-getting-an-ai-chatbot-tuned-feed",
-      "date": "2026-08-22",
+      "id": "2026-08-23-the-verge-google-discover-is-getting-an-ai-chatbot-tuned-feed",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "Google：重要 AI 动态",
       "sourceTitle": "Google Discover is getting an AI chatbot-tuned feed",
@@ -182,12 +160,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-20-at-5.37.35-PM.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 4
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-22-the-verge-it-s-greg-brockman-s-openai-now",
-      "date": "2026-08-22",
+      "id": "2026-08-23-the-verge-it-s-greg-brockman-s-openai-now",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "It’s Greg Brockman’s OpenAI now",
@@ -205,12 +183,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 5
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-22-the-verge-welcome-to-the-ai-crisis-in-math",
-      "date": "2026-08-22",
+      "id": "2026-08-23-the-verge-welcome-to-the-ai-crisis-in-math",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Welcome to the AI crisis in math",
@@ -227,12 +205,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_082026_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
-      "readMinutes": 3
+      "size": "medium",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-22-the-verge-openai-hit-the-brakes-now-what",
-      "date": "2026-08-22",
+      "id": "2026-08-23-the-verge-openai-hit-the-brakes-now-what",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI hit the brakes. Now what?",
@@ -250,12 +228,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 4
+      "size": "small",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-22-the-verge-nvidia-s-new-financial-strategy-does-not-compute",
-      "date": "2026-08-22",
+      "id": "2026-08-23-the-verge-nvidia-s-new-financial-strategy-does-not-compute",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "NVIDIA：重要 AI 动态",
       "sourceTitle": "Nvidia’s new financial strategy does not compute",
@@ -273,12 +251,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 5
+      "size": "cover",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-22-openai-news-introducing-ai-futures",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-introducing-ai-futures",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing AI Futures",
@@ -295,13 +273,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-22-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Partnering with CodeAI to prepare the first AI generation",
@@ -318,13 +296,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-22-openai-news-pacing-model-development-in-an-era-of-cyber-critical-capabilities",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-pacing-model-development-in-an-era-of-cyber-critical-capabilities",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Pacing model development in an era of cyber-critical capabilities",
@@ -341,13 +319,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-22-openai-news-asana-cleared-5-years-of-engineering-work-in-2-weeks-with-codex",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-asana-cleared-5-years-of-engineering-work-in-2-weeks-with-codex",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
@@ -364,13 +342,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-22-openai-news-the-defender-s-window",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-the-defender-s-window",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "The Defender’s Window",
@@ -387,13 +365,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-22-openai-news-openai-joins-ports-pike-project",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-openai-joins-ports-pike-project",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI joins PORTS-Pike project",
@@ -410,13 +388,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-22-openai-news-from-assistance-to-execution-how-enterprises-put-ai-to-work",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-from-assistance-to-execution-how-enterprises-put-ai-to-work",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "From assistance to execution: How enterprises put AI to work",
@@ -433,13 +411,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-22-openai-news-how-ringcentral-builds-ai-native-work-from-engineering-to-ops",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-how-ringcentral-builds-ai-native-work-from-engineering-to-ops",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How RingCentral builds AI-native work from engineering to ops",
@@ -456,13 +434,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-22-openai-news-daybreak-models-are-now-available-on-aws",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-daybreak-models-are-now-available-on-aws",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Daybreak models are now available on AWS",
@@ -479,13 +457,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-22-openai-news-openai-s-letter-to-governor-abbott-on-responsible-ai-infrastructure-",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-openai-s-letter-to-governor-abbott-on-responsible-ai-infrastructure-",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
@@ -502,13 +480,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-22-openai-news-what-building-an-ai-native-finance-function-taught-me",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-what-building-an-ai-native-finance-function-taught-me",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "What building an AI-native finance function taught me",
@@ -525,13 +503,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-22-openai-news-how-hsp-gruppe-builds-ai-capabilities-for-tax-advisory",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-how-hsp-gruppe-builds-ai-capabilities-for-tax-advisory",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How HSP GRUPPE builds AI capabilities for tax advisory",
@@ -548,13 +526,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-22-openai-news-working-with-the-american-psychological-association-on-youth-mental-",
-      "date": "2026-08-22",
+      "id": "2026-08-23-openai-news-working-with-the-american-psychological-association-on-youth-mental-",
+      "date": "2026-08-23",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Working with the American Psychological Association on youth mental health and AI",
@@ -571,47 +549,46 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-23-openai-news-how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months",
+      "date": "2026-08-23",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "How we built a realtime system for responsive voice AI in six months",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "time": "15:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-22-infoq-ox-alpha-openrouter-fable-5-or",
-      "date": "2026-08-22",
-      "category": "模型更新",
-      "title": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
-      "sourceTitle": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
-      "summary": "InfoQ 中文 报道关注「神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "region": "china",
-      "url": "https://www.infoq.cn/article/3MNJh5F34GSsRQJJWJzY?utm_source=rss&utm_medium=article",
-      "time": "03:41",
-      "importance": "中",
-      "tags": [
-        "智谱",
-        "中国 AI",
-        "模型更新",
-        "InfoQ 中文"
-      ],
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-22-90-24-70",
-      "date": "2026-08-22",
+      "id": "2026-08-23-demo-1-1-wrc",
+      "date": "2026-08-23",
       "category": "AI 大事",
-      "title": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%",
-      "sourceTitle": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%",
-      "summary": "量子位 报道关注「国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "title": "不是Demo！优必选把客户产线1:1搬进WRC，解锁具身智能真落地路径",
+      "sourceTitle": "不是Demo！优必选把客户产线1:1搬进WRC，解锁具身智能真落地路径",
+      "summary": "量子位 报道：端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "",
+      "sourceExcerpt": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
       "source": "量子位",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/08/476409.html",
-      "time": "10:31",
+      "url": "https://www.qbitai.com/2026/08/477253.html",
+      "time": "22:46",
       "importance": "中",
       "tags": [
         "中国 AI",
@@ -619,12 +596,36 @@
         "量子位"
       ],
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-23-infoq-cloudflare-agent-tracing-payload",
+      "date": "2026-08-23",
+      "category": "AI 产品工具",
+      "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
+      "sourceTitle": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
+      "summary": "InfoQ 中文 报道关注「Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/IBYDTeu3rse9tH3549wf?utm_source=rss&utm_medium=article",
+      "time": "23:15",
+      "importance": "中",
+      "tags": [
+        "智能体",
+        "中国 AI",
+        "产品工具",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=82",
       "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-22-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-08-22",
+      "id": "2026-08-23-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-08-23",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
