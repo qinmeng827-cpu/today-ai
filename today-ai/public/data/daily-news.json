@@ -1,104 +1,101 @@
 {
-  "generatedAt": "2026-08-22T23:34:32.058Z",
+  "generatedAt": "2026-08-23T23:35:21.825Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-08-23"
+    "2026-08-24"
   ],
   "stories": [
     {
-      "id": "2026-08-23-techcrunch-harvard-s-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
-      "date": "2026-08-23",
+      "id": "2026-08-24-techcrunch-who-s-behind-the-new-stealth-model-ox-alpha",
+      "date": "2026-08-24",
       "category": "商业融资",
       "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "sourceTitle": "Who’s behind the new ‘stealth model’ Ox Alpha?",
       "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
       "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "sourceExcerpt": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
       "source": "TechCrunch",
       "region": "global",
-      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-      "time": "05:46",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "time": "04:01",
       "importance": "高",
       "tags": [
         "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-techcrunch-inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperf",
-      "date": "2026-08-23",
-      "category": "论文与技术",
-      "title": "DeepMind：AI 技术研究动态",
-      "sourceTitle": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "summary": "TechCrunch 报道关注「DeepMind：AI 技术研究动态」。重点看技术路线是否能从论文或实验走向真实产品。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "技术论文适合看趋势，不必只看单点指标，更要关注它能否迁移到真实产品。",
-      "sourceExcerpt": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "id": "2026-08-24-techcrunch-linkdaze-s-smart-calendar-is-built-to-run-a-household-not-just-track-",
+      "date": "2026-08-24",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
       "source": "TechCrunch",
       "region": "global",
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "time": "03:00",
+      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "time": "03:14",
       "importance": "高",
       "tags": [
-        "OpenAI",
-        "Anthropic",
-        "论文与技术",
+        "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
       "size": "tall",
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-techcrunch-openai-says-california-should-strengthen-its-ai-safety-bill",
-      "date": "2026-08-23",
+      "id": "2026-08-24-techcrunch-is-it-legal-to-train-ai-models-on-copyrighted-books-it-s-complicated",
+      "date": "2026-08-24",
       "category": "政策与安全",
-      "title": "OpenAI：AI 政策与安全动态",
-      "sourceTitle": "OpenAI says California should strengthen its AI safety bill",
-      "summary": "TechCrunch 报道关注「OpenAI：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "title": "TechCrunch：AI 政策与安全动态",
+      "sourceTitle": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
       "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
-      "sourceExcerpt": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "sourceExcerpt": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
       "source": "TechCrunch",
       "region": "global",
-      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "time": "00:30",
+      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "time": "23:00",
       "importance": "高",
       "tags": [
-        "OpenAI",
         "政策与安全",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
       "size": "wide",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-techcrunch-frontier-ai-labs-still-won-t-say-how-they-d-contain-a-rogue-model",
-      "date": "2026-08-23",
-      "category": "模型更新",
-      "title": "TechCrunch：模型与能力更新",
-      "sourceTitle": "Frontier AI labs still won’t say how they’d contain a rogue model",
-      "summary": "TechCrunch 报道关注「TechCrunch：模型与能力更新」。重点看模型能力、开放策略和真实任务表现是否发生变化。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
-      "sourceExcerpt": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "id": "2026-08-24-techcrunch-flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-",
+      "date": "2026-08-24",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
       "source": "TechCrunch",
       "region": "global",
-      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-      "time": "00:00",
+      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+      "time": "23:30",
       "importance": "高",
       "tags": [
-        "模型更新",
+        "商业融资",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
       "size": "medium",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-the-verge-over-1-million-people-have-clicked-linkedin-s-ai-slop-button",
-      "date": "2026-08-23",
+      "id": "2026-08-24-the-verge-over-1-million-people-have-clicked-linkedin-s-ai-slop-button",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Over 1 million people have clicked LinkedIn’s AI slop button",
@@ -119,8 +116,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-the-verge-major-youtube-creators-are-facing-backlash-for-accepting-ai-money",
-      "date": "2026-08-23",
+      "id": "2026-08-24-the-verge-major-youtube-creators-are-facing-backlash-for-accepting-ai-money",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Major YouTube creators are facing backlash for accepting AI money",
@@ -141,8 +138,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-the-verge-google-discover-is-getting-an-ai-chatbot-tuned-feed",
-      "date": "2026-08-23",
+      "id": "2026-08-24-the-verge-google-discover-is-getting-an-ai-chatbot-tuned-feed",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "Google：重要 AI 动态",
       "sourceTitle": "Google Discover is getting an AI chatbot-tuned feed",
@@ -164,8 +161,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-the-verge-it-s-greg-brockman-s-openai-now",
-      "date": "2026-08-23",
+      "id": "2026-08-24-the-verge-it-s-greg-brockman-s-openai-now",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "It’s Greg Brockman’s OpenAI now",
@@ -187,8 +184,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-the-verge-welcome-to-the-ai-crisis-in-math",
-      "date": "2026-08-23",
+      "id": "2026-08-24-the-verge-welcome-to-the-ai-crisis-in-math",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Welcome to the AI crisis in math",
@@ -209,8 +206,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-the-verge-openai-hit-the-brakes-now-what",
-      "date": "2026-08-23",
+      "id": "2026-08-24-the-verge-openai-hit-the-brakes-now-what",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI hit the brakes. Now what?",
@@ -232,8 +229,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-the-verge-nvidia-s-new-financial-strategy-does-not-compute",
-      "date": "2026-08-23",
+      "id": "2026-08-24-the-verge-nvidia-s-new-financial-strategy-does-not-compute",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "NVIDIA：重要 AI 动态",
       "sourceTitle": "Nvidia’s new financial strategy does not compute",
@@ -255,8 +252,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-openai-news-introducing-ai-futures",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-introducing-ai-futures",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing AI Futures",
@@ -278,8 +275,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Partnering with CodeAI to prepare the first AI generation",
@@ -301,8 +298,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-openai-news-pacing-model-development-in-an-era-of-cyber-critical-capabilities",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-pacing-model-development-in-an-era-of-cyber-critical-capabilities",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Pacing model development in an era of cyber-critical capabilities",
@@ -324,8 +321,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-openai-news-asana-cleared-5-years-of-engineering-work-in-2-weeks-with-codex",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-asana-cleared-5-years-of-engineering-work-in-2-weeks-with-codex",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
@@ -347,8 +344,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-openai-news-the-defender-s-window",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-the-defender-s-window",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "The Defender’s Window",
@@ -370,8 +367,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-openai-news-openai-joins-ports-pike-project",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-openai-joins-ports-pike-project",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI joins PORTS-Pike project",
@@ -393,8 +390,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-openai-news-from-assistance-to-execution-how-enterprises-put-ai-to-work",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-from-assistance-to-execution-how-enterprises-put-ai-to-work",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "From assistance to execution: How enterprises put AI to work",
@@ -416,8 +413,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-openai-news-how-ringcentral-builds-ai-native-work-from-engineering-to-ops",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-how-ringcentral-builds-ai-native-work-from-engineering-to-ops",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How RingCentral builds AI-native work from engineering to ops",
@@ -439,8 +436,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-openai-news-daybreak-models-are-now-available-on-aws",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-daybreak-models-are-now-available-on-aws",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Daybreak models are now available on AWS",
@@ -462,8 +459,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-openai-news-openai-s-letter-to-governor-abbott-on-responsible-ai-infrastructure-",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-openai-s-letter-to-governor-abbott-on-responsible-ai-infrastructure-",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
@@ -485,8 +482,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-openai-news-what-building-an-ai-native-finance-function-taught-me",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-what-building-an-ai-native-finance-function-taught-me",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "What building an AI-native finance function taught me",
@@ -508,8 +505,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-openai-news-how-hsp-gruppe-builds-ai-capabilities-for-tax-advisory",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-how-hsp-gruppe-builds-ai-capabilities-for-tax-advisory",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How HSP GRUPPE builds AI capabilities for tax advisory",
@@ -531,8 +528,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-23-openai-news-working-with-the-american-psychological-association-on-youth-mental-",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-working-with-the-american-psychological-association-on-youth-mental-",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Working with the American Psychological Association on youth mental health and AI",
@@ -554,8 +551,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-openai-news-how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months",
-      "date": "2026-08-23",
+      "id": "2026-08-24-openai-news-how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months",
+      "date": "2026-08-24",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How we built a realtime system for responsive voice AI in six months",
@@ -577,55 +574,54 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-23-demo-1-1-wrc",
-      "date": "2026-08-23",
-      "category": "AI 大事",
-      "title": "不是Demo！优必选把客户产线1:1搬进WRC，解锁具身智能真落地路径",
-      "sourceTitle": "不是Demo！优必选把客户产线1:1搬进WRC，解锁具身智能真落地路径",
-      "summary": "量子位 报道：端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
+      "id": "2026-08-24-infoq-dogwood-ai",
+      "date": "2026-08-24",
+      "category": "论文与技术",
+      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "sourceTitle": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "summary": "InfoQ 中文 报道关注「亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "端侧部署解决了具身大脑能否装进身体的问题。那么，同一个「大脑」，如何快速适配工业、商用和家庭三类机器人呢？",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
+      "time": "01:00",
+      "importance": "中",
+      "tags": [
+        "中国 AI",
+        "论文与技术",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1200&q=82",
+      "size": "cover",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-24-wrc",
+      "date": "2026-08-24",
+      "category": "AI 大事",
+      "title": "WRC唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
+      "sourceTitle": "WRC唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
+      "summary": "量子位 报道关注「WRC唯一真「人机共生」展台，是家沉浸式机器人咖啡店」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "玩的就是真实",
       "source": "量子位",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/08/477253.html",
-      "time": "22:46",
+      "url": "https://www.qbitai.com/2026/08/478319.html",
+      "time": "21:20",
       "importance": "中",
       "tags": [
         "中国 AI",
         "大事",
         "量子位"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-23-infoq-cloudflare-agent-tracing-payload",
-      "date": "2026-08-23",
-      "category": "AI 产品工具",
-      "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
-      "sourceTitle": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
-      "summary": "InfoQ 中文 报道关注「Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "region": "china",
-      "url": "https://www.infoq.cn/article/IBYDTeu3rse9tH3549wf?utm_source=rss&utm_medium=article",
-      "time": "23:15",
-      "importance": "中",
-      "tags": [
-        "智能体",
-        "中国 AI",
-        "产品工具",
-        "InfoQ 中文"
-      ],
-      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-23-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-08-23",
+      "id": "2026-08-24-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-08-24",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
