@@ -1,35 +1,126 @@
 {
-  "generatedAt": "2026-08-29T04:09:56.386Z",
+  "generatedAt": "2026-08-30T01:15:33.768Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-08-29"
+    "2026-08-30"
   ],
   "stories": [
     {
-      "id": "2026-08-29-techcrunch-neocloud-lambda-secures-1b-in-debt-to-buy-more-chips",
-      "date": "2026-08-29",
-      "category": "AI 大事",
-      "title": "TechCrunch：重要 AI 动态",
-      "sourceTitle": "Neocloud Lambda secures $1B in debt to buy more chips",
-      "summary": "TechCrunch 报道关注「TechCrunch：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-      "source": "TechCrunch",
+      "id": "2026-08-30-the-verge-sony-music-and-warner-chappell-are-suing-anthropic",
+      "date": "2026-08-30",
+      "category": "AI 产品工具",
+      "title": "Anthropic：AI 产品工具动态",
+      "sourceTitle": "Sony Music and Warner Chappell are suing Anthropic",
+      "summary": "The Verge 报道关注「Anthropic：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
+      "sourceExcerpt": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,00",
+      "source": "The Verge",
       "region": "global",
-      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-      "time": "04:24",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "time": "02:19",
       "importance": "高",
       "tags": [
-        "大事",
-        "TechCrunch"
+        "Anthropic",
+        "产品工具",
+        "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "cover",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-29-the-verge-trump-s-epa-wants-to-let-data-centers-hide-their-air-pollution",
-      "date": "2026-08-29",
+      "id": "2026-08-30-the-verge-musicians-turned-detectives-are-hunting-for-ai-grifters",
+      "date": "2026-08-30",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "Musicians-turned-detectives are hunting for AI grifters",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people p",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "time": "20:00",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&strip=all&crop=0,0,85.33125,89.314310632479",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-30-techcrunch-sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intelle",
+      "date": "2026-08-30",
+      "category": "商业融资",
+      "title": "Anthropic：AI 商业与融资动态",
+      "sourceTitle": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "summary": "TechCrunch 报道关注「Anthropic：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "time": "02:41",
+      "importance": "高",
+      "tags": [
+        "Anthropic",
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-30-techcrunch-we-re-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-run",
+      "date": "2026-08-30",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expen",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "time": "01:36",
+      "importance": "高",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-08-30-techcrunch-nvidia-s-ai-advantage-is-moving-beyond-the-gpu",
+      "date": "2026-08-30",
+      "category": "商业融资",
+      "title": "NVIDIA：AI 商业与融资动态",
+      "sourceTitle": "Nvidia’s AI advantage is moving beyond the GPU",
+      "summary": "TechCrunch 报道关注「NVIDIA：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "time": "21:00",
+      "importance": "高",
+      "tags": [
+        "Nvidia",
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-30-the-verge-trump-s-epa-wants-to-let-data-centers-hide-their-air-pollution",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Trump’s EPA wants to let data centers hide their air pollution",
@@ -40,110 +131,18 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
       "time": "00:28",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-29-techcrunch-an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
-      "date": "2026-08-29",
-      "category": "论文与技术",
-      "title": "Anthropic：AI 技术研究动态",
-      "sourceTitle": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "summary": "TechCrunch 报道关注「Anthropic：AI 技术研究动态」。重点看技术路线是否能从论文或实验走向真实产品。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "技术论文适合看趋势，不必只看单点指标，更要关注它能否迁移到真实产品。",
-      "sourceExcerpt": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-      "time": "03:30",
-      "importance": "高",
-      "tags": [
-        "Anthropic",
-        "论文与技术",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-08-29-techcrunch-open-weight-ai-companies-are-the-valley-s-hottest-acquisition-targets",
-      "date": "2026-08-29",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "There's a lot of capital pouring into the business of giving models away.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-      "time": "02:19",
-      "importance": "高",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-08-29-techcrunch-anthropic-gets-its-first-court-win-over-the-pentagon-s-supply-chain-r",
-      "date": "2026-08-29",
-      "category": "政策与安全",
-      "title": "Anthropic：AI 政策与安全动态",
-      "sourceTitle": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-      "summary": "TechCrunch 报道关注「Anthropic：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
-      "sourceExcerpt": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-      "time": "20:46",
-      "importance": "高",
-      "tags": [
-        "Anthropic",
-        "政策与安全",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-29-techcrunch-meta-executive-leaves-for-openai-as-the-social-media-giant-faces-grow",
-      "date": "2026-08-29",
-      "category": "商业融资",
-      "title": "Meta：AI 商业与融资动态",
-      "sourceTitle": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
-      "summary": "TechCrunch 报道关注「Meta：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
-      "time": "20:21",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "Meta",
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 5
     },
     {
-      "id": "2026-08-29-the-verge-jensen-huang-says-nvidia-achieved-agi-again-not-that-it-matters",
-      "date": "2026-08-29",
+      "id": "2026-08-30-the-verge-jensen-huang-says-nvidia-achieved-agi-again-not-that-it-matters",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "NVIDIA：重要 AI 动态",
       "sourceTitle": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
@@ -165,8 +164,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-29-the-verge-openai-s-executive-exodus-has-one-big-winner",
-      "date": "2026-08-29",
+      "id": "2026-08-30-the-verge-openai-s-executive-exodus-has-one-big-winner",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI’s executive exodus has one big winner",
@@ -188,8 +187,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-08-29-the-verge-hugging-face-s-new-robot-is-an-adorable-rollerskating-duck",
-      "date": "2026-08-29",
+      "id": "2026-08-30-the-verge-hugging-face-s-new-robot-is-an-adorable-rollerskating-duck",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "Hugging Face：重要 AI 动态",
       "sourceTitle": "Hugging Face’s new robot is an adorable rollerskating duck",
@@ -210,8 +209,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-08-29-the-verge-adobe-is-adding-more-ai-to-photoshop",
-      "date": "2026-08-29",
+      "id": "2026-08-30-the-verge-adobe-is-adding-more-ai-to-photoshop",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Adobe is adding more AI to Photoshop",
@@ -232,54 +231,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-08-29-the-verge-nvidia-is-about-to-be-a-hundred-billion-dollar-a-quarter-company",
-      "date": "2026-08-29",
-      "category": "AI 大事",
-      "title": "NVIDIA：重要 AI 动态",
-      "sourceTitle": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
-      "summary": "The Verge 报道关注「NVIDIA：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its lat",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
-      "time": "05:40",
-      "importance": "中",
-      "tags": [
-        "Nvidia",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-29-the-verge-openai-s-rogue-ai-model-incident-was-worse-than-we-thought",
-      "date": "2026-08-29",
-      "category": "AI 大事",
-      "title": "OpenAI：重要 AI 动态",
-      "sourceTitle": "OpenAI’s rogue AI model incident was worse than we thought",
-      "summary": "The Verge 报道关注「OpenAI：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Huggin",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "time": "05:36",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK_414_AI_CHATBOT_R2_CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-08-29-openai-news-expanding-openai-s-presence-in-brazil",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-expanding-openai-s-presence-in-brazil",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Expanding OpenAI’s presence in Brazil",
@@ -296,13 +249,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-29-openai-news-learning-never-stops-how-ai-makes-learning-continuous",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-learning-never-stops-how-ai-makes-learning-continuous",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Learning never stops: How AI makes learning continuous",
@@ -319,13 +272,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-29-openai-news-the-hugging-face-incident-and-the-road-ahead",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-the-hugging-face-incident-and-the-road-ahead",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "Hugging Face：重要 AI 动态",
       "sourceTitle": "The Hugging Face incident and the road ahead",
@@ -341,13 +294,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-29-openai-news-how-loveholidays-is-making-everyone-a-builder-with-codex",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-how-loveholidays-is-making-everyone-a-builder-with-codex",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How loveholidays is making everyone a builder with Codex",
@@ -364,13 +317,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-29-openai-news-the-full-stack-behind-abundant-intelligence",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-the-full-stack-behind-abundant-intelligence",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "The full stack behind abundant intelligence",
@@ -387,13 +340,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-29-openai-news-jalape-o-s-first-results-show-industry-leading-speed-and-efficiency-",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-jalape-o-s-first-results-show-industry-leading-speed-and-efficiency-",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
@@ -410,13 +363,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-29-openai-news-disrupting-a-new-covert-influence-campaign-from-russia",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-disrupting-a-new-covert-influence-campaign-from-russia",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Disrupting a new covert influence campaign from Russia",
@@ -433,13 +386,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-29-openai-news-introducing-intelligence-age",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-introducing-intelligence-age",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing Intelligence Age",
@@ -456,13 +409,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-29-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Partnering with CodeAI to prepare the first AI generation",
@@ -479,13 +432,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-29-openai-news-pacing-model-development-in-an-era-of-cyber-critical-capabilities",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-pacing-model-development-in-an-era-of-cyber-critical-capabilities",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Pacing model development in an era of cyber-critical capabilities",
@@ -502,13 +455,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-29-openai-news-asana-cleared-5-years-of-engineering-work-in-2-weeks-with-codex",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-asana-cleared-5-years-of-engineering-work-in-2-weeks-with-codex",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
@@ -525,13 +478,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-08-29-openai-news-the-defender-s-window",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-the-defender-s-window",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "The Defender’s Window",
@@ -548,13 +501,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-08-29-openai-news-openai-joins-ports-pike-project",
-      "date": "2026-08-29",
+      "id": "2026-08-30-openai-news-openai-joins-ports-pike-project",
+      "date": "2026-08-30",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI joins PORTS-Pike project",
@@ -571,48 +524,69 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-08-30-openai-news-from-assistance-to-execution-how-enterprises-put-ai-to-work",
+      "date": "2026-08-30",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "From assistance to execution: How enterprises put AI to work",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "time": "14:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-30-openai-news-how-ringcentral-builds-ai-native-work-from-engineering-to-ops",
+      "date": "2026-08-30",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "How RingCentral builds AI-native work from engineering to ops",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/ringcentral",
+      "time": "08:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-08-29-infoq-agent-google",
-      "date": "2026-08-29",
-      "category": "AI 产品工具",
-      "title": "Agent 时代，为什么有人开始重新造 Google？",
-      "sourceTitle": "Agent 时代，为什么有人开始重新造 Google？",
-      "summary": "InfoQ 中文 报道关注「Agent 时代，为什么有人开始重新造 Google？」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "region": "china",
-      "url": "https://www.infoq.cn/article/KbbHdAQFxQM7AJIYMLqR?utm_source=rss&utm_medium=article",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "Google",
-        "智能体",
-        "中国 AI",
-        "产品工具",
-        "InfoQ 中文"
-      ],
-      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-08-29-ai-100",
-      "date": "2026-08-29",
+      "id": "2026-08-30-ai-734",
+      "date": "2026-08-30",
       "category": "AI 大事",
-      "title": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
-      "sourceTitle": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
-      "summary": "量子位 报道：久久不愿来到台前的智元掌舵人",
+      "title": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
+      "sourceTitle": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
+      "summary": "量子位 报道：推理软件栈的微小差异，就能改变输出token",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "久久不愿来到台前的智元掌舵人",
+      "sourceExcerpt": "推理软件栈的微小差异，就能改变输出token",
       "source": "量子位",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/08/480666.html",
-      "time": "19:13",
+      "url": "https://www.qbitai.com/2026/08/481372.html",
+      "time": "21:11",
       "importance": "中",
       "tags": [
         "中国 AI",
@@ -620,12 +594,12 @@
         "量子位"
       ],
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 5
+      "size": "cover",
+      "readMinutes": 4
     },
     {
-      "id": "2026-08-29-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-08-29",
+      "id": "2026-08-30-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-08-30",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -643,7 +617,30 @@
         "政策与安全",
         "Qwen Blog"
       ],
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-08-30-infoq-harmonyos7-ai",
+      "date": "2026-08-30",
+      "category": "AI 产品工具",
+      "title": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "sourceTitle": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "summary": "InfoQ 中文 报道关注「一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/3R8f57Bow3B4kEBkPv5J?utm_source=rss&utm_medium=article",
+      "time": "21:19",
+      "importance": "中",
+      "tags": [
+        "中国 AI",
+        "产品工具",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=82",
       "size": "wide",
       "readMinutes": 3
     }
