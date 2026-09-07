@@ -1,61 +1,129 @@
 {
-  "generatedAt": "2026-09-06T00:56:18.506Z",
+  "generatedAt": "2026-09-07T01:01:20.562Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-09-06"
+    "2026-09-07"
   ],
   "stories": [
     {
-      "id": "2026-09-06-techcrunch-seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-a",
-      "date": "2026-09-06",
-      "category": "商业融资",
-      "title": "OpenAI：AI 商业与融资动态",
-      "sourceTitle": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "TechCrunch 报道关注「OpenAI：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-      "source": "TechCrunch",
+      "id": "2026-09-07-the-verge-seattle-times-and-newsday-sue-openai-and-microsoft-for-infringement",
+      "date": "2026-09-07",
+      "category": "AI 大事",
+      "title": "OpenAI：重要 AI 动态",
+      "sourceTitle": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "summary": "The Verge 报道关注「OpenAI：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages fro",
+      "source": "The Verge",
       "region": "global",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "time": "06:49",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "time": "07:36",
       "importance": "高",
       "tags": [
         "OpenAI",
         "Microsoft",
-        "商业融资",
-        "TechCrunch"
+        "大事",
+        "The Verge"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292926705.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "cover",
       "readMinutes": 3
     },
     {
-      "id": "2026-09-06-techcrunch-hikers-rescued-after-using-google-gemini-for-planning",
-      "date": "2026-09-06",
-      "category": "模型更新",
-      "title": "Google：模型与能力更新",
-      "sourceTitle": "Hikers rescued after using Google Gemini for planning",
-      "summary": "TechCrunch 报道关注「Google：模型与能力更新」。重点看模型能力、开放策略和真实任务表现是否发生变化。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "模型更新会直接影响工具选择、成本结构和应用能力边界，值得观察真实任务表现。",
-      "sourceExcerpt": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+      "id": "2026-09-07-techcrunch-authors-push-back-as-publishers-and-agents-make-claims-on-anthropic-s",
+      "date": "2026-09-07",
+      "category": "AI 产品工具",
+      "title": "Anthropic：AI 产品工具动态",
+      "sourceTitle": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "summary": "TechCrunch 报道关注「Anthropic：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
+      "sourceExcerpt": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
       "source": "TechCrunch",
       "region": "global",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "time": "03:35",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "time": "04:47",
       "importance": "高",
       "tags": [
-        "Google",
-        "Gemini",
-        "模型更新",
+        "Anthropic",
+        "智能体",
+        "产品工具",
         "TechCrunch"
       ],
-      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
       "size": "tall",
       "readMinutes": 4
     },
     {
-      "id": "2026-09-06-the-verge-openai-admits-to-german-wiki-incident",
-      "date": "2026-09-06",
+      "id": "2026-09-07-techcrunch-travis-kalanick-s-atoms-might-be-getting-into-the-robotaxi-business",
+      "date": "2026-09-07",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "time": "00:45",
+      "importance": "高",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-09-07-openai-news-an-alien-mind",
+      "date": "2026-09-07",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "An Alien Mind",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/an-alien-mind",
+      "time": "17:00",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-09-07-openai-news-research-acceleration-the-view-inside-openai",
+      "date": "2026-09-07",
+      "category": "论文与技术",
+      "title": "OpenAI：AI 技术研究动态",
+      "sourceTitle": "Research acceleration: The view inside OpenAI",
+      "summary": "OpenAI News 报道关注「OpenAI：AI 技术研究动态」。重点看技术路线是否能从论文或实验走向真实产品。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "技术论文适合看趋势，不必只看单点指标，更要关注它能否迁移到真实产品。",
+      "sourceExcerpt": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "time": "16:00",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "论文与技术",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-09-07-the-verge-openai-admits-to-german-wiki-incident",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "OpenAI admits to German wiki ‘incident’",
@@ -66,42 +134,19 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
       "time": "19:15",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "OpenAI",
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
+      "size": "cover",
       "readMinutes": 5
     },
     {
-      "id": "2026-09-06-techcrunch-openai-confirms-wiki-incident-says-it-s-working-on-a-framework-for-mo",
-      "date": "2026-09-06",
-      "category": "商业融资",
-      "title": "OpenAI：AI 商业与融资动态",
-      "sourceTitle": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "summary": "TechCrunch 报道关注「OpenAI：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "time": "02:05",
-      "importance": "高",
-      "tags": [
-        "OpenAI",
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-09-06-the-verge-roland-is-getting-into-generative-ai-music-with-melody-flip",
-      "date": "2026-09-06",
+      "id": "2026-09-07-the-verge-roland-is-getting-into-generative-ai-music-with-melody-flip",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Roland is getting into generative AI music with Melody Flip",
@@ -112,18 +157,18 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
       "time": "01:51",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Melody_Flip_Palettes-Fav.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
-      "readMinutes": 4
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-09-06-the-verge-microsoft-says-virtually-nobody-was-grabbing-nyt-articles-through-its-",
-      "date": "2026-09-06",
+      "id": "2026-09-07-the-verge-microsoft-says-virtually-nobody-was-grabbing-nyt-articles-through-its-",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "Microsoft：重要 AI 动态",
       "sourceTitle": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
@@ -141,12 +186,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK259_MICROSOFT_COPILOT_2__B.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 5
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-06-the-verge-instagram-s-ai-detection-is-a-mess-again",
-      "date": "2026-09-06",
+      "id": "2026-09-07-the-verge-instagram-s-ai-detection-is-a-mess-again",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Instagram’s AI detection is a mess (again)",
@@ -163,12 +208,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268439_ai_art_label_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 3
+      "size": "medium",
+      "readMinutes": 5
     },
     {
-      "id": "2026-09-06-the-verge-why-ai-food-looks-like-that",
-      "date": "2026-09-06",
+      "id": "2026-09-07-the-verge-why-ai-food-looks-like-that",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Why AI food looks like that",
@@ -185,12 +230,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268722_Why_does_AI_food_look_like_that_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 4
+      "size": "small",
+      "readMinutes": 3
     },
     {
-      "id": "2026-09-06-the-verge-microsoft-s-project-zenith-is-a-distraction-free-windows-experience-fo",
-      "date": "2026-09-06",
+      "id": "2026-09-07-the-verge-microsoft-s-project-zenith-is-a-distraction-free-windows-experience-fo",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "Microsoft：重要 AI 动态",
       "sourceTitle": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
@@ -208,12 +253,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/projectzenith.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 5
+      "size": "cover",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-06-the-verge-this-nas-company-wants-to-run-your-local-smart-home",
-      "date": "2026-09-06",
+      "id": "2026-09-07-the-verge-this-nas-company-wants-to-run-your-local-smart-home",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "This NAS company wants to run your local smart home",
@@ -230,35 +275,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/LR6B5640.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
-      "readMinutes": 3
+      "size": "tall",
+      "readMinutes": 5
     },
     {
-      "id": "2026-09-06-the-verge-openai-s-next-big-ai-model-has-entered-the-agi-era",
-      "date": "2026-09-06",
-      "category": "AI 大事",
-      "title": "OpenAI：重要 AI 动态",
-      "sourceTitle": "OpenAI’s next big AI model has ‘entered the AGI era’",
-      "summary": "The Verge 报道关注「OpenAI：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first ",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "time": "02:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS522_AGI_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-09-06-openai-news-daybreak-for-frontline-defenders-1b-to-protect-essential-services",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-daybreak-for-frontline-defenders-1b-to-protect-essential-services",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Daybreak for Frontline Defenders: $1B to protect essential services",
@@ -275,13 +297,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 3
     },
     {
-      "id": "2026-09-06-openai-news-how-law-firm-gilbert-tobin-governs-and-scales-ai-with-openai",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-how-law-firm-gilbert-tobin-governs-and-scales-ai-with-openai",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
@@ -298,13 +320,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-06-openai-news-polimill-builds-japan-s-next-generation-public-ai-infrastructure",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-polimill-builds-japan-s-next-generation-public-ai-infrastructure",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Polimill builds Japan's next-generation public AI infrastructure",
@@ -321,13 +343,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 5
     },
     {
-      "id": "2026-09-06-openai-news-a-milestone-in-expanding-access-to-ai",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-a-milestone-in-expanding-access-to-ai",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "A milestone in expanding access to AI",
@@ -344,13 +366,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
     },
     {
-      "id": "2026-09-06-openai-news-expanding-openai-s-presence-in-brazil",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-expanding-openai-s-presence-in-brazil",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Expanding OpenAI’s presence in Brazil",
@@ -367,13 +389,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-06-openai-news-learning-never-stops-how-ai-makes-learning-continuous",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-learning-never-stops-how-ai-makes-learning-continuous",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Learning never stops: How AI makes learning continuous",
@@ -390,13 +412,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
-      "id": "2026-09-06-openai-news-the-hugging-face-incident-and-the-road-ahead",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-the-hugging-face-incident-and-the-road-ahead",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "Hugging Face：重要 AI 动态",
       "sourceTitle": "The Hugging Face incident and the road ahead",
@@ -412,13 +434,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
     },
     {
-      "id": "2026-09-06-openai-news-how-loveholidays-is-making-everyone-a-builder-with-codex",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-how-loveholidays-is-making-everyone-a-builder-with-codex",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How loveholidays is making everyone a builder with Codex",
@@ -435,13 +457,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-06-openai-news-the-full-stack-behind-abundant-intelligence",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-the-full-stack-behind-abundant-intelligence",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "The full stack behind abundant intelligence",
@@ -458,13 +480,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-09-06-openai-news-jalape-o-s-first-results-show-industry-leading-speed-and-efficiency-",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-jalape-o-s-first-results-show-industry-leading-speed-and-efficiency-",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
@@ -481,13 +503,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-09-06-openai-news-disrupting-a-new-covert-influence-campaign-from-russia",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-disrupting-a-new-covert-influence-campaign-from-russia",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Disrupting a new covert influence campaign from Russia",
@@ -504,13 +526,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-06-openai-news-introducing-intelligence-age",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-introducing-intelligence-age",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing Intelligence Age",
@@ -527,13 +549,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
     },
     {
-      "id": "2026-09-06-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
-      "date": "2026-09-06",
+      "id": "2026-09-07-openai-news-partnering-with-codeai-to-prepare-the-first-ai-generation",
+      "date": "2026-09-07",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Partnering with CodeAI to prepare the first AI generation",
@@ -550,83 +572,59 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-09-06-openai-news-pacing-model-development-in-an-era-of-cyber-critical-capabilities",
-      "date": "2026-09-06",
-      "category": "AI 大事",
-      "title": "OpenAI News：重要 AI 动态",
-      "sourceTitle": "Pacing model development in an era of cyber-critical capabilities",
-      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "time": "19:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-09-06-gpt-6-transformer",
-      "date": "2026-09-06",
+      "id": "2026-09-07-infoq-foundry-28",
+      "date": "2026-09-07",
       "category": "模型更新",
-      "title": "GPT-6带火循环Transformer，阿里早已布局",
-      "sourceTitle": "GPT-6带火循环Transformer，阿里早已布局",
-      "summary": "量子位 报道关注「GPT-6带火循环Transformer，阿里早已布局」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
+      "title": "微软 Foundry 模型路由扩容：覆盖区域增至 28 个，更新模型池",
+      "sourceTitle": "微软 Foundry 模型路由扩容：覆盖区域增至 28 个，更新模型池",
+      "summary": "InfoQ 中文 报道关注「微软 Foundry 模型路由扩容：覆盖区域增至 28 个，更新模型池」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "手握两篇顶会论文",
-      "source": "量子位",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/09/484726.html",
-      "time": "23:07",
+      "url": "https://www.infoq.cn/article/ba7Tq1EZbAD6JEzG16uE?utm_source=rss&utm_medium=article",
+      "time": "23:10",
       "importance": "中",
       "tags": [
-        "GPT",
         "中国 AI",
         "模型更新",
-        "量子位"
+        "InfoQ 中文"
       ],
       "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-09-06-infoq-rtx-4060-35b-39-token-mit-freetoken",
-      "date": "2026-09-06",
-      "category": "论文与技术",
-      "title": "RTX 4060 跑 35B 模型，每秒 39 Token？伯克利、MIT 联手开源 FreeToken",
-      "sourceTitle": "RTX 4060 跑 35B 模型，每秒 39 Token？伯克利、MIT 联手开源 FreeToken",
-      "summary": "InfoQ 中文 报道关注「RTX 4060 跑 35B 模型，每秒 39 Token？伯克利、MIT 联手开源 FreeToken」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "id": "2026-09-07-icl-scaling",
+      "date": "2026-09-07",
+      "category": "商业融资",
+      "title": "具身ICL来了创业玩家！上下文成Scaling新赛道",
+      "sourceTitle": "具身ICL来了创业玩家！上下文成Scaling新赛道",
+      "summary": "量子位 报道：让机器人学会利用更长的多模态Context",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
+      "sourceExcerpt": "让机器人学会利用更长的多模态Context",
+      "source": "量子位",
       "region": "china",
-      "url": "https://www.infoq.cn/article/tij5T0vJ1Yk0s7Uov7SE?utm_source=rss&utm_medium=article",
-      "time": "01:00",
+      "url": "https://www.qbitai.com/2026/09/484897.html",
+      "time": "19:44",
       "importance": "中",
       "tags": [
         "中国 AI",
-        "论文与技术",
-        "InfoQ 中文"
+        "商业融资",
+        "量子位"
       ],
-      "image": "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
       "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-09-06-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-09-06",
+      "id": "2026-09-07-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-09-07",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
