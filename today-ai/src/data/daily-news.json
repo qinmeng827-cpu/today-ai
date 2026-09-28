@@ -1,13 +1,128 @@
 {
-  "generatedAt": "2026-09-27T01:25:41.172Z",
+  "generatedAt": "2026-09-28T01:38:47.330Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-09-27"
+    "2026-09-28"
   ],
   "stories": [
     {
-      "id": "2026-09-27-the-verge-can-cloudflare-ceo-matthew-prince-save-the-web-from-ai",
-      "date": "2026-09-27",
+      "id": "2026-09-28-the-verge-engram-is-a-sampler-that-turns-broken-ai-hallucinations-into-music",
+      "date": "2026-09-28",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "Engram is a sampler that turns broken AI hallucinations into music",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This i",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "time": "04:46",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-27-at-4.42.53-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-09-28-techcrunch-anthropic-s-ceo-is-about-to-have-dinner-with-president-trump",
+      "date": "2026-09-28",
+      "category": "商业融资",
+      "title": "Anthropic：AI 商业与融资动态",
+      "sourceTitle": "Anthropic’s CEO is about to have dinner with President Trump",
+      "summary": "TechCrunch 报道关注「Anthropic：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "time": "04:34",
+      "importance": "高",
+      "tags": [
+        "Anthropic",
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-09-28-techcrunch-can-muse-overcome-meta-s-trust-issues",
+      "date": "2026-09-28",
+      "category": "商业融资",
+      "title": "Meta：AI 商业与融资动态",
+      "sourceTitle": "Can Muse overcome Meta’s trust issues?",
+      "summary": "TechCrunch 报道关注「Meta：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "time": "03:57",
+      "importance": "高",
+      "tags": [
+        "Meta",
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-09-28-the-verge-openai-agents-tried-to-bruteforce-a-un-website",
+      "date": "2026-09-28",
+      "category": "AI 产品工具",
+      "title": "OpenAI：AI 产品工具动态",
+      "sourceTitle": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "summary": "The Verge 报道关注「OpenAI：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
+      "sourceExcerpt": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, ",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "time": "01:21",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "智能体",
+        "产品工具",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2236154957.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-09-28-techcrunch-anthropic-s-dario-amodei-gets-the-snl-treatment",
+      "date": "2026-09-28",
+      "category": "商业融资",
+      "title": "Anthropic：AI 商业与融资动态",
+      "sourceTitle": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "summary": "TechCrunch 报道关注「Anthropic：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "\"AI is the devil and I its maker.\"",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "time": "00:30",
+      "importance": "高",
+      "tags": [
+        "Anthropic",
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-09-28-the-verge-can-cloudflare-ceo-matthew-prince-save-the-web-from-ai",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Can Cloudflare CEO Matthew Prince save the web from AI?",
@@ -18,85 +133,18 @@
       "region": "global",
       "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
       "time": "22:00",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-26_Prince.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "cover",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-09-27-techcrunch-insurers-claim-ai-is-already-increasing-healthcare-costs",
-      "date": "2026-09-27",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "Insurers claim AI is already increasing healthcare costs",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "time": "05:02",
-      "importance": "高",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-09-27-the-verge-openai-pauses-training-of-its-most-capable-models",
-      "date": "2026-09-27",
-      "category": "论文与技术",
-      "title": "OpenAI：AI 技术研究动态",
-      "sourceTitle": "OpenAI pauses training of its ‘most capable models’",
-      "summary": "The Verge 报道关注「OpenAI：AI 技术研究动态」。重点看技术路线是否能从论文或实验走向真实产品。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "技术论文适合看趋势，不必只看单点指标，更要关注它能否迁移到真实产品。",
-      "sourceExcerpt": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox ",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "time": "00:34",
-      "importance": "高",
-      "tags": [
-        "OpenAI",
-        "论文与技术",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
       "readMinutes": 5
     },
     {
-      "id": "2026-09-27-techcrunch-i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to",
-      "date": "2026-09-27",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "I created an interactive digital avatar of myself — and you can talk to it",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-      "time": "22:00",
-      "importance": "高",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=82",
-      "size": "medium",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-09-27-the-verge-meta-makes-the-muse-filesystem-even-more-accessible",
-      "date": "2026-09-27",
+      "id": "2026-09-28-the-verge-meta-makes-the-muse-filesystem-even-more-accessible",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "Meta：重要 AI 动态",
       "sourceTitle": "Meta makes the Muse filesystem even more accessible",
@@ -107,19 +155,19 @@
       "region": "global",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
       "time": "00:49",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "Meta",
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
-      "readMinutes": 4
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-09-27-the-verge-sony-and-umg-are-suing-suno-again",
-      "date": "2026-09-27",
+      "id": "2026-09-28-the-verge-sony-and-umg-are-suing-suno-again",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Sony and UMG are suing Suno again",
@@ -136,12 +184,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 5
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-27-the-verge-one-company-is-at-the-center-of-a-wave-of-rogue-ai-attacks",
-      "date": "2026-09-27",
+      "id": "2026-09-28-the-verge-one-company-is-at-the-center-of-a-wave-of-rogue-ai-attacks",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "One company is at the center of a wave of rogue AI attacks",
@@ -158,57 +206,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-09-27-the-verge-jensen-huang-talks-about-ai-and-climate-change-like-a-supervillain",
-      "date": "2026-09-27",
-      "category": "AI 大事",
-      "title": "The Verge：重要 AI 动态",
-      "sourceTitle": "Jensen Huang talks about AI and climate change like a supervillain",
-      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show. But ",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
-      "time": "02:04",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-09-27-the-verge-meta-is-going-to-let-you-build-games-with-ai-right-on-your-phone",
-      "date": "2026-09-27",
-      "category": "AI 大事",
-      "title": "Meta：重要 AI 动态",
-      "sourceTitle": "Meta is going to let you build games with AI right on your phone",
-      "summary": "The Verge 报道关注「Meta：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers m",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
-      "time": "01:52",
-      "importance": "中",
-      "tags": [
-        "Meta",
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-24-at-6.56.53-AM.png?quality=90&strip=all&crop=0,0,100,100",
       "size": "medium",
       "readMinutes": 5
     },
     {
-      "id": "2026-09-27-openai-news-proaction-boosts-sales-60-and-saves-75-hours-with-codex",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-proaction-boosts-sales-60-and-saves-75-hours-with-codex",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -230,8 +233,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-09-27-openai-news-two-years-of-openai-academy",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-two-years-of-openai-academy",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Two years of OpenAI Academy",
@@ -253,8 +256,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-09-27-openai-news-introducing-mentalhealthbench",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-introducing-mentalhealthbench",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing MentalHealthBench",
@@ -276,8 +279,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-09-27-openai-news-grab-and-openai-bring-practical-ai-skills-to-southeast-asia",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-grab-and-openai-bring-practical-ai-skills-to-southeast-asia",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Grab and OpenAI bring practical AI skills to Southeast Asia",
@@ -299,8 +302,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-09-27-openai-news-priorities-and-principles-for-effective-third-party-assessments",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-priorities-and-principles-for-effective-third-party-assessments",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Priorities and principles for effective third party assessments",
@@ -322,8 +325,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-09-27-openai-news-advisory-group-on-mathematics-and-artificial-intelligence",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-advisory-group-on-mathematics-and-artificial-intelligence",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Advisory Group on Mathematics and Artificial Intelligence",
@@ -345,8 +348,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-09-27-openai-news-building-standards-for-the-next-phase-of-ai",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-building-standards-for-the-next-phase-of-ai",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Building standards for the next phase of AI",
@@ -368,8 +371,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-09-27-openai-news-expanding-openai-academy-with-new-learning-paths",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-expanding-openai-academy-with-new-learning-paths",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Expanding OpenAI Academy with new learning paths",
@@ -391,8 +394,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-09-27-openai-news-introducing-astra-for-law",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-introducing-astra-for-law",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing Astra for Law",
@@ -414,8 +417,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-09-27-openai-news-helping-older-adults-use-ai-in-everyday-life",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-helping-older-adults-use-ai-in-everyday-life",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Helping older adults use AI in everyday life",
@@ -437,8 +440,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-09-27-openai-news-reimagining-advertising-with-ai",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-reimagining-advertising-with-ai",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Reimagining advertising with AI",
@@ -460,8 +463,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-09-27-openai-news-how-to-connect-ai-usage-to-business-value",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-how-to-connect-ai-usage-to-business-value",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How to connect AI usage to business value",
@@ -483,8 +486,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-09-27-openai-news-our-framework-for-reporting-model-misalignment",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-our-framework-for-reporting-model-misalignment",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Our framework for reporting model misalignment",
@@ -506,8 +509,8 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-09-27-openai-news-how-workers-are-unlocking-new-ways-of-working",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-how-workers-are-unlocking-new-ways-of-working",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How workers are unlocking new ways of working",
@@ -529,8 +532,8 @@
       "readMinutes": 4
     },
     {
-      "id": "2026-09-27-openai-news-now-everyone-can-put-data-to-work",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-now-everyone-can-put-data-to-work",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Now everyone can put data to work",
@@ -552,8 +555,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-09-27-openai-news-paul-christiano-joins-openai-foundation-board",
-      "date": "2026-09-27",
+      "id": "2026-09-28-openai-news-paul-christiano-joins-openai-foundation-board",
+      "date": "2026-09-28",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Paul Christiano joins OpenAI Foundation Board",
@@ -575,54 +578,31 @@
       "readMinutes": 3
     },
     {
-      "id": "2026-09-27-infoq-ai-opencodereview",
-      "date": "2026-09-27",
-      "category": "论文与技术",
-      "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
-      "sourceTitle": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
-      "summary": "InfoQ 中文 报道关注「阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "region": "china",
-      "url": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article",
-      "time": "01:00",
-      "importance": "中",
-      "tags": [
-        "中国 AI",
-        "论文与技术",
-        "InfoQ 中文"
-      ],
-      "image": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-09-27-26",
-      "date": "2026-09-27",
+      "id": "2026-09-28-ai-10",
+      "date": "2026-09-28",
       "category": "模型更新",
-      "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
-      "sourceTitle": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
-      "summary": "量子位 报道：“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。",
+      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "sourceTitle": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "summary": "量子位 报道关注「量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层」。这条适合用来观察国内模型能力和发布节奏，建议结合原文判断它对行业主线的实际影响。",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。",
+      "sourceExcerpt": "",
       "source": "量子位",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/09/498478.html",
-      "time": "19:49",
+      "url": "https://www.qbitai.com/2026/09/498633.html",
+      "time": "22:20",
       "importance": "中",
       "tags": [
         "中国 AI",
         "模型更新",
         "量子位"
       ],
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
+      "size": "cover",
+      "readMinutes": 4
     },
     {
-      "id": "2026-09-27-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-09-27",
+      "id": "2026-09-28-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-09-28",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -640,7 +620,30 @@
         "政策与安全",
         "Qwen Blog"
       ],
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-09-28-infoq-kotlin-adk-python-ai",
+      "date": "2026-09-28",
+      "category": "AI 产品工具",
+      "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+      "sourceTitle": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+      "summary": "InfoQ 中文 报道关注「谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "region": "china",
+      "url": "https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9?utm_source=rss&utm_medium=article",
+      "time": "18:00",
+      "importance": "中",
+      "tags": [
+        "中国 AI",
+        "产品工具",
+        "InfoQ 中文"
+      ],
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=82",
       "size": "wide",
       "readMinutes": 3
     }
