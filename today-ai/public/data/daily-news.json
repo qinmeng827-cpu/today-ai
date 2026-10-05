@@ -1,13 +1,124 @@
 {
-  "generatedAt": "2026-10-04T02:36:47.014Z",
+  "generatedAt": "2026-10-05T01:59:02.697Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-10-04"
+    "2026-10-05"
   ],
   "stories": [
     {
-      "id": "2026-10-04-the-verge-capcom-is-preparing-for-a-future-where-we-create-games-together-with-a",
-      "date": "2026-10-04",
+      "id": "2026-10-05-the-verge-nj-s-former-lt-gov-is-using-ai-to-say-he-s-innocent-of-sexual-harassme",
+      "date": "2026-10-05",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to c",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "time": "00:16",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2244569411.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "cover",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-10-05-the-verge-an-ai-couldn-t-beat-humans-at-starcraft-so-it-decided-to-cheat",
+      "date": "2026-10-05",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-ma",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "time": "23:21",
+      "importance": "高",
+      "tags": [
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/9020427/swarm_screenshot27_large.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-10-05-techcrunch-can-super-intelligence-and-a-non-binding-safety-pact-solve-ai-s-image",
+      "date": "2026-10-05",
+      "category": "政策与安全",
+      "title": "TechCrunch：AI 政策与安全动态",
+      "sourceTitle": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
+      "sourceExcerpt": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "time": "04:08",
+      "importance": "高",
+      "tags": [
+        "政策与安全",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1528747045269-390fe33c19f2?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-10-05-techcrunch-google-froze-its-open-source-bug-bounty-program-due-to-a-significant-",
+      "date": "2026-10-05",
+      "category": "商业融资",
+      "title": "Google：AI 商业与融资动态",
+      "sourceTitle": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "summary": "TechCrunch 报道关注「Google：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "AI slop seems to be overwhelming bug bounty programs.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "time": "04:31",
+      "importance": "高",
+      "tags": [
+        "Google",
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-10-05-techcrunch-trump-unveils-his-new-super-intelligence-force",
+      "date": "2026-10-05",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Trump unveils his new Super Intelligence Force",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "This new task force is Trump's latest response to the debate over AI safety.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "time": "23:15",
+      "importance": "高",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-10-05-the-verge-capcom-is-preparing-for-a-future-where-we-create-games-together-with-a",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Capcom is preparing for a ‘future where we create games together with AI’",
@@ -18,40 +129,18 @@
       "region": "global",
       "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
       "time": "00:49",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&strip=all&crop=0,0,100,100",
       "size": "cover",
-      "readMinutes": 3
+      "readMinutes": 5
     },
     {
-      "id": "2026-10-04-techcrunch-amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas",
-      "date": "2026-10-04",
-      "category": "AI 大事",
-      "title": "Amazon：重要 AI 动态",
-      "sourceTitle": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "summary": "TechCrunch 报道关注「Amazon：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "time": "02:43",
-      "importance": "高",
-      "tags": [
-        "大事",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-10-04-the-verge-splice-ceo-kakul-srivastava-thinks-ai-emails-are-killing-conversations",
-      "date": "2026-10-04",
+      "id": "2026-10-05-the-verge-splice-ceo-kakul-srivastava-thinks-ai-emails-are-killing-conversations",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
@@ -62,87 +151,18 @@
       "region": "global",
       "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
       "time": "23:00",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_3820.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-10-04-the-verge-an-openai-safety-employee-has-quit-and-is-sounding-the-alarm",
-      "date": "2026-10-04",
-      "category": "政策与安全",
-      "title": "OpenAI：AI 政策与安全动态",
-      "sourceTitle": "An OpenAI safety employee has quit and is sounding the alarm",
-      "summary": "The Verge 报道关注「OpenAI：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
-      "sourceExcerpt": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about ev",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-      "time": "22:31",
-      "importance": "高",
-      "tags": [
-        "OpenAI",
-        "政策与安全",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
+      "size": "tall",
       "readMinutes": 3
     },
     {
-      "id": "2026-10-04-techcrunch-openai-safety-employee-resigns-claiming-the-company-s-culture-is-brok",
-      "date": "2026-10-04",
-      "category": "政策与安全",
-      "title": "OpenAI：AI 政策与安全动态",
-      "sourceTitle": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "summary": "TechCrunch 报道关注「OpenAI：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
-      "sourceExcerpt": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "time": "00:30",
-      "importance": "高",
-      "tags": [
-        "OpenAI",
-        "政策与安全",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-10-04-techcrunch-all-the-ai-agents-that-can-live-in-your-text-messages",
-      "date": "2026-10-04",
-      "category": "AI 产品工具",
-      "title": "TechCrunch：AI 产品工具动态",
-      "sourceTitle": "All the AI agents that can live in your text messages",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
-      "sourceExcerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "time": "22:00",
-      "importance": "中",
-      "tags": [
-        "智能体",
-        "产品工具",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-10-04-the-verge-meta-open-sources-code-to-let-you-make-muse-ai-gadgets",
-      "date": "2026-10-04",
+      "id": "2026-10-05-the-verge-meta-open-sources-code-to-let-you-make-muse-ai-gadgets",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "Meta：重要 AI 动态",
       "sourceTitle": "Meta open sources code to let you make Muse AI gadgets",
@@ -160,12 +180,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
-      "readMinutes": 3
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-10-04-the-verge-breaking-up-with-elon-musk-is-hard-to-do",
-      "date": "2026-10-04",
+      "id": "2026-10-05-the-verge-breaking-up-with-elon-musk-is-hard-to-do",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Breaking up (with Elon Musk) is hard to do",
@@ -182,12 +202,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STPK222_SHIVON_ZILIS2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
-      "readMinutes": 4
+      "size": "medium",
+      "readMinutes": 5
     },
     {
-      "id": "2026-10-04-the-verge-ai-hallucinations-are-making-entitled-customers-even-worse",
-      "date": "2026-10-04",
+      "id": "2026-10-05-the-verge-ai-hallucinations-are-making-entitled-customers-even-worse",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "AI hallucinations are making entitled customers even worse",
@@ -204,56 +224,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_D.png?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-10-04-the-verge-if-a-data-center-is-camouflaged-in-the-woods-will-anyone-hate-it",
-      "date": "2026-10-04",
-      "category": "AI 大事",
-      "title": "The Verge：重要 AI 动态",
-      "sourceTitle": "If a data center is camouflaged in the woods, will anyone hate it?",
-      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" faciliti",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268788_Datacenter_biomimicry_PARKIN_2-1.jpg?quality=90&strip=all&crop=0,0,100,100",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-10-04-the-verge-amazon-writes-scary-blog-warning-communities-not-to-block-data-centers",
-      "date": "2026-10-04",
-      "category": "AI 大事",
-      "title": "Amazon：重要 AI 动态",
-      "sourceTitle": "Amazon writes scary blog warning communities not to block data centers",
-      "summary": "The Verge 报道关注「Amazon：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Amazon is calling for people to support AI data center projects, or risk irreparable harm to the US economy and national security. In a more than 3,000 word blog posted today, Amazon web services CEO Matt Garman pushed back on public concerns around the impact",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
-      "time": "19:52",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "cover",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-10-04-openai-news-chatham-scales-its-capital-markets-expertise-with-openai",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-chatham-scales-its-capital-markets-expertise-with-openai",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Chatham scales its capital markets expertise with OpenAI",
@@ -270,13 +246,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 4
     },
     {
-      "id": "2026-10-04-openai-news-the-eternal-complement",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-the-eternal-complement",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "The eternal complement",
@@ -293,13 +269,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 5
     },
     {
-      "id": "2026-10-04-openai-news-how-albertsons-companies-is-reimagining-retail-from-the-inside-out",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-how-albertsons-companies-is-reimagining-retail-from-the-inside-out",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How Albertsons Companies is reimagining retail from the inside out",
@@ -316,13 +292,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 3
     },
     {
-      "id": "2026-10-04-openai-news-disrupting-a-coordinated-model-distillation-campaign",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-disrupting-a-coordinated-model-distillation-campaign",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Disrupting a coordinated model-distillation campaign",
@@ -339,13 +315,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 4
     },
     {
-      "id": "2026-10-04-openai-news-helping-small-businesses-put-ai-to-work",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-helping-small-businesses-put-ai-to-work",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Helping small businesses put AI to work",
@@ -362,13 +338,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 5
     },
     {
-      "id": "2026-10-04-openai-news-devday-2026-recap",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-devday-2026-recap",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "DevDay 2026 Recap",
@@ -385,13 +361,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
     },
     {
-      "id": "2026-10-04-openai-news-introducing-dots",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-introducing-dots",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing dots",
@@ -408,13 +384,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
     },
     {
-      "id": "2026-10-04-openai-news-how-we-will-do-better-for-australia",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-how-we-will-do-better-for-australia",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "How we will do better for Australia",
@@ -431,13 +407,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
-      "id": "2026-10-04-openai-news-the-lenfest-institute-grows-landmark-program-with-expanded-openai-su",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-the-lenfest-institute-grows-landmark-program-with-expanded-openai-su",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "The Lenfest Institute grows landmark program with expanded OpenAI support",
@@ -454,13 +430,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
     },
     {
-      "id": "2026-10-04-openai-news-are-you-a-codex-original",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-are-you-a-codex-original",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Are you a Codex Original?",
@@ -477,13 +453,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-10-04-openai-news-proaction-boosts-sales-60-and-saves-75-hours-with-codex",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-proaction-boosts-sales-60-and-saves-75-hours-with-codex",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -500,13 +476,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-10-04-openai-news-two-years-of-openai-academy",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-two-years-of-openai-academy",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Two years of OpenAI Academy",
@@ -523,13 +499,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-10-04-openai-news-introducing-mentalhealthbench",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-introducing-mentalhealthbench",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Introducing MentalHealthBench",
@@ -546,13 +522,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 4
     },
     {
-      "id": "2026-10-04-openai-news-grab-and-openai-bring-practical-ai-skills-to-southeast-asia",
-      "date": "2026-10-04",
+      "id": "2026-10-05-openai-news-grab-and-openai-bring-practical-ai-skills-to-southeast-asia",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Grab and OpenAI bring practical AI skills to Southeast Asia",
@@ -569,37 +545,59 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-10-05-openai-news-priorities-and-principles-for-effective-third-party-assessments",
+      "date": "2026-10-05",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "Priorities and principles for effective third party assessments",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "time": "08:00",
+      "importance": "中",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-10-04-gpt-6-3d-2-arr-1",
-      "date": "2026-10-04",
-      "category": "模型更新",
-      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-      "sourceTitle": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-      "summary": "量子位 报道：专业3D模型反而更稀缺了",
+      "id": "2026-10-05-ai",
+      "date": "2026-10-05",
+      "category": "AI 大事",
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "sourceTitle": "AI算力硬合作，马斯克还是更相信中国制造",
+      "summary": "量子位 报道：一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "专业3D模型反而更稀缺了",
+      "sourceExcerpt": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
       "source": "量子位",
       "region": "china",
-      "url": "https://www.qbitai.com/2026/10/501451.html",
-      "time": "08:53",
+      "url": "https://www.qbitai.com/2026/10/501605.html",
+      "time": "14:12",
       "importance": "中",
       "tags": [
-        "GPT",
         "中国 AI",
-        "模型更新",
+        "大事",
         "量子位"
       ],
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
       "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-10-04-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-10-04",
+      "id": "2026-10-05-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-10-05",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -622,8 +620,8 @@
       "readMinutes": 5
     },
     {
-      "id": "2026-10-04-infoq",
-      "date": "2026-10-04",
+      "id": "2026-10-05-infoq",
+      "date": "2026-10-05",
       "category": "AI 大事",
       "title": "机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
       "sourceTitle": "机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
