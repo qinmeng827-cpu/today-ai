@@ -1,36 +1,237 @@
 {
-  "generatedAt": "2026-11-15T02:38:31.543Z",
+  "generatedAt": "2026-11-16T02:43:43.974Z",
   "generator": "GitHub Actions RSS updater",
   "dates": [
-    "2026-11-15"
+    "2026-11-16"
   ],
   "stories": [
     {
-      "id": "2026-11-15-techcrunch-where-was-nvidia-s-security-team",
-      "date": "2026-11-15",
-      "category": "政策与安全",
-      "title": "NVIDIA：AI 政策与安全动态",
-      "sourceTitle": "Where was Nvidia’s security team?",
-      "summary": "TechCrunch 报道关注「NVIDIA：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
-      "sourceExcerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak ",
-      "source": "TechCrunch",
+      "id": "2026-11-16-openai-news-a-step-toward-defining-the-standard-model-on-a-lattice",
+      "date": "2026-11-16",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "A step toward defining the Standard Model on a lattice",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "source": "OpenAI News",
       "region": "global",
-      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "time": "08:08",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "time": "06:00",
       "importance": "高",
       "tags": [
-        "Nvidia",
-        "政策与安全",
-        "TechCrunch"
+        "OpenAI",
+        "大事",
+        "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
       "size": "cover",
       "readMinutes": 3
     },
     {
-      "id": "2026-11-15-the-verge-the-openai-board-member-who-fired-sam-altman-says-we-still-can-t-trust",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-our-new-blog-for-science",
+      "date": "2026-11-16",
+      "category": "AI 大事",
+      "title": "OpenAI News：重要 AI 动态",
+      "sourceTitle": "Our new blog for science",
+      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "source": "OpenAI News",
+      "region": "global",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "time": "06:00",
+      "importance": "高",
+      "tags": [
+        "OpenAI",
+        "大事",
+        "OpenAI News"
+      ],
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-11-16-the-verge-jensen-huang-might-be-plotting-a-return-and-more-of-the-latest-nvidia-",
+      "date": "2026-11-16",
+      "category": "AI 大事",
+      "title": "NVIDIA：重要 AI 动态",
+      "sourceTitle": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "summary": "The Verge 报道关注「NVIDIA：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "time": "04:43",
+      "importance": "高",
+      "tags": [
+        "Nvidia",
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "wide",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-11-16-the-verge-apple-s-new-study-looks-to-improve-the-effectiveness-of-ai-health-tool",
+      "date": "2026-11-16",
+      "category": "AI 产品工具",
+      "title": "Apple：AI 产品工具动态",
+      "sourceTitle": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "summary": "The Verge 报道关注「Apple：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
+      "sourceExcerpt": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvi",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "time": "09:26",
+      "importance": "高",
+      "tags": [
+        "产品工具",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "medium",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-11-16-techcrunch-apple-launches-new-app-to-study-how-people-use-ai-for-health",
+      "date": "2026-11-16",
+      "category": "AI 产品工具",
+      "title": "Apple：AI 产品工具动态",
+      "sourceTitle": "Apple launches new app to study how people use AI for health",
+      "summary": "TechCrunch 报道关注「Apple：AI 产品工具动态」。重点看它是否会改变创作者、开发者或企业用户的日常工作流。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "产品工具新闻的关键不只是功能发布，而是它是否会改变日常工作流和用户入口。",
+      "sourceExcerpt": "Apple's new app for a study will answer everyday medical questions",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "time": "09:30",
+      "importance": "高",
+      "tags": [
+        "产品工具",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-11-16-the-verge-congress-wants-to-tighten-export-rules-on-ai-chips-after-nvidia-spy-sc",
+      "date": "2026-11-16",
+      "category": "政策与安全",
+      "title": "NVIDIA：AI 政策与安全动态",
+      "sourceTitle": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "summary": "The Verge 报道关注「NVIDIA：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
+      "sourceExcerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that ",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "time": "03:15",
+      "importance": "中",
+      "tags": [
+        "Nvidia",
+        "政策与安全",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "cover",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-11-16-techcrunch-indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-globa",
+      "date": "2026-11-16",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "time": "07:30",
+      "importance": "中",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-11-16-techcrunch-is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+      "date": "2026-11-16",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "time": "05:56",
+      "importance": "中",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "size": "wide",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-11-16-the-verge-an-overview-of-jensen-huang-s-messy-days",
+      "date": "2026-11-16",
+      "category": "AI 大事",
+      "title": "The Verge：重要 AI 动态",
+      "sourceTitle": "An overview of Jensen Huang’s messy days",
+      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes o",
+      "source": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "time": "21:00",
+      "importance": "中",
+      "tags": [
+        "大事",
+        "The Verge"
+      ],
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "size": "medium",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-11-16-techcrunch-snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft",
+      "date": "2026-11-16",
+      "category": "商业融资",
+      "title": "TechCrunch：AI 商业与融资动态",
+      "sourceTitle": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
+      "sourceExcerpt": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "source": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "time": "04:20",
+      "importance": "中",
+      "tags": [
+        "商业融资",
+        "TechCrunch"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "size": "small",
+      "readMinutes": 3
+    },
+    {
+      "id": "2026-11-16-the-verge-the-openai-board-member-who-fired-sam-altman-says-we-still-can-t-trust",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
@@ -41,42 +242,19 @@
       "region": "global",
       "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
       "time": "23:00",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "OpenAI",
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
+      "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-11-15-techcrunch-elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinsta",
-      "date": "2026-11-15",
-      "category": "商业融资",
-      "title": "NVIDIA：AI 商业与融资动态",
-      "sourceTitle": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "summary": "TechCrunch 报道关注「NVIDIA：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "time": "05:41",
-      "importance": "高",
-      "tags": [
-        "Nvidia",
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
-      "size": "wide",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-11-15-the-verge-jensen-huang-and-the-decline-of-the-visionary-showman-founder-ceo",
-      "date": "2026-11-15",
+      "id": "2026-11-16-the-verge-jensen-huang-and-the-decline-of-the-visionary-showman-founder-ceo",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "Jensen Huang and the decline of the visionary showman founder CEO",
@@ -87,63 +265,18 @@
       "region": "global",
       "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
       "time": "20:00",
-      "importance": "高",
+      "importance": "中",
       "tags": [
         "大事",
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2194622930.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-11-15-techcrunch-asian-governments-react-to-nvidia-ceo-jensen-huang-s-exit",
-      "date": "2026-11-15",
-      "category": "政策与安全",
-      "title": "NVIDIA：AI 政策与安全动态",
-      "sourceTitle": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "summary": "TechCrunch 报道关注「NVIDIA：AI 政策与安全动态」。重点看它对合规、安全、模型访问和公众信任的影响。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "政策与安全新闻会影响模型访问、数据使用、企业采购和产品默认设计。",
-      "sourceExcerpt": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "time": "00:34",
-      "importance": "高",
-      "tags": [
-        "Nvidia",
-        "政策与安全",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=82",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-11-15-techcrunch-the-ai-graveyard-a-running-list-of-projects-and-startups-that-didn-t-",
-      "date": "2026-11-15",
-      "category": "商业融资",
-      "title": "TechCrunch：AI 商业与融资动态",
-      "sourceTitle": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "TechCrunch 报道关注「TechCrunch：AI 商业与融资动态」。重点看资本和产业资源正在流向哪些 AI 场景。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "融资与交易能反映资本正在押注哪些 AI 场景，也能提示哪些赛道进入加速期。",
-      "sourceExcerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "source": "TechCrunch",
-      "region": "global",
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "time": "01:30",
-      "importance": "中",
-      "tags": [
-        "商业融资",
-        "TechCrunch"
-      ],
-      "image": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=82",
-      "size": "cover",
+      "size": "tall",
       "readMinutes": 5
     },
     {
-      "id": "2026-11-15-the-verge-amazon-has-a-plan-to-index-the-world-s-online-shopping-data",
-      "date": "2026-11-15",
+      "id": "2026-11-16-the-verge-amazon-has-a-plan-to-index-the-world-s-online-shopping-data",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "Amazon：重要 AI 动态",
       "sourceTitle": "Amazon has a plan to index the world’s online shopping data",
@@ -160,12 +293,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "tall",
+      "size": "wide",
       "readMinutes": 3
     },
     {
-      "id": "2026-11-15-the-verge-what-s-really-at-stake-in-the-jensen-huang-saga",
-      "date": "2026-11-15",
+      "id": "2026-11-16-the-verge-what-s-really-at-stake-in-the-jensen-huang-saga",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "The Verge：重要 AI 动态",
       "sourceTitle": "What’s really at stake in the Jensen Huang saga",
@@ -182,56 +315,12 @@
         "The Verge"
       ],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_111326_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "wide",
+      "size": "medium",
       "readMinutes": 4
     },
     {
-      "id": "2026-11-15-the-verge-let-s-talk-about-jensen-huang-s-many-affairs",
-      "date": "2026-11-15",
-      "category": "AI 大事",
-      "title": "The Verge：重要 AI 动态",
-      "sourceTitle": "Let’s talk about Jensen Huang’s many affairs!",
-      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concer",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
-      "time": "20:00",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "medium",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-11-15-the-verge-oh-palantir-is-progressive-now-is-it",
-      "date": "2026-11-15",
-      "category": "AI 大事",
-      "title": "The Verge：重要 AI 动态",
-      "sourceTitle": "Oh, Palantir is ‘progressive’ now, is it?",
-      "summary": "The Verge 报道关注「The Verge：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political",
-      "source": "The Verge",
-      "region": "global",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
-      "time": "02:06",
-      "importance": "中",
-      "tags": [
-        "大事",
-        "The Verge"
-      ],
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8407711/479950372.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "size": "small",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-11-15-openai-news-shield-helps-technicians-hand-off-legacy-portal-work-with-openai",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-shield-helps-technicians-hand-off-legacy-portal-work-with-openai",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Shield helps technicians hand off legacy portal work with OpenAI",
@@ -248,13 +337,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 5
     },
     {
-      "id": "2026-11-15-openai-news-holiday-extras-is-rethinking-what-it-can-build-with-codex",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-holiday-extras-is-rethinking-what-it-can-build-with-codex",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Holiday Extras is rethinking what it can build with Codex",
@@ -271,13 +360,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 3
     },
     {
-      "id": "2026-11-15-openai-news-gilbert-tobin-rethinks-the-business-of-law-with-ai",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-gilbert-tobin-rethinks-the-business-of-law-with-ai",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Gilbert + Tobin rethinks the business of law with AI",
@@ -294,13 +383,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 4
     },
     {
-      "id": "2026-11-15-openai-news-jiostar-s-chief-architect-on-ai-discovery-at-500m-user-scale",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-jiostar-s-chief-architect-on-ai-discovery-at-500m-user-scale",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "JioStar’s chief architect on AI discovery at 500M-user scale",
@@ -317,13 +406,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "wide",
+      "readMinutes": 5
     },
     {
-      "id": "2026-11-15-openai-news-helping-caregivers-use-ai-in-everyday-life",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-helping-caregivers-use-ai-in-everyday-life",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Helping caregivers use AI in everyday life",
@@ -340,13 +429,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "small",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "medium",
+      "readMinutes": 3
     },
     {
-      "id": "2026-11-15-openai-news-closing-the-ai-guidance-gap-in-education",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-closing-the-ai-guidance-gap-in-education",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Closing the AI guidance gap in education",
@@ -363,13 +452,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 3
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
+      "size": "small",
+      "readMinutes": 4
     },
     {
-      "id": "2026-11-15-openai-news-singapore-airlines-elevates-travel-work-with-openai-technology",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-singapore-airlines-elevates-travel-work-with-openai-technology",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Singapore Airlines elevates travel & work with OpenAI technology",
@@ -386,13 +475,13 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 4
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
+      "size": "cover",
+      "readMinutes": 5
     },
     {
-      "id": "2026-11-15-openai-news-partnering-with-hacktron-to-find-vulnerabilities-in-openai-s-systems",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-partnering-with-hacktron-to-find-vulnerabilities-in-openai-s-systems",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI：重要 AI 动态",
       "sourceTitle": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
@@ -409,13 +498,36 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 5
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
+      "size": "tall",
+      "readMinutes": 3
     },
     {
-      "id": "2026-11-15-openai-news-australian-universities-are-creating-ai-native-graduates",
-      "date": "2026-11-15",
+      "id": "2026-11-16-google-ai-blog-try-tabletop-customizable-collaborative-spaces-for-groups-to-plan",
+      "date": "2026-11-16",
+      "category": "AI 大事",
+      "title": "Google AI Blog：重要 AI 动态",
+      "sourceTitle": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "summary": "Google AI Blog 报道关注「Google AI Blog：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
+      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
+      "sourceExcerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "source": "Google AI Blog",
+      "region": "global",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "time": "00:00",
+      "importance": "中",
+      "tags": [
+        "Google",
+        "大事",
+        "Google AI Blog"
+      ],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
+      "size": "wide",
+      "readMinutes": 4
+    },
+    {
+      "id": "2026-11-16-openai-news-australian-universities-are-creating-ai-native-graduates",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Australian universities are creating AI-native graduates",
@@ -434,34 +546,11 @@
       ],
       "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1500&q=85",
       "size": "medium",
-      "readMinutes": 3
+      "readMinutes": 5
     },
     {
-      "id": "2026-11-15-google-ai-blog-try-tabletop-customizable-collaborative-spaces-for-groups-to-plan",
-      "date": "2026-11-15",
-      "category": "AI 大事",
-      "title": "Google AI Blog：重要 AI 动态",
-      "sourceTitle": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "summary": "Google AI Blog 报道关注「Google AI Blog：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "source": "Google AI Blog",
-      "region": "global",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "time": "00:00",
-      "importance": "中",
-      "tags": [
-        "Google",
-        "大事",
-        "Google AI Blog"
-      ],
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
-      "size": "small",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-11-15-openai-news-cult-fit-builds-operational-muscle-with-codex",
-      "date": "2026-11-15",
+      "id": "2026-11-16-openai-news-cult-fit-builds-operational-muscle-with-codex",
+      "date": "2026-11-16",
       "category": "AI 大事",
       "title": "OpenAI News：重要 AI 动态",
       "sourceTitle": "Cult.fit builds operational muscle with Codex",
@@ -478,151 +567,36 @@
         "大事",
         "OpenAI News"
       ],
-      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1500&q=85",
-      "size": "cover",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-11-15-openai-news-setting-a-new-standard-for-responsible-ai-infrastructure",
-      "date": "2026-11-15",
-      "category": "AI 大事",
-      "title": "OpenAI News：重要 AI 动态",
-      "sourceTitle": "Setting a new standard for responsible AI infrastructure",
-      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "time": "10:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1500&q=85",
-      "size": "tall",
-      "readMinutes": 3
-    },
-    {
-      "id": "2026-11-15-openai-news-openai-to-acquire-pierre-computer-company-inc",
-      "date": "2026-11-15",
-      "category": "AI 大事",
-      "title": "OpenAI：重要 AI 动态",
-      "sourceTitle": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "summary": "OpenAI News 报道关注「OpenAI：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "time": "22:30",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1500&q=85",
-      "size": "wide",
-      "readMinutes": 4
-    },
-    {
-      "id": "2026-11-15-openai-news-daybreak-red-is-now-available-in-aws-govcloud-us-east",
-      "date": "2026-11-15",
-      "category": "AI 大事",
-      "title": "OpenAI News：重要 AI 动态",
-      "sourceTitle": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "time": "15:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
-      "size": "medium",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-11-15-openai-news-a-thousand-fewer-paths-to-root",
-      "date": "2026-11-15",
-      "category": "AI 大事",
-      "title": "OpenAI News：重要 AI 动态",
-      "sourceTitle": "A thousand fewer paths to root",
-      "summary": "OpenAI News 报道关注「OpenAI News：重要 AI 动态」。它可能影响行业主线、公司竞争和后续产品节奏。英文原题保留在卡片下方，方便回到原文核对细节。",
-      "analysis": "这类消息通常会影响 AI 行业的主线判断，适合放在今日重点里追踪后续变化。",
-      "sourceExcerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "source": "OpenAI News",
-      "region": "global",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "time": "16:00",
-      "importance": "中",
-      "tags": [
-        "OpenAI",
-        "大事",
-        "OpenAI News"
-      ],
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1500&q=85",
       "size": "small",
       "readMinutes": 3
     },
     {
-      "id": "2026-11-15-infoq-gitlab-19-5-devops",
-      "date": "2026-11-15",
-      "category": "政策与安全",
-      "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
-      "sourceTitle": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
-      "summary": "InfoQ 中文 报道关注「GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力」。这条适合用来观察国内外 AI 竞争、合规和治理变化，建议结合原文判断它对行业主线的实际影响。",
+      "id": "2026-11-16-infoq-ai-20",
+      "date": "2026-11-16",
+      "category": "AI 产品工具",
+      "title": "AI 硬件能玩出多少新花样？这场黑客松正在寻找 20 支开发者团队",
+      "sourceTitle": "AI 硬件能玩出多少新花样？这场黑客松正在寻找 20 支开发者团队",
+      "summary": "InfoQ 中文 报道关注「AI 硬件能玩出多少新花样？这场黑客松正在寻找 20 支开发者团队」。这条适合用来观察中国 AI 产品和企业应用落地，建议结合原文判断它对行业主线的实际影响。",
       "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
       "sourceExcerpt": "点击查看原文>",
       "source": "InfoQ 中文",
       "region": "china",
-      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
-      "time": "17:00",
+      "url": "https://www.infoq.cn/article/ExwZoqvAjY423YKaXcpw?utm_source=rss&utm_medium=article",
+      "time": "18:28",
       "importance": "中",
       "tags": [
         "中国 AI",
-        "政策与安全",
+        "产品工具",
         "InfoQ 中文"
       ],
-      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=82",
       "size": "cover",
       "readMinutes": 4
     },
     {
-      "id": "2026-11-15-5",
-      "date": "2026-11-15",
-      "category": "论文与技术",
-      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
-      "sourceTitle": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
-      "summary": "量子位 报道：斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
-      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
-      "sourceExcerpt": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
-      "source": "量子位",
-      "region": "china",
-      "url": "https://www.qbitai.com/2026/11/510232.html",
-      "time": "17:58",
-      "importance": "中",
-      "tags": [
-        "中国 AI",
-        "论文与技术",
-        "量子位"
-      ],
-      "image": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1200&q=82",
-      "size": "tall",
-      "readMinutes": 5
-    },
-    {
-      "id": "2026-11-15-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
-      "date": "2026-11-15",
+      "id": "2026-11-16-qwen-blog-qwen3guard-real-time-safety-for-your-token-stream",
+      "date": "2026-11-16",
       "category": "政策与安全",
       "title": "Qwen3Guard：Token 流实时安全防护",
       "sourceTitle": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -640,7 +614,30 @@
         "政策与安全",
         "Qwen Blog"
       ],
-      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=82",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=82",
+      "size": "tall",
+      "readMinutes": 5
+    },
+    {
+      "id": "2026-11-16-5",
+      "date": "2026-11-16",
+      "category": "论文与技术",
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "sourceTitle": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "summary": "量子位 报道：斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
+      "analysis": "这条来自中国 AI 生态，适合用来补足国内模型、产品、算力、政策和资本动向的观察。重点看它是否会改变国内 AI 应用落地和企业采用节奏。",
+      "sourceExcerpt": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
+      "source": "量子位",
+      "region": "china",
+      "url": "https://www.qbitai.com/2026/11/510232.html",
+      "time": "17:58",
+      "importance": "中",
+      "tags": [
+        "中国 AI",
+        "论文与技术",
+        "量子位"
+      ],
+      "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1200&q=82",
       "size": "wide",
       "readMinutes": 3
     }
